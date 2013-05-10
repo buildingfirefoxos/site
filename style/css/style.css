@@ -1,3 +1,8 @@
+.dboh {
+  display: block;
+  overflow: hidden;
+}
+
 hgroup h1 {
   font-size: 110px;
   margin-bottom: 15px;  
@@ -58,7 +63,6 @@ hgroup h1 {
 /* Aside Menu-bar */
 aside.left-side {
   float: left;
-  margin-right: 40px;
 }
 
 aside nav.menu-bar {
@@ -84,11 +88,15 @@ aside nav.menu-bar ul li a {
   display: block;
   border-top: 1px dotted #d6d6d6;
   font-size: 14px;
+  color: #0096dd;
 }
 
 aside nav.menu-bar ul li:first-child a {
   border-top: 0;
-  color: #0096dd;
+}
+
+aside nav.menu-bar ul li a.current {
+  font-weight: bold;
 }
 
 aside.left-side + section.billboard {
@@ -123,7 +131,6 @@ aside.left-side + section.billboard {
 
   aside.left-side {
     float: none;
-    margin-right: 0;
   }
 
   aside nav.menu-bar {

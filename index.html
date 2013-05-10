@@ -31,13 +31,13 @@
         <header id="masthead">
           <a href="http://www.mozilla.org/" id="tabzilla">Mozilla</a>
 
-          <nav id="nav-main" role="navigation">
+          <nav id="nav-main" role="navigation" ng-controller="SectionCtrl">
             <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
             <ul id="nav-main-menu">
-              <li class="first"><a href="#/">Home</a></li>
-              <li><a href="#/building-blocks/">Building Blocks</a></li>
-              <li><a href="#/common-controls/">Common Controls</a></li>
-              <li class="last"><a href="#/transitions/">Transitions</a></li>
+              <li class="first"><a ng-class="{ current: activeSection=='/' }" href="#/">Home</a></li>
+              <li><a ng-class="{ current: activeSection=='/building-blocks/' }" href="#/building-blocks/action-menu">Building Blocks</a></li>
+              <li><a ng-class="{ current: activeSection=='/common-controls/' }" href="#/common-controls/">Common Controls</a></li>
+              <li class="last"><a ng-class="{ current: activeSection=='/transitions/' }" href="#/transitions/">Transitions</a></li>
             </ul>
           </nav>        
         </header>

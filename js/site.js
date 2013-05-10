@@ -1,13 +1,13 @@
 'use strict';
 
-//App Module:
-angular.module('bffos', []).
-  config(['$routeProvider', function($routeProvider) {
+var site = angular.module('bffos', []);
+
+site.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   $routeProvider.
-      when('/', {templateUrl: 'partials/home.html', controller: 'HomeCtrl'}).
-      when('/building-blocks/', {templateUrl: 'partials/building-blocks/action-menu.html'}).
-      when('/building-blocks/action-menu', {templateUrl: 'partials/building-blocks/action-menu.html'}).
-      otherwise({redirectTo: '/'});
+    when('/', {templateUrl: 'partials/home.html', controller: 'HomeCtrl'}).
+    when('/building-blocks/action-menu', {templateUrl: 'partials/building-blocks/action-menu.html',  controller: 'BuildingBlocksCtrl'}).
+    otherwise({redirectTo: '/'});
+  //$locationProvider.html5Mode( true );
 }]);
 
 //Twitter:
