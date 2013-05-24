@@ -45,9 +45,9 @@ bb-menu:
   url: /building-blocks/value-selector.html
 ---
 
-{% unless page.section == "index.html" %}
+{% if page.section != "index.html" %}
   {% assign path = "../" %}
-{% endunless %}
+{% endif %}
 
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
