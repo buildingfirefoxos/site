@@ -45,6 +45,10 @@ bb-menu:
   url: /building-blocks/value-selector.html
 ---
 
+{% unless page.section == "/" %}
+  {% assign path = "../" %}
+{% endunless %}
+
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
   <head>
@@ -62,11 +66,11 @@ bb-menu:
 
     <link rel="stylesheet" media="screen,projection,tv" href="https://mozorg.cdn.mozilla.net/media/css/sandstone_guide-min.css?build=128c8fb">
     
-    <link rel="stylesheet" media="screen,projection,tv" href="/css/highlight.css">
-    <link rel="stylesheet" media="screen,projection,tv" href="/css/style.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/highlight.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/style.css">
     
     <link rel="shortcut icon" href="https://mozorg.cdn.mozilla.net/media/img/favicon.ico">
-    <script src="/js/jquery-1.9.1.min.js"></script>
+    <script src="{{path}}js/jquery-1.9.1.min.js"></script>
   </head>
 
   <body id="sandstone" class="html-ltr sky">
@@ -155,8 +159,8 @@ bb-menu:
       <script src="//mozorg.cdn.mozilla.net/media/js/libs/matchMedia.js"></script>
     <![endif]-->
 
-    <script src="/js/common-resp-min.js"></script>
-    <script src="/js/tabzilla.js"></script>
-    <script src="/js/site.js"></script>
+    <script src="{{path}}js/common-resp-min.js"></script>
+    <script src="{{path}}js/tabzilla.js"></script>
+    <script src="{{path}}js/site.js"></script>
   </body>
 </html>
