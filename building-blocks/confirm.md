@@ -1,7 +1,7 @@
 ---
 layout: bffos
 title: Confirm
-section: /building-blocks/
+section: building-blocks
 h1: Building Blocks
 h2: UI component's markup
 ---
