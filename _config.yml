@@ -1,0 +1,4 @@
+name: Building Firefox OS
+pygments: true
+redirects: yes
+markdown: redcarpet-pygments

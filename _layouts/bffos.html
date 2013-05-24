@@ -1,0 +1,162 @@
+---
+main-menu:
+- text: Home
+  url: /
+- text: Building Blocks
+  url: /building-blocks/
+- text: Common Controls
+  url: /common-controls/
+- text: Transitions
+  url: /common-controls/
+bb-menu:
+- text: Confirm
+  url: /building-blocks/confirm.html
+- text: Edit mode
+  url: /building-blocks/edit-mode.html
+- text: Action menu
+  url: /building-blocks/action-menu.html
+- text: Status
+  url: /building-blocks/status.html
+- text: Buttons
+  url: /building-blocks/buttons.html
+- text: Filters
+  url: /building-blocks/filters.html
+- text: Headers
+  url: /building-blocks/headers.html
+- text: Lists
+  url: /building-blocks/lists.html
+- text: Progress and activity
+  url: /building-blocks/progress-and-activity.html
+- text: Scrolling
+  url: /building-blocks/scrolling.html
+- text: Seek bars
+  url: /building-blocks/seek-bars.html
+- text: Switches
+  url: /building-blocks/switches.html
+- text: Tabs
+  url: /building-blocks/tabs.html
+- text: Toolbars
+  url: /building-blocks/toolbars.html
+- text: Drawer
+  url: /building-blocks/drawer.html
+- text: Input areas
+  url: /building-blocks/input-areas.html
+- text: Value selector
+  url: /building-blocks/value-selector.html
+---
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ page.title }}</title>
+
+    <link href="https://www.mozilla.org/tabzilla/media/css/tabzilla.css?build=1" rel="stylesheet">
+    
+    <!--[if lte IE 8]>
+    <script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" media="screen,projection,tv" href="https://mozorg.cdn.mozilla.net/media/css/sandstone_guide-min.css?build=128c8fb">
+    
+    <link rel="stylesheet" media="screen,projection,tv" href="/css/highlight.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="/css/style.css">
+    
+    <link rel="shortcut icon" href="https://mozorg.cdn.mozilla.net/media/img/favicon.ico">
+    <script src="/js/jquery-1.9.1.min.js"></script>
+  </head>
+
+  <body id="sandstone" class="html-ltr sky">
+
+    <div id="outer-wrapper">
+      <div id="wrapper">
+
+        <header id="masthead">
+          <a href="http://www.mozilla.org/" id="tabzilla">Mozilla</a>
+
+          <nav id="nav-main" role="navigation">
+            <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
+            <ul id="nav-main-menu">
+              {% for link in page.main-menu %}
+                <li>
+                  <a {% if (page.section == link.url %}class="current"{% endif %} href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>        
+        </header>
+        
+        <hgroup id="main-feature" class="huge center">
+          <h1>{{page.h1}}</h1>
+          <h2>{{page.h2}}</h2>
+        </hgroup>
+
+        <section class="dboh">
+          {% if page.section != "/" %}
+            <aside class="left-side" >
+              <nav class="menu-bar billboard">
+                <ul>
+                  {% for link in page.bb-menu %}
+                    <li>
+                      <a {% if page.url == link.url %}class="current"{% endif %} href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </nav>
+            </aside>
+          {% else %}
+            <nav class="menu-bar billboard">
+              <ul>
+                <li><a href="https://twitter.com/openwebdevice" class="twitter-follow-button" data-show-count="true" data-size="large" data-lang="en">Follow @openwebdevice</a></li>
+                <li><a href="https://twitter.com/share" data-size="large" data-url="http://buildingfirefoxos.com" data-text="#buildingfirefoxos - Start creating your own app layouts with #FirefoxOS visual styles" class="twitter-share-button" data-lang="en">Tweet</a></li>
+              </ul>
+            </nav>
+          {% endif %}
+
+          <section {% if page.section == "/" %}id="section-links"{% endif %} class="billboard">
+            {{content}}
+          </section>
+        </section>
+
+      </div><!-- close #wrapper -->
+
+      <footer id="colophon">
+        <div class="row">
+
+          <div class="footer-logo">
+              <a href="https://www.mozilla.org/en-US/"><img src="/images/footer-mozilla.png" alt="mozilla"></a>
+          </div>
+
+          <div class="footer-license">
+            <p>Portions of this content are ©1998–2013 by individual mozilla.org contributors. Content available under a <a href="https://www.mozilla.org/foundation/licensing/website-content.html">Creative Commons license</a>.</p>
+            <p><a href="https://www.mozilla.org/b/en-US/contribute/page/">Contribute to this page</a></p>
+          </div>
+          <ul class="footer-nav">
+            <li><a href="https://www.mozilla.org/en-US/about/contact.html#map-mountain_view">Contact Us</a></li>
+            <li><a href="https://www.mozilla.org/b/en-US/privacy/">Privacy Policy</a></li>
+            <li><a href="https://www.mozilla.org/en-US/about/legal.html">Legal Notices</a></li>
+            <li><a href="https://www.mozilla.org/en-US/legal/fraud-report/index.html">Report Trademark Abuse</a></li>
+          </ul>
+
+          <ul class="footer-nav">
+            <li><a href="http://twitter.com/firefox">Twitter</a></li>
+            <li><a href="http://facebook.com/Firefox">Facebook</a></li>
+            <li><a href="https://affiliates.mozilla.org/">Firefox Affiliates</a></li>
+          </ul>    
+        </div>
+      </footer>
+      
+    </div><!-- close #outer-wrapper -->
+
+    <!--[if IE 9]>
+      <script src="//mozorg.cdn.mozilla.net/media/js/libs/matchMedia.js"></script>
+    <![endif]-->
+
+    <script src="/js/common-resp-min.js"></script>
+    <script src="/js/tabzilla.js"></script>
+    <script src="/js/site.js"></script>
+  </body>
+</html>
