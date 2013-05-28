@@ -11,7 +11,7 @@ h2: UI component's markup
 A confirmation prompt asks the user to take or confirm an action, such as responding to a system event such as asking the user to restart the device after swapping SIM cards, or to ask the user to grant or deny permission to perform a task.
 
 > ### Characteristics
-> * Opened from buttons within app content; these buttons are often inside toolbars (for example, the Browser app’s “Share” button).
+> * Opened from buttons within application content; these buttons are often inside toolbars (for example, the Browser app’s “Share” button).
 > * Action menus contain one or more items.
 > * Buttons have two states: normal and pressed.
 > * These menus expand in height to accomodate their items, to a maximum of the screen’s height. Once that maximum height is reached.
