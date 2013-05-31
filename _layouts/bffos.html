@@ -56,7 +56,7 @@ bb-menu:
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>{{ page.title }}</title>
+    <title>{{page.title}}</title>
 
     <link href="https://www.mozilla.org/tabzilla/media/css/tabzilla.css?build=1" rel="stylesheet">
     
@@ -67,6 +67,7 @@ bb-menu:
     <link rel="stylesheet" media="screen,projection,tv" href="https://mozorg.cdn.mozilla.net/media/css/sandstone_guide-min.css?build=128c8fb">
     
     <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/highlight.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/tabs.css">
     <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/style.css">
     
     <link rel="shortcut icon" href="https://mozorg.cdn.mozilla.net/media/img/favicon.ico">
@@ -161,6 +162,12 @@ bb-menu:
 
     <script src="{{path}}js/common-resp-min.js"></script>
     <script src="{{path}}js/tabzilla.js"></script>
+    <script src="{{path}}js/tabs.js"></script>
+    <script>
+      $(function() {
+        $( "#tabs" ).tabs();
+      });
+    </script>
     <script src="{{path}}js/site.js"></script>
   </body>
 </html>

@@ -204,6 +204,10 @@ aside.left-side + section.billboard {
 }
 
 /* Examples */
+section.example > img {
+  margin-bottom: 10px;
+}
+
 section.example .frame {
   display: none;
 }

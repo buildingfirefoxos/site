@@ -1,0 +1,181 @@
+/*! jQuery UI - v1.10.3 - 2013-05-23
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.tabs.css
+* Copyright 2013 jQuery Foundation and other contributors Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter:Alpha(Opacity=0);
+}
+
+.ui-front {
+	z-index: 100;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-tabs {
+  border-radius : 0;
+  -moz-border-radius : 0;
+  -webkit-border-radius : 0;
+  background: #fff;
+  border: none;
+  display: block;
+  overflow: hidden;
+}
+
+ul.ui-tabs-nav {
+  background: none;
+  list-style: none;
+  border-bottom: 1px solid #cbcaca;
+}
+
+ul ul.ui-tabs-nav {
+  height: auto;
+}
+
+.ui-tabs .ui-tabs-nav li {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  float: left;
+  margin: 0 0 -1px 0;
+  position: relative;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+  background: none;
+  border: none;
+  border-radius: 3px 3px 0 0;
+  color: #4090c4;
+  float: left;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 38px;
+  padding: 0 15px;
+  text-decoration: none;
+  width: auto;
+}
+
+.ui-tabs .ui-tabs-nav li a:focus {
+  outline: none;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-state-active a {
+  color: #5a5a5a;
+  border: 1px solid #cbcaca;
+  border-bottom: 1px solid #fff;
+}
+
+.ui-tabs .ui-tabs-nav li a:hover {
+  color: #5a5a5a ;
+}
+
+.ui-tabs-hide {
+  display: none;
+}
+
+.ui-tabs-panel {
+  border: 1px solid #cbcaca;
+  border-top: 0;
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius : 0 0 5px 5px;
+  -webkit-border-radius : 0 0 5px 5px;
+  padding: 15px 15px 0 15px
+}
+
+.ui-tabs-panel .ui-tabs-panel {
+  border: none;
+}
+
+/* Fix for nested tabs */
+.ui-tabs .ui-tabs .ui-tabs-nav li a {
+  border: none;
+  border-radius: 0;
+  color: #5a5a5a;
+  font-weight: normal;
+  border-left: 1px solid rgb(221, 221, 221);
+  line-height: 21px;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-active a,
+.ui-tabs .ui-tabs .ui-tabs-nav li a:hover {
+  text-decoration: underline;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li:first-child a {
+  border-left: 0;
+  padding-left: 0;    
+}
+
+
+
