@@ -16,7 +16,7 @@ A confirmation prompt asks the user to take or confirm an action, such as respon
 > * Buttons have two states: normal and pressed.
 > * These menus expand in height to accomodate their items, to a maximum of the screen’s height. Once that maximum height is reached.
 
-<div id="tabs">
+<div class="tabs">
   <ul>
     <li><a href="#confirm-default">Default</a></li>
     <li><a href="#confirm-content">Confirm with content</a></li>

@@ -102,8 +102,9 @@ ul.ui-tabs-nav {
   border-bottom: 1px solid #cbcaca;
 }
 
-ul ul.ui-tabs-nav {
+.ui-tabs .ui-tabs ul.ui-tabs-nav {
   height: auto;
+  border-bottom: none;
 }
 
 .ui-tabs .ui-tabs-nav li {
@@ -165,7 +166,7 @@ ul ul.ui-tabs-nav {
   border-radius: 0;
   color: #5a5a5a;
   font-weight: normal;
-  border-left: 1px solid rgb(221, 221, 221);
+  border-left: 1px solid #5a5a5a;
   line-height: 21px;
 }
 .ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-active a,
