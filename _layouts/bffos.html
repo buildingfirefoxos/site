@@ -106,7 +106,7 @@ bb-menu:
                 <ul>
                   {% for link in page.bb-menu %}
                     <li>
-                      <a {% if page.url == link.url %}class="current"{% endif %} href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+                      <a {% if page.url == link.url %}class="current"{% endif %} href="{{path}}{{link.url}}" title="{{link.title}}">{{link.text}}</a>
                     </li>
                   {% endfor %}
                 </ul>
