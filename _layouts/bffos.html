@@ -7,45 +7,10 @@ main-menu:
 - text: Common Controls
   url: common-controls
 - text: Transitions
-  url: common-controls
-bb-menu:
-- text: Confirm
-  url: /building-blocks/confirm.html
-- text: Edit mode
-  url: /building-blocks/edit-mode.html
-- text: Action menu
-  url: /building-blocks/action-menu.html
-- text: Status
-  url: /building-blocks/status.html
-- text: Buttons
-  url: /building-blocks/buttons.html
-- text: Filters
-  url: /building-blocks/filters.html
-- text: Headers
-  url: /building-blocks/headers.html
-- text: Lists
-  url: /building-blocks/lists.html
-- text: Progress and activity
-  url: /building-blocks/progress-and-activity.html
-- text: Scrolling
-  url: /building-blocks/scrolling.html
-- text: Seek bars
-  url: /building-blocks/seek-bars.html
-- text: Switches
-  url: /building-blocks/switches.html
-- text: Tabs
-  url: /building-blocks/tabs.html
-- text: Toolbars
-  url: /building-blocks/toolbars.html
-- text: Drawer
-  url: /building-blocks/drawer.html
-- text: Input areas
-  url: /building-blocks/input-areas.html
-- text: Value selector
-  url: /building-blocks/value-selector.html
+  url: transitions
 ---
 
-{% if page.section != "index.html" %}
+{% if page.section != "home" %}
   {% assign path = "../" %}
 {% endif %}
 
@@ -71,7 +36,7 @@ bb-menu:
     <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/style.css">
     
     <link rel="shortcut icon" href="https://mozorg.cdn.mozilla.net/media/img/favicon.ico">
-    <script src="{{path}}js/jquery-1.9.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </head>
 
   <body id="sandstone" class="html-ltr sky">
@@ -100,28 +65,26 @@ bb-menu:
         </hgroup>
 
         <section class="dboh">
-          {% if page.section != "index.html" %}
-            <aside class="left-side" >
-              <nav class="menu-bar billboard">
-                <ul>
-                  {% for link in page.bb-menu %}
-                    <li>
-                      <a {% if page.url == link.url %}class="current"{% endif %} href="{{path}}{{link.url}}" title="{{link.title}}">{{link.text}}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </nav>
-            </aside>
-          {% else %}
+          {% if page.section == "home" %}
             <nav class="menu-bar billboard">
               <ul>
                 <li><a href="https://twitter.com/openwebdevice" class="twitter-follow-button" data-show-count="true" data-size="large" data-lang="en">Follow @openwebdevice</a></li>
                 <li><a href="https://twitter.com/share" data-size="large" data-url="http://buildingfirefoxos.com" data-text="#buildingfirefoxos - Start creating your own app layouts with #FirefoxOS visual styles" class="twitter-share-button" data-lang="en">Tweet</a></li>
               </ul>
             </nav>
+          {% else %}
+            <aside class="left-side" >
+              <nav class="menu-bar billboard">
+                <ul>
+                  {% assign pages_list = site.pages %}
+                  {% assign section = {{page.section}} %}
+                  {% include pages_list %}
+                </ul>
+              </nav>
+            </aside>
           {% endif %}
 
-          <section {% if page.section == "index.html" %}id="section-links"{% endif %} class="billboard">
+          <section {% if page.section == "home" %}id="section-links"{% endif %} class="billboard">
             {{content}}
           </section>
         </section>

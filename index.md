@@ -1,7 +1,7 @@
 ---
 layout: bffos
 title: Home
-section: index.html
+section: home
 h1: Building <strong>Firefox OS</strong>
 h2: Start creating your own apps
 ---
