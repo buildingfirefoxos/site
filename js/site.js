@@ -12,11 +12,10 @@ $(function() {
     $(this).toggleClass('less'); 
   });
 
-
-  //duplicate code in example
-  $('article.code').each(function(index) {
-   // $(this).text($(this).closest('.example').find('.frame').html());
-  });
+  //Detect Nightly browser
+  if ( !($.browser.mozilla) && ($.browser.version > '20.0') ) {
+    $('body').addClass('not-nightly');
+  }
 
 
 });

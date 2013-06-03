@@ -205,10 +205,15 @@ aside.left-side + section.billboard {
 
 /* Examples */
 section.example > img {
-  margin-bottom: 10px;
+  display: none;
 }
 
-section.example .frame {
+.not-nightly section.example > img {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.not-nightly section.example .frame {
   display: none;
 }
 
