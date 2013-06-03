@@ -76,7 +76,7 @@ main-menu:
             <aside class="left-side" >
               <nav class="menu-bar billboard">
                 <ul>
-                  {% assign pages_list = site.pages %}
+                  {% assign pages_list = site.pages | sort: "name" %}
                   {% assign section = {{page.section}} %}
                   {% include pages_list %}
                 </ul>

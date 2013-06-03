@@ -3,7 +3,7 @@ layout: bffos
 title: List Items
 section: common-controls
 h1: Common Controls
-h2: Firefox OS UI visual components
+h2: <strong>Firefox OS</strong> UI visual components
 ---
 
 ## List Items
