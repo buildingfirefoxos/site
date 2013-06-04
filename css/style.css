@@ -1,3 +1,5 @@
+html { font-size: 62.5%; }
+
 .dboh {
   display: block;
   overflow: hidden;
@@ -209,8 +211,16 @@ section.example > img {
 }
 
 .not-nightly section.example > img {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   display: block;
+}
+
+section.example .frame {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 320px;
+  margin-bottom: 30px;
 }
 
 .not-nightly section.example .frame {
@@ -607,7 +617,7 @@ section.example > img {
   padding: 63px 0 0 36px;
 }
 
-.transition .full.frame {
+section.example .full.frame {
   height: 480px;
 }
 

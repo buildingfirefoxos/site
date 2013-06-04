@@ -22,7 +22,7 @@ An action menu presents a list of actions, related to the app's content, from wh
 <div>
   <section class="example">
     <img src="../images/BB/action_menu.jpg" alt="Action menu (Image replacing code)"/>
-    <article class="frame">
+    <article class="full frame">
       <form role="dialog" onsubmit="return false;" data-type="action">
         <header>Title</header>
         <menu>

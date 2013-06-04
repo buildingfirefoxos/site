@@ -1,0 +1,16 @@
+{% case section %}
+  {% when 'building-blocks' %}
+  <!-- Building Blocks -->
+  {% case page.title %}
+    {% when 'Action Menu' %}
+      <link rel="stylesheet" href="../css/BB/style/action_menu.css">
+    {% when 'Buttons' %}
+      <link rel="stylesheet" href="../css/BB/style/buttons.css">
+    {% when 'Confirm' %}
+      <link rel="stylesheet" href="../css/BB/style/confirm.css">
+    {% when 'Drawer' %}
+      <link rel="stylesheet" href="../css/BB/style_unstable/drawer.css">
+  {% endcase %} 	
+  <!-- improve Building Blocks visualization in buildingfirefoxos.com -->
+  <link rel="stylesheet" href="../css/building_blocks.css">
+{% endcase %} 

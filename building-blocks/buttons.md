@@ -4,7 +4,6 @@ title: Buttons
 section: building-blocks
 h1: Building Blocks
 h2: <strong>Firefox OS</strong> UI component's markup
-weight: 1
 ---
 
 ## Buttons

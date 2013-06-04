@@ -10,9 +10,10 @@ main-menu:
   url: transitions
 ---
 
-{% if page.section != "home" %}
+{% if page.section != "index.html" %}
   {% assign path = "../" %}
 {% endif %}
+{% assign section = {{page.section}} %}
 
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
@@ -33,6 +34,7 @@ main-menu:
     
     <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/highlight.css">
     <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/tabs.css">
+    {% include additional_links.html %}
     <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/style.css">
     
     <link rel="shortcut icon" href="https://mozorg.cdn.mozilla.net/media/img/favicon.ico">
@@ -65,7 +67,7 @@ main-menu:
         </hgroup>
 
         <section class="dboh">
-          {% if page.section == "home" %}
+          {% if page.section == "index.html" %}
             <nav class="menu-bar billboard">
               <ul>
                 <li><a href="https://twitter.com/openwebdevice" class="twitter-follow-button" data-show-count="true" data-size="large" data-lang="en">Follow @openwebdevice</a></li>
@@ -77,14 +79,13 @@ main-menu:
               <nav class="menu-bar billboard">
                 <ul>
                   {% assign pages_list = site.pages | sort: "name" %}
-                  {% assign section = {{page.section}} %}
                   {% include pages_list %}
                 </ul>
               </nav>
             </aside>
           {% endif %}
 
-          <section {% if page.section == "home" %}id="section-links"{% endif %} class="billboard">
+          <section {% if page.section == "index.html" %}id="section-links"{% endif %} class="billboard">
             {{content}}
           </section>
         </section>

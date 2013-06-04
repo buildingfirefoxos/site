@@ -11,7 +11,7 @@ h2: <strong>Firefox OS</strong> UI component's markup
 <div>
   <section class="example">
     <img src="../images/BB/drawer.jpg" alt="Drawer (Image replacing code)"/>
-    <article class="frame">
+    <article class="full frame">
       <section data-type="sidebar">
         <header>
           <menu type="toolbar">

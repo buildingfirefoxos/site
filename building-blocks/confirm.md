@@ -24,7 +24,7 @@ A confirmation prompt asks the user to take or confirm an action, such as respon
   <div id="confirm-default">
     <section class="example">
       <img src="../images/BB/confirm_1.jpg" alt="Confirm (Image replacing code)"/>
-      <article class="frame">
+      <article class="full frame">
         <form role="dialog" data-type="confirm">
           <section>
             <h1>Confirmation</h1><!-- this heading is optional -->
@@ -57,7 +57,7 @@ A confirmation prompt asks the user to take or confirm an action, such as respon
   <div id="confirm-content">
     <section class="example">
       <img src="../images/BB/confirm_2.jpg" alt="Confirm (Image replacing code)"/>
-      <article class="frame">
+      <article class="full frame">
         <form role="dialog" data-type="confirm">
           <section>
             <h1>Confirmation</h1>
