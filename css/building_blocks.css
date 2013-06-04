@@ -100,7 +100,7 @@ form[role="dialog"][data-type="confirm"] > section {
 /* ADDITIONAL STYLING */
 /* Lists */
 .example [data-type="list"] li img[alt="placeholder"] {
-    background: url("images/photo.jpg") no-repeat scroll 0 0 / 100% 100%;
+    background: url(../images/BB/photo.jpg) no-repeat scroll 0 0 / 100% 100%;
     font-size: 0;
 }
 
@@ -110,7 +110,7 @@ form[role="dialog"][data-type="confirm"] > section {
 
 /* Progress and activity */
 .example #browser-header {
-	background: url(images/browser.png) no-repeat;
+	background: url(../images/BB/browser.png) no-repeat;
 	font-size: 0;
 	height: 52px;
 }
@@ -118,6 +118,11 @@ form[role="dialog"][data-type="confirm"] > section {
 /* Scrolling */
 .example nav[data-type="scrollbar"] p {
     opacity: 1;
+}
+
+/* Edit mode */
+.example .edit-mode.frame {
+  height: 13rem;
 }
 
 /* Seekbars */
@@ -141,11 +146,17 @@ form[role="dialog"][data-type="confirm"] > section {
 /* Switches */
 .example .switch.frame label {
   width: 6rem !important;
-  z-index: 1;
+}
+
+.example + label,
+.highlighttable + label {
+  display: block;
+  width: auto;
+  height: auto;
 }
 
 /* Tabs */
-.example .tabs.frame {
+.example .tab.frame {
   height: 5rem !important;
 }
 .example #panel1 a:after {
@@ -242,6 +253,11 @@ form[role="dialog"][data-type="confirm"] > section {
 	color: #fff;	
 }
 
+/* Status */
+.example .status.frame {
+  height: 7rem;
+}
+
 /* Input areas */
 .example .input.frame form {
   margin-bottom: 1.5rem;
@@ -268,40 +284,6 @@ form[role="search"] button.icon-attachment:before {
 .page-headers section[role="region"] > header:first-child,
 .page-progress-and-activity section[role="region"] > header:first-child {
     margin-left: 0;
-}
-
-/* Collisions: Seek bars with progress-activity */
-div[role="slider"] > div {
-  padding: 0;
-  height: 100%;
-}
-
-div[role="slider"] progress {
-  display: block;
-  border-radius: 0;
-  margin-top: 1.9rem;
-}
-
-div[role="slider"] progress::-moz-progress-bar {
-  border-radius: 0;
-}
-
-div[role="slider"] button {
-  padding: 0;
-}
-
-/* Collisions: Seek bars with switches */
-div[role="slider"] > label {
-  height: 3.5rem;
-  width: auto;
-  line-height: 3.8rem;
-}
-
-/* Collisions: input areas with buttons */
-form[role="search"] button[type="submit"] {  
-  width: auto;
-  border-radius: 0;
-  margin: 0;
 }
 
 /* SHOULD BE FIXED IN BB */

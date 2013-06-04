@@ -13,7 +13,7 @@ Relays information to the user in a transitory fashion, typically to confirm a u
 <div>
   <section class="example">
     <img src="../images/BB/status.png" alt="Status (Image replacing code)"/>
-    <article class="frame">
+    <article class="status frame">
       <section role="status">
         <p>The Alarm is set for <strong>7 hours</strong> and <strong>14 minutes</strong> from now</p>
       </section>

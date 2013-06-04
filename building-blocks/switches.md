@@ -112,7 +112,7 @@ Activates/Deactivates a given item. It’s also used to select an element within
   <div id="switches-switches">
     <section class="example">
       <img src="../images/BB/switches_3.jpg" alt="Switches (Image replacing code)"/>
-      <article class="frame">
+      <article class="switch frame">
         <label>
           <input type="checkbox" data-type="switch" checked="">
           <span></span>

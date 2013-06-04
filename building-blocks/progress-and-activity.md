@@ -100,7 +100,7 @@ Used for providing user with visual feedback that a process is active.
       <div id="progress-modal-spinner">
         <section class="example">
           <img src="../images/BB/progress_5.jpg" alt="Progress (Image replacing code)"/>
-          <article class="frame">
+          <article class="full frame">
             <form role="dialog" data-type="confirm">
               <section>
                 <h1>Name of the action</h1>
@@ -130,7 +130,7 @@ Used for providing user with visual feedback that a process is active.
       <div id="progress-modal-progress">
         <section class="example">
           <img src="../images/BB/progress_6.jpg" alt="Progress (Image replacing code)"/>
-          <article class="frame">
+          <article class="full frame">
             <form role="dialog" data-type="confirm">
               <section>
                 <h1>Name of the action</h1>
@@ -160,7 +160,7 @@ Used for providing user with visual feedback that a process is active.
       <div id="progress-modal-activity">
         <section class="example">
           <img src="../images/BB/progress_7.png" alt="Progress (Image replacing code)"/>
-          <article class="frame">
+          <article class="full frame">
             <form role="dialog" data-type="confirm">
               <section>
                 <h1>Name of the action</h1>

@@ -18,7 +18,7 @@ Used for labeling the active view and providing top-level navigation and inputs 
   <div id="headers-default">
     <section class="example">
       <img src="../images/BB/headers_1.jpg" alt="Headers (Image replacing code)"/>
-      <article class="frame">
+      <article class="headers frame">
         <section role="region">
           <header>
             <menu type="toolbar">
@@ -111,7 +111,7 @@ Used for labeling the active view and providing top-level navigation and inputs 
   <div id="headers-skins">
     <section class="example">
       <img src="../images/BB/headers_2.jpg" alt="Headers (Image replacing code)"/>
-      <article class="frame">
+      <article class="headers frame">
         <section class="skin-dark" role="region">
           <header>
             <a href="#"><span class="icon icon-back">back</span></a>

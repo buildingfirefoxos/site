@@ -13,7 +13,7 @@ State of an app where content becomes editable by the user (eg: deleting message
 <div>
   <section class="example">
     <img src="../images/BB/edit_mode.jpg" alt="Edit mode (Image replacing code)"/>
-    <article class="frame">
+    <article class="edit-mode frame">
       <form role="dialog" data-type="edit">
         <section>
           <header>

@@ -13,7 +13,7 @@ Used for vertically slide text, images and/or video across the device's display.
 <div>
   <section class="example">
     <img src="../images/BB/scrolling.jpg" alt="Scrolling (Image replacing code)"/>
-    <article class="frame">
+    <article class="full frame">
       <section role="region" id="main">
         <nav data-type="scrollbar">
           <p>A</p>

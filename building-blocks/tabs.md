@@ -13,7 +13,7 @@ Allows multiple instances to be contained within a single window. Tabs are used 
 <div>
   <section class="example">
     <img src="../images/BB/tabs.jpg" alt="Tabs (Image replacing code)"/>
-    <article class="frame">
+    <article class="tab frame">
       <!-- if your tabs are at the top, remove class="bottom" -->
       <ul role="tablist" data-items="4" class="bottom">
         <li id="panel1" role="tab">

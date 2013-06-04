@@ -122,7 +122,7 @@ Activates/Deactivates a given item. It’s also used to select an element within
   <div id="input-forms">
     <section class="example">
       <img src="../images/BB/input_3.png" alt="Input areas (Image replacing code)"/>
-      <article class="frame">
+      <article class="input frame">
         <!-- form used at the top of the page with fixed/absolute position and content scrolls underneath -->
         <form role="search">
           <button type="submit">Cancel</button>

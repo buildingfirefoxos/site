@@ -13,7 +13,7 @@ Used for scrolling through content (i.e. a song or video).
 <div>
   <section class="example">
     <img src="../images/BB/seekbars.jpg" alt="Seek bars (Image replacing code)"/>
-    <article class="frame">
+    <article class="seekbars frame">
       <section role="region">
         <div role="slider" aria-valuemin="0" aria-valuenow="80" aria-valuemax="100" aria-valuetext="slider description">
           <div>
