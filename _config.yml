@@ -3,5 +3,4 @@ safe: true
 lsi: false
 pygments: true
 redirects: yes
-/*markdown: redcarpet-pygments*/
 markdown: redcarpet
