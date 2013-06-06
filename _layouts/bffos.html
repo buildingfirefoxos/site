@@ -41,7 +41,7 @@ main-menu:
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </head>
 
-  <body id="sandstone" class="html-ltr sky">
+  <body id="sandstone" class="html-ltr sky {{page.title}}">
 
     <div id="outer-wrapper">
       <div id="wrapper">
@@ -85,7 +85,7 @@ main-menu:
             </aside>
           {% endif %}
 
-          <section {% if page.title == "Home" %}id="section-links"{% endif %} class="billboard">
+          <section class="content-section billboard">
             {{content}}
           </section>
         </section>
@@ -94,27 +94,34 @@ main-menu:
 
       <footer id="colophon">
         <div class="row">
-
-          <div class="footer-logo">
-              <a href="https://www.mozilla.org/en-US/"><img src="{{root}}images/footer-mozilla.png" alt="mozilla"></a>
+          <div class="col twitter">
+            <h3>Twitter activity</h3>
           </div>
-
-          <div class="footer-license">
-            <p>Portions of this content are ©1998–2013 by individual mozilla.org contributors. Content available under a <a href="https://www.mozilla.org/foundation/licensing/website-content.html">Creative Commons license</a>.</p>
-            <p><a href="https://www.mozilla.org/b/en-US/contribute/page/">Contribute to this page</a></p>
+          
+          <div class="col links">
+            <h3>Links & resources</h3>
+            <ul>
+              <li></li>
+            </ul>
           </div>
-          <ul class="footer-nav">
-            <li><a href="https://www.mozilla.org/en-US/about/contact.html#map-mountain_view">Contact Us</a></li>
-            <li><a href="https://www.mozilla.org/b/en-US/privacy/">Privacy Policy</a></li>
-            <li><a href="https://www.mozilla.org/en-US/about/legal.html">Legal Notices</a></li>
-            <li><a href="https://www.mozilla.org/en-US/legal/fraud-report/index.html">Report Trademark Abuse</a></li>
-          </ul>
-
-          <ul class="footer-nav">
-            <li><a href="http://twitter.com/firefox">Twitter</a></li>
-            <li><a href="http://facebook.com/Firefox">Facebook</a></li>
-            <li><a href="https://affiliates.mozilla.org/">Firefox Affiliates</a></li>
-          </ul>    
+          
+          <div class="col mozilla">
+            <h3>
+                <a href="https://www.mozilla.org/en-US/"><img src="{{root}}images/footer-mozilla.png" alt="mozilla"></a>
+            </h3>
+            <ul>
+              <li>Portions of this content are ©1998–2013 by individual mozilla.org contributors. Content available under a</li>
+              <li><a href="https://www.mozilla.org/foundation/licensing/website-content.html">Creative Commons license</a>.</li>
+              <li><a href="https://www.mozilla.org/b/en-US/contribute/page/">Contribute to this page</a></li>
+              <li><a href="https://www.mozilla.org/en-US/about/contact.html#map-mountain_view">Contact Us</a></li>
+              <li><a href="https://www.mozilla.org/b/en-US/privacy/">Privacy Policy</a></li>
+              <li><a href="https://www.mozilla.org/en-US/about/legal.html">Legal Notices</a></li>
+              <li><a href="https://www.mozilla.org/en-US/legal/fraud-report/index.html">Report Trademark Abuse</a></li>
+              <li><a href="http://twitter.com/firefox">Twitter</a></li>
+              <li><a href="http://facebook.com/Firefox">Facebook</a></li>
+              <li><a href="https://affiliates.mozilla.org/">Firefox Affiliates</a></li>
+            </ul>    
+          </div>
         </div>
       </footer>
       

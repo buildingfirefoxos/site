@@ -161,31 +161,31 @@ $(function() {
 
   //Calls
   $('#example-call-1 .play').click(function(){
-    transtion_1_step($(this),2500);
+    transtion_1_step($(this),3000);
   });
 
   $('#example-call-2 .play').click(function(){
-    transtion_1_step($(this),2500);
+    transtion_1_step($(this),3000);
   });
 
   $('#example-call-3 .play').click(function(){
-    transtion_2_steps($(this),'248px','484px',1000,'173px','395px',2500);
+    transtion_2_steps($(this),'248px','484px',1000,'173px','395px',3000);
   });
 
   $('#example-call-4 .play').click(function(){
-    transtion_1_step($(this),2500);
+    transtion_1_step($(this),3000);
   });
 
   $('#example-call-5 .play').click(function(){
-    transtion_1_step($(this),2500);
+    transtion_1_step($(this),3000);
   });
 
   $('#example-call-6 .play').click(function(){
-    transtion_2_steps($(this),'248px','484px',1000,'283px','435px',2500);
+    transtion_2_steps($(this),'248px','484px',1000,'283px','435px',3000);
   });
 
   $('#example-call-7 .play').click(function(){
-    transtion_1_step($(this),2500);
+    transtion_1_step($(this),3000);
   });
 
   $('#example-call-8 .play').click(function(){
