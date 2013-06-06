@@ -10,8 +10,8 @@ main-menu:
   url: transitions
 ---
 
-{% if page.section != "index.html" %}
-  {% assign path = "../" %}
+{% if page.title != "Home" %}
+  {% assign root = "../" %}
 {% endif %}
 {% assign section = {{page.section}} %}
 
@@ -32,10 +32,10 @@ main-menu:
 
     <link rel="stylesheet" media="screen,projection,tv" href="https://mozorg.cdn.mozilla.net/media/css/sandstone_guide-min.css?build=128c8fb">
     
-    <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/highlight.css">
-    <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/tabs.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="{{root}}css/highlight.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="{{root}}css/tabs.css">
     {% include additional_links.html %}
-    <link rel="stylesheet" media="screen,projection,tv" href="{{path}}css/style.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="{{root}}css/style.css">
     
     <link rel="shortcut icon" href="https://mozorg.cdn.mozilla.net/media/img/favicon.ico">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -54,7 +54,7 @@ main-menu:
             <ul id="nav-main-menu">
               {% for link in page.main-menu %}
                 <li>
-                  <a {% if (page.section == link.url %}class="current"{% endif %} href="{{path}}{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+                  <a {% if (page.section == link.url %}class="current"{% endif %} href="{{root}}{{link.url}}" title="{{link.title}}">{{link.text}}</a>
                 </li>
               {% endfor %}
             </ul>
@@ -67,7 +67,7 @@ main-menu:
         </hgroup>
 
         <section class="dboh">
-          {% if page.section == "index.html" %}
+          {% if page.title == "Home" %}
             <nav class="menu-bar billboard">
               <ul>
                 <li><a href="https://twitter.com/openwebdevice" class="twitter-follow-button" data-show-count="true" data-size="large" data-lang="en">Follow @openwebdevice</a></li>
@@ -85,7 +85,7 @@ main-menu:
             </aside>
           {% endif %}
 
-          <section {% if page.section == "index.html" %}id="section-links"{% endif %} class="billboard">
+          <section {% if page.title == "Home" %}id="section-links"{% endif %} class="billboard">
             {{content}}
           </section>
         </section>
@@ -96,7 +96,7 @@ main-menu:
         <div class="row">
 
           <div class="footer-logo">
-              <a href="https://www.mozilla.org/en-US/"><img src="{{path}}images/footer-mozilla.png" alt="mozilla"></a>
+              <a href="https://www.mozilla.org/en-US/"><img src="{{root}}images/footer-mozilla.png" alt="mozilla"></a>
           </div>
 
           <div class="footer-license">
@@ -124,14 +124,14 @@ main-menu:
       <script src="//mozorg.cdn.mozilla.net/media/js/libs/matchMedia.js"></script>
     <![endif]-->
 
-    <script src="{{path}}js/common-resp-min.js"></script>
-    <script src="{{path}}js/tabzilla.js"></script>
-    <script src="{{path}}js/tabs.js"></script>
+    <script src="{{root}}js/common-resp-min.js"></script>
+    <script src="{{root}}js/tabzilla.js"></script>
+    <script src="{{root}}js/tabs.js"></script>
     <script>
       $(function() {
         $( ".tabs" ).tabs();
       });
     </script>
-    <script src="{{path}}js/site.js"></script>
+    <script src="{{root}}js/site.js"></script>
   </body>
 </html>

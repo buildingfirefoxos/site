@@ -26,8 +26,8 @@ h2: <strong>Firefox OS</strong> CSS animations
           <img src="../images/transitions/browser.png" alt="app background"/>
         </div>
       </div>
-    </article>
-  </section>
+    </section>
+  </article>
   <label>CSS Animations:</label>
   {% highlight html linenos=table %}
   {% endhighlight %}
