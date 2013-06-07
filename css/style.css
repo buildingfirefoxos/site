@@ -633,7 +633,8 @@ section.example .full.frame {
   padding: 0;
   font-size: 14px;
   line-height: 24px;
-  margin: 10px 0 0;
+  margin: 10px 0 0 0;
+  overflow: hidden;
 }
 
 #colophon .row {
@@ -641,17 +642,19 @@ section.example .full.frame {
 }
 
 #colophon .col {
-  width: 333px;
+  width: 320px;
   float: left;
+  margin-left: 20px;
 }
 
 #colophon .col:first-child {
-  width: 334px;
+  width: 320px;
+  margin-left: 0;
 }
 
 #colophon h3 {
   height: 60px;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 20px;
   line-height: 60px;
   color: #a6a6a6;
@@ -659,9 +662,25 @@ section.example .full.frame {
   text-shadow: none;
 }
 
+#colophon ul {
+  list-style: none;
+}
+
+#colophon ul li {
+  margin-left: 0;
+}
+
+#colophon a,
+#colophon a:link,
+#colophon a:visited {
+  color: #67a7d0;
+  text-decoration: underline;
+}
+
 #colophon .col.twitter h3 {
   background: url(../images/footer-twitter.png) 0 center no-repeat;
   text-indent: 37px;
+  margin-bottom: 20px;
 }
 
 #colophon .col.links h3 {
@@ -669,8 +688,51 @@ section.example .full.frame {
   text-indent: 37px;
 }
 
-#colophon ul {
-  list-style: none;
+#colophon .col.links h4 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #67a7d0;
+  text-shadow: none;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+#colophon .col.links a,
+#colophon .col.links a:visited {
+  color: #fff;
+  padding-bottom: 10px;
+  display: block;
+}
+
+#colophon .col.twitter a {
+  text-decoration: none;
+}
+
+.tweet_list {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+  
+.tweet_list li {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+        
+.tweet_list .tweet_avatar {
+  /*padding-right: .5em; float: left;*/
+  display: none;
+}
+
+/*.tweet_list .tweet_avatar img {
+  vertical-align: middle;
+}*/
+
+.tweet_time {
+  display: none;
 }
 
 /* -------------------------------- MEDIA QUERIES ----------------------------------- */

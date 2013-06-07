@@ -1,4 +1,4 @@
-//Twitter:
+//Twitter buttons:
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
 function tooltip(el,text) {
@@ -10,6 +10,20 @@ function tooltip(el,text) {
 }
 
 $(function() {
+  //Tweet plugin
+  $(".tweet").tweet({
+    join_text: "auto",
+    username: "openwebdevice",
+    //avatar_size: 48,
+    count: 4,
+    auto_join_text_default: "",
+    auto_join_text_ed: "",
+    auto_join_text_ing: "",
+    auto_join_text_reply: "",
+    auto_join_text_url: "",
+    loading_text: "loading tweets..."
+  });
+
   //See More
   $('.billboard > blockquote').each(function() {
     $(this).after('<span class="icon-more">See more</span>');
