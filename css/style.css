@@ -11,9 +11,25 @@ html { font-size: 62.5%; }
   overflow: hidden;
 }
 
-hgroup h1 {
-  font-size: 110px;
+#main-feature {
+  padding: 0 0 48px 0;  
+}
+
+#main-feature h1 {
+  font-size: 94px; 
   margin-bottom: 15px;  
+}
+
+#main-feature h2 {
+  font-size: 42px; 
+}
+
+#main-feature.center h1 {
+  font-size: 108px; 
+}
+
+#main-feature.center h2 {
+  font-size: 48px; 
 }
 
 /* Home */
@@ -146,8 +162,10 @@ aside.left-side {
 aside nav.menu-bar {
   text-align: inherit;
   line-height: 100%;
-  width: 250px;
-  padding: 0 10px;
+  width: 270px;
+  padding: 0;
+  background: #f7fafc url('../images/grain.png');
+  border: 1px solid #e7e7e7;
 }
 
 aside nav.menu-bar ul {
@@ -161,21 +179,49 @@ aside nav.menu-bar ul li {
 }
 
 aside nav.menu-bar ul li a {
-  padding: 10px;
+  padding: 13px 30px 13px 20px;
   border: 0;
   display: block;
-  border-top: 1px dotted #d6d6d6;
-  font-size: 14px;
-  /*color: #0096dd;*/
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 
 aside nav.menu-bar ul li:first-child a {
   border-top: 0;
 }
 
-aside nav.menu-bar ul li a.current,
-aside nav.menu-bar ul li a.selected {
-  font-weight: bold;
+aside nav.menu-bar ul li a.current {
+  background: #fff;
+  border-color: #e7e7e7;
+  position: relative;
+}
+
+aside nav.menu-bar ul li a.current:after {
+  position: absolute;
+  left: 0;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background: url(../images/menu_arrow_r.png) no-repeat right center;
+}
+
+aside nav.menu-bar ul li a.current:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  content: "";
+  border-bottom: 1px solid #fff;
+  bottom: -2px;
+}
+
+aside nav.menu-bar ul li a:hover {
+  background: #d8e0e9;
+  text-decoration: none;
+  color: #000;
 }
 
 aside.left-side + section.billboard {
@@ -799,6 +845,10 @@ section.example .full.frame {
     max-height: 300px;
     overflow: scroll;
     margin-bottom: 10px;
+  }
+
+  aside nav.menu-bar ul li a.current:after {
+    background-image: url(../images/menu_arrow_b.png);
   }
 
   body.Home .content-section > ul li {

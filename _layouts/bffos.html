@@ -61,6 +61,7 @@ main-menu:
           </nav>        
         </header>
         
+        <!--hgroup id="main-feature" class="huge{% if page.root == "root" %} center{% endif %}"-->
         <hgroup id="main-feature" class="huge center">
           <h1>{{page.h1}}</h1>
           <h2>{{page.h2}}</h2>
@@ -69,7 +70,7 @@ main-menu:
         <section class="dboh">
           {% if page.root == "root" %}
             {% if page.title == "Home" %}
-              <nav class="menu-bar billboard">
+              <nav class="menu-bar">
                 <ul>
                   <li><a href="https://twitter.com/openwebdevice" class="twitter-follow-button" data-show-count="true" data-size="large" data-lang="en">Follow @openwebdevice</a></li>
                   <li><a href="https://twitter.com/share" data-size="large" data-url="http://buildingfirefoxos.com" data-text="#buildingfirefoxos - Start creating your own app layouts with #FirefoxOS visual styles" class="twitter-share-button" data-lang="en">Tweet</a></li>
@@ -77,8 +78,8 @@ main-menu:
               </nav>
             {% endif %}
           {% else %}
-            <aside class="left-side" >
-              <nav class="menu-bar billboard">
+            <aside class="left-side">
+              <nav class="menu-bar">
                 <ul>
                   {% assign pages_list = site.pages | sort: "name" %}
                   {% include pages_list %}
