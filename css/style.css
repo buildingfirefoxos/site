@@ -166,6 +166,7 @@ aside nav.menu-bar {
   padding: 0;
   background: #f7fafc url('../images/grain.png');
   border: 1px solid #e7e7e7;
+  font-family: 'Open Sans',Arial,Helvetica,sans-serif;
 }
 
 aside nav.menu-bar ul {
