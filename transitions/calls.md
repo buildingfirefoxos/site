@@ -8,6 +8,8 @@ h2: <strong>Firefox OS</strong> CSS animations
 
 ## Calls
 
+(SYSTEM TRANSITION)
+
 <div class="tabs">
   <ul>
     <li><a href="#calls-dialer">From dialer</a></li>
@@ -175,7 +177,29 @@ h2: <strong>Firefox OS</strong> CSS animations
     <div id="calls-app-answer">
       <section class="transition">
         <article id="example-call-6" class="phone-frame">
-
+          <div class="play">
+            <span class="glow"></span>
+            <span class="shape"></span>
+          </div>
+          <section class="full frame dark">
+            <div class="statusbar"></div>
+            <div class="apps-container">
+              <div id="example-call-6-1" class="app">
+                <div class="overlay"></div>
+                <img src="../images/transitions/email.png" alt="email">
+              </div>
+              <div id="example-call-6-2" class="app">
+                <img src="../images/transitions/call_name.png" alt="call_name" class="top">
+                <img src="../images/transitions/start.png" alt="start" class="text">
+                <img src="../images/transitions/call_answer.png" alt="call_answer" class="bottom-1">
+                <img src="../images/transitions/call_pad.png" alt="call_pad" class="bottom-2">
+                <div class="photo">
+                  <div class="overlay"></div>
+                    <img src="../images/transitions/photo.png" alt="photo">
+                </div>
+              </div>
+            </div>
+          </section>
         </article>
       </section>
     </div>
@@ -183,7 +207,28 @@ h2: <strong>Firefox OS</strong> CSS animations
     <div id="calls-app-finish">
       <section class="transition">
         <article id="example-call-7" class="phone-frame">
-
+          <div class="play yellow">
+            <span class="glow"></span>
+            <span class="shape"></span>
+          </div>
+          <section class="full frame dark">
+            <div class="statusbar"></div>
+            <div class="apps-container">
+              <div id="example-call-7-1" class="app">
+                <div class="overlay"></div>
+                <img src="../images/transitions/email.png" alt="email">
+              </div>
+              <div id="example-call-7-2" class="app">
+                <img src="../images/transitions/call_name.png" alt="call_name" class="top">
+                <img src="../images/transitions/duration.png" alt="duration" class="text">
+                <img src="../images/transitions/call_pad.png" alt="call_pad" class="bottom">
+                <div class="photo">
+                  <div class="overlay"></div>
+                  <img src="../images/transitions/photo.png" alt="photo">
+                </div>
+              </div>
+            </div>
+          </section>
         </article>
       </section>
     </div>
@@ -191,7 +236,27 @@ h2: <strong>Firefox OS</strong> CSS animations
     <div id="calls-app-reject">
       <section class="transition">
         <article id="example-call-8" class="phone-frame">
-
+          <div class="play yellow">
+            <span class="glow"></span>
+            <span class="shape"></span>
+          </div>
+          <section class="full frame dark">
+            <div class="statusbar"></div>
+            <div class="apps-container">
+              <div id="example-call-8-1" class="app">
+                <div class="overlay"></div>
+                <img src="../images/transitions/email.png" alt="email">
+              </div>
+              <div id="example-call-8-2" class="app">
+                <img src="../images/transitions/call_name.png" alt="call_name" class="top">
+                <img src="../images/transitions/call_answer.png" alt="call_answer" class="bottom">
+                <div class="photo">
+                  <div class="overlay"></div>
+                    <img src="../images/transitions/photo.png" alt="photo">
+                </div>
+              </div>
+            </div>
+          </section>
         </article>
       </section>
     </div>

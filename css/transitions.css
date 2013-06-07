@@ -470,11 +470,13 @@
 }
 
 .phone-frame header h1 {
-  font: 25px/48px "MozTT", Sans-serif;
+  font: 25px/48px "FeuraSans", Sans-serif;
   color: #fff;
-  font-weight: 300;
+  font-weight: normal;
   margin: 0 0 0 30px;
   position: absolute;
+  text-shadow: none;
+  letter-spacing: 0;
 }
 
 #example-deeper .play { left: 193px; top: 307px; }

@@ -8,6 +8,8 @@ h2: <strong>Firefox OS</strong> CSS animations
 
 ## App invokes app
 
+(SYSTEM TRANSITION)
+
 <section class="transition">
   <article id="example-invoke" class="phone-frame">
     <section class="full frame dark">
@@ -29,6 +31,31 @@ h2: <strong>Firefox OS</strong> CSS animations
     </section>
   </article>
   <label>CSS Animations:</label>
-  {% highlight html linenos=table %}
-  {% endhighlight %}
+  {% highlight css linenos=table %}
+/* Invoking app moves out */
+animation: invokingApp 0.6s forwards ease-out;
+@keyframes invokingApp {
+  0%   { transform: scale(1.0); }
+  50%  { transform: scale(0.8) translateX(0);    z-index: 12; }
+  100% { transform: scale(0.6) translateX(105%); z-index: 10; }
+}
+/* Invoking app fades out */
+animation: showOverlay 0.3s forwards ease-out 0.3s;
+@keyframes showOverlay {
+  0%   { background: rgba(0,0,0,0); }
+  100% { background: rgba(0,0,0,0.7); }
+}
+/* Invoked app moves in */
+animation: invokedApp 0.6s forwards ease-out;
+@keyframes invokedApp {
+  0%   { transform: scale(0.6) translateX(-133%); }
+  50%  { transform: scale(0.6) translateX(-105%); z-index: 10; }
+  100% { transform: scale(1.0) translateX(0);     z-index: 12; }
+}
+/* Invoked app overlay fades in */
+animation: hideOverlay 0.3s forwards ease-in 0.3s;
+@keyframes hideOverlay {
+  0%   { background: rgba(0,0,0,0.7); }
+  100% { background: rgba(0,0,0,0); }
+}{% endhighlight %}
 </section>
