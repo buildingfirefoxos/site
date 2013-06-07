@@ -61,8 +61,8 @@ main-menu:
           </nav>        
         </header>
         
-        <!--hgroup id="main-feature" class="huge{% if page.root == "root" %} center{% endif %}"-->
-        <hgroup id="main-feature" class="huge center">
+        <hgroup id="main-feature" class="huge{% if page.root == "root" %} center{% endif %}">
+          {% include downloads.html %}
           <h1>{{page.h1}}</h1>
           <h2>{{page.h2}}</h2>
         </hgroup>
