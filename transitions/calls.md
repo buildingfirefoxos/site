@@ -41,11 +41,9 @@ h2: <strong>Firefox OS</strong> CSS animations
                 <div class="overlay"></div>
                   <img src="../images/transitions/photo.png" alt="photo">
               </div>
+            </div>
           </section>
         </article>
-        <label>CSS Animations:</label>
-        {% highlight html linenos=table %}
-        {% endhighlight %}
       </section>
     </div>
 
@@ -72,9 +70,6 @@ h2: <strong>Firefox OS</strong> CSS animations
             </div>
           </section>
         </article>
-        <label>CSS Animations:</label>
-        {% highlight html linenos=table %}
-        {% endhighlight %}
       </section>
     </div>
   </div>
@@ -111,14 +106,34 @@ h2: <strong>Firefox OS</strong> CSS animations
                 </div>
               </div>
             </div>
-        </section>
-      </div>
+          </section>
+        </article>
+      </section>
     </div>
 
-    <div id="calls-home-make">
+    <div id="calls-home-finish">
       <section class="transition">
         <article id="example-call-4" class="phone-frame">
-
+          <div class="play yellow">
+            <span class="glow"></span>
+            <span class="shape"></span>
+          </div>
+          <section class="full frame dark">
+            <div class="statusbar"></div>
+            <div class="apps-container">
+              <div id="example-call-4-1" class="app">
+                <img src="../images/transitions/home_icons.png" alt="home_icons" class="icons">
+                <img src="../images/transitions/home.png" alt="home">
+              </div>
+              <div id="example-call-4-2" class="app">
+                <img src="../images/transitions/call_name.png" alt="call_name" class="top">
+                <img src="../images/transitions/duration.png" alt="duration" class="text">
+                <img src="../images/transitions/call_pad.png" alt="call_pad" class="bottom">
+                <div class="overlay"></div>
+                <img src="../images/transitions/photo.png" alt="photo">
+              </div>
+            </div>
+          </section>
         </article>
       </section>
     </div>
@@ -126,7 +141,25 @@ h2: <strong>Firefox OS</strong> CSS animations
     <div id="calls-home-reject">
       <section class="transition">
         <article id="example-call-5" class="phone-frame">
-
+          <div class="play yellow">
+            <span class="glow"></span>
+            <span class="shape"></span>
+          </div>
+          <section class="full frame dark">
+            <div class="statusbar"></div>
+            <div class="apps-container">
+              <div id="example-call-5-1" class="app">
+                <img src="../images/transitions/home_icons.png" alt="home_icons" class="icons">
+                <img src="../images/transitions/home.png" alt="home">
+              </div>
+              <div id="example-call-5-2" class="app">
+                <img src="../images/transitions/call_name.png" alt="call_name" class="top">
+                <img src="../images/transitions/call_answer.png" alt="call_answer" class="bottom">
+                <div class="overlay"></div>
+                <img src="../images/transitions/photo.png" alt="photo">
+              </div>
+            </div>
+          </section>
         </article>
       </section>
     </div>
@@ -147,7 +180,7 @@ h2: <strong>Firefox OS</strong> CSS animations
       </section>
     </div>
 
-    <div id="calls-app-make">
+    <div id="calls-app-finish">
       <section class="transition">
         <article id="example-call-7" class="phone-frame">
 

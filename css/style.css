@@ -630,7 +630,7 @@ section.example .full.frame {
 #colophon {
   background: #242424 url(../images/footer-bk.png) repeat-x;
   color: #fff;
-  padding: 0;
+  padding: 0 0 20px 0;
   font-size: 14px;
   line-height: 24px;
   margin: 10px 0 0 0;
@@ -660,6 +660,7 @@ section.example .full.frame {
   color: #a6a6a6;
   text-transform: uppercase;
   text-shadow: none;
+  margin-bottom: 20px;
 }
 
 #colophon ul {
@@ -680,7 +681,6 @@ section.example .full.frame {
 #colophon .col.twitter h3 {
   background: url(../images/footer-twitter.png) 0 center no-repeat;
   text-indent: 37px;
-  margin-bottom: 20px;
 }
 
 #colophon .col.links h3 {
