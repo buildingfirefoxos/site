@@ -175,7 +175,7 @@ body.Home .content-section > ul li a:hover p {
 
 /* Header Downloads */
 #header-downloads {
-  background: #fff url(../images/download.png) no-repeat 205px 20px;
+  background: #fff url(../images/download.png) no-repeat 196px 20px;
   -moz-box-shadow: 2px 3px 2px rgba(0,0,0,.1);
   -webkit-box-shadow: 2px 3px 2px rgba(0,0,0,.1);
   box-shadow: 2px 3px 2px rgba(0,0,0,.1);
@@ -197,7 +197,7 @@ body.Home .content-section > ul li a:hover p {
   height: 43px;
   width: 76px;
   right: 20px;
-  top: 63px;
+  top: 65px;
   transition: background 1s ease;
   -webkit-transition: background 1s ease;
 }
@@ -378,7 +378,6 @@ aside.left-side + section.billboard {
   background: #67a7d0;
   color: #fff;
   font-size: 16px;
-  font-weight: bold;
   padding: 2px 30px 4px 12px;
   position: relative;
   cursor: pointer;

@@ -11,7 +11,7 @@ function tooltip(el,text) {
 
 $(function() {
   //Tweet plugin
-  /*$(".tweet").tweet({
+  $(".tweet").tweet({
     join_text: "auto",
     username: "openwebdevice",
     //avatar_size: 48,
@@ -22,7 +22,7 @@ $(function() {
     auto_join_text_reply: "",
     auto_join_text_url: "",
     loading_text: "loading tweets..."
-  });*/
+  });
 
   //See More
   $('.billboard > blockquote').each(function() {
