@@ -4,6 +4,7 @@ title: Buttons
 section: building-blocks
 h1: Building Blocks
 h2: <strong>Firefox OS</strong> UI component's markup
+scroll: top
 ---
 
 ## Buttons
@@ -15,55 +16,53 @@ Performs an action when tapped by the user. These are highly flexible user inter
 > * Buttons have two states: normal and pressed.
 > * Buttons can also be disabled, which means they can't be activated by the user, and are displayed dimmed to indicate that they're disabled.
 
-<div class="tabs">
-  <ul>
-    <li><a href="#buttons-default">Default</a></li>
-    <li><a href="#buttons-disabled">Disabled buttons</a></li>
-    <li><a href="#buttons-list">Button list</a></li>
-  </ul>
+### Default
+Used when there are only a few actions and a list isn't needed. The main action button uses a special highlight color to indicate that it's the primary option.
 
-  <div id="buttons-default">
-    <p>Used when there are only a few actions and a list isn't needed. The main action button uses a special highlight color to indicate that it's the primary option.</p>
-    <section class="example">
-      <img src="../images/BB/buttons_1.jpg" alt="Buttons (Image replacing code)"/>
-      <article class="frame">
-        <button>Default</button>
-        <a class="recommend" role="button" href="#">Recommend</a>
-        <button class="danger">Danger</button>
-      </article>
-    </section>
+<div>
+  <label>Example:</label>
+  <section class="example">
+    <img src="../images/BB/buttons_1.jpg" alt="Buttons (Image replacing code)"/>
+    <article class="frame">
+      <button>Default</button>
+      <a class="recommend" role="button" href="#">Recommend</a>
+      <button class="danger">Danger</button>
+    </article>
+  </section>
 
-    <label>Css shared link:</label>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
+  <label>Css shared link:</label>
+  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
+  
+  <label>HTML code:</label>
+  {% highlight html linenos=table %}<button>Default</button>
+  <a class="recommend" role="button" href="#">Recommend</a>
+  <button class="danger">Danger</button>{% endhighlight %}
+</div>
 
-    <label>HTML code:</label>
-    {% highlight html linenos=table %}<button>Default</button>
-<a class="recommend" role="button" href="#">Recommend</a>
-<button class="danger">Danger</button>{% endhighlight %}
-  </div>
+### Disabled buttons
+<div>
+  <label>Example</label>
+  <section class="example">
+    <img src="../images/BB/buttons_2.png" alt="Buttons (Image replacing code)"/>
+    <article class="frame">
+      <div>
+        <button disabled="disabled">Default</button>
+        <a class="recommend" role="button" aria-disabled="true" href="#">Recommend</a>
+        <button class="danger" disabled="disabled">Danger</button>
+      </div>
+      <div class="dark"><!-- disabled buttons over dark background -->
+        <button disabled="disabled">Default</button>
+        <button class="recommend" disabled="disabled">Recommend</button>
+        <button class="danger" disabled="disabled">Danger</button>
+      </div>
+    </article>
+  </section>
 
-  <div id="buttons-disabled">
-    <section class="example">
-      <img src="../images/BB/buttons_2.png" alt="Buttons (Image replacing code)"/>
-      <article class="frame">
-        <div>
-          <button disabled="disabled">Default</button>
-          <a class="recommend" role="button" aria-disabled="true" href="#">Recommend</a>
-          <button class="danger" disabled="disabled">Danger</button>
-        </div>
-        <div class="dark"><!-- disabled buttons over dark background -->
-          <button disabled="disabled">Default</button>
-          <button class="recommend" disabled="disabled">Recommend</button>
-          <button class="danger" disabled="disabled">Danger</button>
-        </div>
-      </article>
-    </section>
-
-    <label>Css shared link:</label>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
-
-    <label>HTML code:</label>
-    {% highlight html linenos=table %}<div>
+  <label>Css shared link:</label>
+  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
+  
+  <label>HTML code:</label>
+  {% highlight html linenos=table %}<div>
   <button disabled="disabled">Default</button>
   <a class="recommend" role="button" aria-disabled="true" href="#">Recommend</a>
   <button class="danger" disabled="disabled">Danger</button>
@@ -73,32 +72,35 @@ Performs an action when tapped by the user. These are highly flexible user inter
   <button class="recommend" disabled="disabled">Recommend</button>
   <button class="danger" disabled="disabled">Danger</button>
 </div>{% endhighlight %}
-  </div>
+</div>
 
-  <div id="buttons-list">
-    <p>Used when displaying a list of actions, or to trigger the display of a value selector.</p>
-    <section class="example">
-      <img src="../images/BB/buttons_3.png" alt="Buttons (Image replacing code)"/>
-      <article class="frame">
-        <ul>
-          <li>
-            <button>Default</button>
-          </li>
-          <li>
-            <button disabled="disabled">Disabled</button>
-          </li>
-          <li><button>Action 1</button></li>
-          <li><button class="icon icon-view">View Name</button></li>
-          <li><button class="icon icon-dialog">Tuesday September 18, 2012</button></li>
-        </ul>
-      </article>
-    </section>
+### Button list
+Used when displaying a list of actions, or to trigger the display of a value selector.
 
-    <label>Css shared link:</label>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
+<div>
+  <label>Example</label>
+  <section class="example">
+    <img src="../images/BB/buttons_3.png" alt="Buttons (Image replacing code)"/>
+    <article class="frame">
+      <ul>
+        <li>
+          <button>Default</button>
+        </li>
+        <li>
+          <button disabled="disabled">Disabled</button>
+        </li>
+        <li><button>Action 1</button></li>
+        <li><button class="icon icon-view">View Name</button></li>
+        <li><button class="icon icon-dialog">Tuesday September 18, 2012</button></li>
+      </ul>
+    </article>
+  </section>
 
-    <label>HTML code:</label>
-    {% highlight html linenos=table %}<ul>
+  <label>Css shared link:</label>
+  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
+
+  <label>HTML code:</label>
+  {% highlight html linenos=table %}<ul>
   <li>
     <button>Default</button>
   </li>
@@ -109,6 +111,5 @@ Performs an action when tapped by the user. These are highly flexible user inter
   <li><button class="icon icon-view">View Name</button></li>
   <li><button class="icon icon-dialog">Tuesday September 18, 2012</button></li>
 </ul>{% endhighlight %}
-  </div>
 </div>
 

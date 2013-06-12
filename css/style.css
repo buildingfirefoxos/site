@@ -36,6 +36,16 @@ html { font-size: 62.5%; }
   margin-right: 0;
 }
 
+.content-section > h3 {
+  padding-top: 30px;
+  border-top: 1px dotted #b5b5b5;
+}
+
+.content-section > h3:first-of-type {
+  padding-top: 20px;
+  border-top: none;
+}
+
 /* Home */
 body.Home #wrapper {
   padding-bottom: 0;
@@ -318,7 +328,7 @@ aside.left-side + section.billboard {
   text-decoration: underline;
 }
 
-.icon-more {
+/*.icon-more {
   display: block;
   position: relative;
   padding: 0 0 20px 25px;
@@ -352,6 +362,35 @@ aside.left-side + section.billboard {
 .icon-more.less:before {
   content: "–";
   line-height: 16px;
+}*/
+
+.scroll-top {
+  text-align: center;
+}
+
+.scroll-top span {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #67a7d0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 2px 30px 4px 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.scroll-top span:before {
+  background: url(../images/scroll_top.png) no-repeat right 6px;
+  height: 100%;
+  left: 0;
+  right: 12px;
+  position: absolute;
+  content: "";
 }
 
 /* Examples */

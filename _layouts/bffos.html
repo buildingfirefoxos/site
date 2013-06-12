@@ -90,6 +90,10 @@ main-menu:
 
           <section class="content-section billboard">
             {{content}}
+
+            {% if page.scroll == "top" %}
+              <div class="scroll-top"><span>Back to top</span></div>
+            {% endif %}
           </section>
         </section>
 
