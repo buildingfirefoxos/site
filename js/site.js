@@ -26,12 +26,14 @@ $(function() {
 
   //See More
   $('.billboard > blockquote').each(function() {
-    $(this).after('<span class="icon-more">See more</span>');
+    $(this).prev().append('<span class="read-more">Read more</span>');
+    // $(this).after('<span class="icon-more">See more</span>');
   });
   
-  $('.icon-more').click(function() { 
-    $(this).siblings('blockquote').slideToggle(); 
-    $(this).toggleClass('less'); 
+  $('.read-more').click(function() { 
+    $(this).parent().siblings('blockquote').slideToggle(); 
+    // $(this).toggleClass('less'); 
+    $(this).hide(); 
   });
 
   //Detect Nightly browser

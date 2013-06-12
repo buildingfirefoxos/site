@@ -16,8 +16,8 @@ html { font-size: 62.5%; }
 }
 
 #main-feature h1 {
-  font-size: 94px; 
-  margin-bottom: 15px;
+  font-size: 84px; 
+  margin-bottom: 20px;
   margin-right: 360px;
 }
 
@@ -115,8 +115,14 @@ body.Home .content-section > ul li#building-blocks a:hover figure {
   background-image: url(../images/building_blocks_icon_hover.png);
 }
 
+body.Home:after { /* Preload images */
+  background: url(../images/building_blocks_icon_hover.png),
+              url(../images/common_controls_icon_hover.png),
+              url(../images/transitions_icon_hover.png);
+}
+
 body.Home .content-section > ul li#common-controls figure {
-  background: url(../images/common_controls_icon.png) 121px 74px no-repeat;
+  background: url(../images/common_controls_icon.png) 121px 69px no-repeat;
 }
 
 body.Home .content-section > ul li#common-controls a:hover figure {
@@ -305,6 +311,13 @@ aside.left-side + section.billboard {
   display: none;
 }
 
+.read-more {
+  color: #67a7d0;
+  margin-left: 6px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .icon-more {
   display: block;
   position: relative;
@@ -342,12 +355,19 @@ aside.left-side + section.billboard {
 }
 
 /* Examples */
+section.example {
+  padding: 20px;
+  border: 1px solid #e1e1e8;
+  background-color: #f7f7f9;
+  margin-bottom: 20px;
+}
+
 section.example > img {
   display: none;
 }
 
 .not-nightly section.example > img {
-  margin-bottom: 30px;
+  margin: 0 auto;
   display: block;
 }
 
@@ -356,7 +376,7 @@ section.example .frame {
   overflow: hidden;
   position: relative;
   width: 320px;
-  margin-bottom: 30px;
+  margin: 0 auto;
 }
 
 .not-nightly section.example .frame {
