@@ -174,7 +174,7 @@ body.Home .content-section > ul li a:hover p {
 }
 
 /* Header Downloads */
-#header-downloads {
+.header-downloads {
   background: #fff url(../images/download.png) no-repeat 196px 20px;
   -moz-box-shadow: 2px 3px 2px rgba(0,0,0,.1);
   -webkit-box-shadow: 2px 3px 2px rgba(0,0,0,.1);
@@ -186,14 +186,14 @@ body.Home .content-section > ul li a:hover p {
   margin-top: 5px;
 }
 
-#header-downloads:hover {
+.header-downloads:hover {
   text-decoration: none;
 }
 
-#header-downloads.zip:before {
+.header-downloads:before {
   position: absolute;
   content: "";
-  background: url(../images/download_zip.png) no-repeat;
+  background: transparent no-repeat;
   height: 43px;
   width: 76px;
   right: 20px;
@@ -202,11 +202,34 @@ body.Home .content-section > ul li a:hover p {
   -webkit-transition: background 1s ease;
 }
 
-#header-downloads.zip:hover:before {
+.header-downloads.zip:before {
+  background-image: url(../images/download_zip.png);
+}
+
+.header-downloads.zip:after,
+.header-downloads.zip:hover:before {
   background-image: url(../images/download_zip_hover.png);
 }
 
-#header-downloads p {
+.header-downloads.css:before {
+  background-image: url(../images/download_css.png);
+}
+
+.header-downloads.css:after,
+.header-downloads.css:hover:before {
+  background-image: url(../images/download_css_hover.png);
+}
+
+.header-downloads.psd:before {
+  background-image: url(../images/download_psd.png);
+}
+
+.header-downloads.psd:after,
+.header-downloads.psd:hover:before {
+  background-image: url(../images/download_psd_hover.png);
+}
+
+.header-downloads p {
   font-size: 34px;
   color: #a4a4a5;
   width: 210px;
@@ -219,11 +242,11 @@ body.Home .content-section > ul li a:hover p {
   -webkit-transition: color 1s ease;
 }
 
-#header-downloads:hover p {
+.header-downloads:hover p {
   color: #67a7d0;
 }
 
-#header-downloads p span {
+.header-downloads p span {
   color: #fff;
   background: #a4a4a5;
   font-size:  18px;
@@ -236,7 +259,7 @@ body.Home .content-section > ul li a:hover p {
   -webkit-transition: background 1s ease;
 }
 
-#header-downloads:hover p span {
+.header-downloads:hover p span {
   background: #67a7d0;
 }
 
