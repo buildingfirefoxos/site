@@ -56,6 +56,7 @@ body.Home .menu-bar {
   border: none;
   box-shadow: none;
   margin-bottom: 0;
+  padding: 0 10px;
 }
 
 body.Home .content-section {
@@ -846,7 +847,6 @@ section.example .full.frame {
 }
 
 #colophon .col:first-child {
-  width: 320px;
   margin-left: 0;
 }
 
@@ -952,6 +952,32 @@ section.example .full.frame {
 /* -------------------------------- MEDIA QUERIES ----------------------------------- */
 
 @media only screen and (max-width: 1000px) and (min-width: 760px) {
+  #main-feature {
+    margin: 0;
+    width: 100%;
+  }  
+
+  #main-feature h1 {
+    font-size: 54px;
+  }
+
+  #main-feature.center h1 {
+    font-size: 93px;
+  }
+
+  #main-feature h2,
+  .content-section h2 {
+    font-size: 35px;
+  }
+
+  .content-section {
+    width: 420px; 
+  }
+
+  .content-section h3 {
+    font-size: 24px;
+  }
+
   body.Home .content-section {
     margin: 15px 0;
     width: 100%;
@@ -975,17 +1001,37 @@ section.example .full.frame {
   body.Home .content-section > ul li p {
     padding-right: 40px;
   }
+
+  #colophon .row {
+    width: 760px;
+  }
+
+  #colophon .col {
+    width: 240px;
+  }
 }
 
 @media only screen and (max-width: 760px) {
   #main-feature h1 {
-    font-size: 38px;
+    font-size: 54px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  #main-feature.center h1 {
+    font-size: 93px;
   }
 
   #main-feature h2 {
-    font-size: 16px;
+    font-size: 35px;
+    margin-right: 0;
     width: auto;
     letter-spacing: normal;
+    text-align: center;
+  }
+
+  .header-downloads {
+    display: none;
   }
 
   aside.left-side {
@@ -1016,5 +1062,42 @@ section.example .full.frame {
   aside.left-side + section.billboard {
     margin-left: 0;
     width: auto;
+  }
+
+  #colophon .row {
+    width: 100%;
+  }
+
+  #colophon .col {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+
+  #colophon .col h3 {
+    background-color: #0a0a0a !important;
+    background-position: 20px center !important;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  #colophon .col > ul,
+  #colophon .col > .tweet {
+    width: auto;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #main-feature {
+    padding: 15px 0;
+  }
+
+  #main-feature.center h1 {
+    font-size: 54px;
+  }
+
+  #main-feature h2 {
+    display: none;
   }
 }

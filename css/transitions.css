@@ -10,7 +10,7 @@
 
 .phone-frame {
   position: relative;
-  left: -19px;
+  left: 133px;
   width: 380px;
   height: 640px;
   background: url(../images/transitions/phone_frame.png) no-repeat;
@@ -1177,5 +1177,20 @@
 .animate-2 #fuctionality {
   transform: translateY(100%);
   -webkit-transform: translateY(100%);
+}
+
+
+/* -------------------------------- MEDIA QUERIES ----------------------------------- */
+
+@media only screen and (max-width: 1000px) and (min-width: 480px) {
+  .phone-frame {
+    left: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .phone-frame {
+    left: -45px;
+  }
 }
 
