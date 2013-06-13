@@ -57,13 +57,14 @@ main-menu:
           </nav>        
         </header>
         
-        <hgroup id="main-feature" class="huge{% if page.root == "root" %} center{% endif %}">
+        <hgroup id="main-feature" class="huge">
           {% if page.title == "Home" %}
-            <h1>Building Firefox OS</h1>
+            <h1>Building <strong>Firefox OS</strong></h1>
+            <h2>{{page.h2}}</h2>
           {% else %}
-            <h1><a href="/">Building Firefox OS</a></h1>
+            <h1><a href="/">Building <strong>Firefox OS</strong></a></h1>
+            <h2><a href="/{{page.section}}">{{page.h2}}</a></h2>
           {% endif %}
-          <h2>{{page.h2}}</h2>
         </hgroup>
 
         <section class="dboh">
