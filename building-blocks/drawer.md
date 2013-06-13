@@ -2,14 +2,14 @@
 layout: bffos
 title: Drawer
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
 ## Drawer
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/drawer.jpg" alt="Drawer (Image replacing code)"/>
     <article class="full frame">
@@ -47,10 +47,10 @@ scroll: top
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/drawer.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <section data-type="sidebar">
   <header>

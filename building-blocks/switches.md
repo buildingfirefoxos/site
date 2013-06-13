@@ -2,8 +2,7 @@
 layout: bffos
 title: Switches
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -14,6 +13,7 @@ Activates/Deactivates a given item. It’s also used to select an element within
 ### Checkboxes
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/switches_1.jpg" alt="Switches (Image replacing code)"/>
     <article class="frame">
@@ -36,10 +36,10 @@ Activates/Deactivates a given item. It’s also used to select an element within
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/switches.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <label>
   <input type="checkbox" checked="">
@@ -59,9 +59,12 @@ Activates/Deactivates a given item. It’s also used to select an element within
 </label>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Radio buttons
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/switches_2.jpg" alt="Switches (Image replacing code)"/>
     <article class="frame">
@@ -84,10 +87,10 @@ Activates/Deactivates a given item. It’s also used to select an element within
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/switches.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <label>
   <input type="radio" name="example" checked="">
@@ -107,9 +110,12 @@ Activates/Deactivates a given item. It’s also used to select an element within
 </label>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Switches
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/switches_3.jpg" alt="Switches (Image replacing code)"/>
     <article class="switch frame">
@@ -124,10 +130,10 @@ Activates/Deactivates a given item. It’s also used to select an element within
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/switches.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <label>
   <input type="checkbox" data-type="switch" checked="">

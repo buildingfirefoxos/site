@@ -2,8 +2,7 @@
 layout: bffos
 title: Edit mode
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -12,6 +11,7 @@ scroll: top
 State of an app where content becomes editable by the user (eg: deleting messages).
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/edit_mode.jpg" alt="Edit mode (Image replacing code)"/>
     <article class="edit-mode frame">
@@ -33,10 +33,10 @@ State of an app where content becomes editable by the user (eg: deleting message
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/edit_mode.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<form role="dialog" data-type="edit">
     <section>
       <header>

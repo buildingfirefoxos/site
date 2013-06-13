@@ -2,8 +2,7 @@
 layout: bffos
 title: Value selectors
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -16,6 +15,7 @@ Provides a way for the user to select one of more values, usually from a Form in
 ### Single selector
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/value_1.jpg" alt="Value selectors (Image replacing code)"/>
     <article class="full frame">
@@ -52,9 +52,12 @@ Provides a way for the user to select one of more values, usually from a Form in
 </select>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Multiple selector
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/value_2.jpg" alt="Value selectors (Image replacing code)"/>
     <article class="full frame">
@@ -141,9 +144,12 @@ Provides a way for the user to select one of more values, usually from a Form in
 </select>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Time selector
 
 <div id="value-time">
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/time.jpg" alt="Value selectors (Image replacing code)"/>
     <article class="full frame">

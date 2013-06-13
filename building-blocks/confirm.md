@@ -2,8 +2,7 @@
 layout: bffos
 title: Confirm
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -20,6 +19,7 @@ A confirmation prompt asks the user to take or confirm an action, such as respon
 ### Default
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/confirm_1.jpg" alt="Confirm (Image replacing code)"/>
     <article class="full frame">
@@ -36,10 +36,10 @@ A confirmation prompt asks the user to take or confirm an action, such as respon
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/confirm.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<form role="dialog" data-type="confirm">
   <section>
     <h1>Confirmation</h1><!-- this heading is optional -->
@@ -52,9 +52,12 @@ A confirmation prompt asks the user to take or confirm an action, such as respon
 </form>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Confirm with content
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/confirm_2.jpg" alt="Confirm (Image replacing code)"/>
     <article class="full frame">
@@ -76,10 +79,10 @@ A confirmation prompt asks the user to take or confirm an action, such as respon
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/confirm.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<form role="dialog" data-type="confirm">
   <section>
     <h1>Confirmation</h1>

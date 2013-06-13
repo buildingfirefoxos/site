@@ -2,8 +2,7 @@
 layout: bffos
 title: Toolbars
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 ---
 
 ## Toolbars
@@ -11,6 +10,7 @@ h2: <strong>Firefox OS</strong> UI component's markup
 Contains actions, indicators, and navigation associated with the current view (eg: Delete selected items, Refresh content)
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/toolbars.jpg" alt="Toolbars (Image replacing code)"/>
     <article class="frame">
@@ -28,10 +28,10 @@ Contains actions, indicators, and navigation associated with the current view (e
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/toolbars.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <div role="toolbar">
   <ul>

@@ -2,8 +2,7 @@
 layout: bffos
 title: Seek bars
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -12,6 +11,7 @@ scroll: top
 Used for scrolling through content (i.e. a song or video).
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/seekbars.jpg" alt="Seek bars (Image replacing code)"/>
     <article class="seekbars frame">
@@ -46,10 +46,10 @@ Used for scrolling through content (i.e. a song or video).
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/seekbars.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<section role="region">
   <div role="slider" aria-valuemin="0" aria-valuenow="80" aria-valuemax="100" aria-valuetext="slider description">
     <div>

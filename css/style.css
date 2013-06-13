@@ -18,12 +18,10 @@ html { font-size: 62.5%; }
 #main-feature h1 {
   font-size: 84px; 
   margin-bottom: 20px;
-  margin-right: 360px;
 }
 
 #main-feature h2 {
   font-size: 42px;
-  margin-right: 360px;
 }
 
 #main-feature.center h1 {
@@ -36,6 +34,12 @@ html { font-size: 62.5%; }
   margin-right: 0;
 }
 
+#main-feature h1 a,
+#main-feature h2 a {
+  color: #484848;
+  text-decoration: none;
+}
+
 .content-section > h3 {
   padding-top: 30px;
   display: inline-block;
@@ -46,6 +50,19 @@ html { font-size: 62.5%; }
   border-top: none;
 }
 
+.content-section h4 {
+  background: #c3cfdb;
+  font-size: 16px;
+  padding: 5px 15px;
+  margin: 0;
+  text-shadow: none; 
+  font-weight: bold;
+}
+
+.content-section hr {
+  margin: 10px 0 0 0;
+  border-bottom: 1px dotted #b5b5b5;  
+}
 
 /* Home */
 body.Home #wrapper {

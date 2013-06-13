@@ -58,8 +58,11 @@ main-menu:
         </header>
         
         <hgroup id="main-feature" class="huge{% if page.root == "root" %} center{% endif %}">
-          {% include downloads.html %}
-          <h1><a href="/">Building Firefox OS</a></h1>
+          {% if page.title == "Home" %}
+            <h1>Building Firefox OS</h1>
+          {% else %}
+            <h1><a href="/">Building Firefox OS</a></h1>
+          {% endif %}
           <h2>{{page.h2}}</h2>
         </hgroup>
 

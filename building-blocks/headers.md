@@ -2,8 +2,7 @@
 layout: bffos
 title: Headers
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -14,6 +13,7 @@ Used for labeling the active view and providing top-level navigation and inputs 
 ### Default
   
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/headers_1.jpg" alt="Headers (Image replacing code)"/>
     <article class="headers frame">
@@ -60,10 +60,10 @@ Used for labeling the active view and providing top-level navigation and inputs 
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/headers.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<section role="region">
   <header>
     <menu type="toolbar">
@@ -106,9 +106,12 @@ Used for labeling the active view and providing top-level navigation and inputs 
 </section>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Skins: dark and organic
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/headers_2.jpg" alt="Headers (Image replacing code)"/>
     <article class="headers frame">
@@ -133,10 +136,10 @@ Used for labeling the active view and providing top-level navigation and inputs 
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/headers.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <section class="skin-dark" role="region">
   <header>

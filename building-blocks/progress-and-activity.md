@@ -2,8 +2,7 @@
 layout: bffos
 title: Progress and activity
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -24,7 +23,7 @@ Used for providing user with visual feedback that a process is active.
 </div>
 <ul class="dropdown-content">
   <li id="progress-spinner">
-    <label>Example</label>
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_1.jpg" alt="Progress (Image replacing code)"/>
       <article class="frame">
@@ -32,15 +31,15 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}<progress></progress>{% endhighlight %}
   </li>
 
   <li id="progress-activity">
-    <label>Example</label>
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_2.jpg" alt="Progress (Image replacing code)"/>
       <article class="frame">
@@ -48,16 +47,16 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}
 <progress class="pack-activity" value="80" max="100"></progress>{% endhighlight %}
   </li>
   
   <li id="progress-progress">
-    <label>Example</label>
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_3.jpg" alt="Progress (Image replacing code)"/>
       <article class="frame">
@@ -65,16 +64,16 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}
 <progress value="80" max="100"></progress>{% endhighlight %}
   </li>
 
   <li id="progress-progress-activity">
-    <label>Example</label>
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_4.jpg" alt="Progress (Image replacing code)"/>
       <article class="frame">
@@ -82,10 +81,10 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}
 <progress class="pack-activity" value="80" max="100"></progress>{% endhighlight %}
   </li>
@@ -103,6 +102,7 @@ Used for providing user with visual feedback that a process is active.
 </div>
 <ul class="dropdown-content">
   <li id="progress-modal-spinner">
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_5.jpg" alt="Progress (Image replacing code)"/>
       <article class="full frame">
@@ -117,10 +117,10 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}
 <form role="dialog" data-type="confirm">
   <section>
@@ -133,6 +133,7 @@ Used for providing user with visual feedback that a process is active.
   </li>
 
   <li id="progress-modal-progress">
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_6.jpg" alt="Progress (Image replacing code)"/>
       <article class="full frame">
@@ -147,10 +148,10 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}
 <form role="dialog" data-type="confirm">
   <section>
@@ -163,6 +164,7 @@ Used for providing user with visual feedback that a process is active.
   </li>
   
   <li id="progress-modal-activity">
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_7.png" alt="Progress (Image replacing code)"/>
       <article class="full frame">
@@ -179,10 +181,10 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}
 <form role="dialog" data-type="confirm">
   <section>
@@ -208,6 +210,7 @@ Used for providing user with visual feedback that a process is active.
 </div>
 <ul class="dropdown-content">
   <li id="progress-header">
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_8.jpg" alt="Progress (Image replacing code)"/>
       <article class="frame">
@@ -233,10 +236,10 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}
 <section role="region">
   <header>
@@ -260,6 +263,7 @@ Used for providing user with visual feedback that a process is active.
   </li>
 
   <li id="progress-header-activity">
+    <h4>Example</h4>
     <section class="example">
       <img src="../images/BB/progress_9.jpg" alt="Progress (Image replacing code)"/>
       <article class="frame">
@@ -268,10 +272,10 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <label>Css shared link:</label>
+    <h4>Css shared link</h4>
     {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
 
-    <label>HTML code:</label>
+    <h4>HTML code</h4>
     {% highlight html linenos=table %}
 <div id="browser-header">browser header</div>
 <progress class="pack-activity light" value="0" max="100"></progress>{% endhighlight %}

@@ -2,8 +2,7 @@
 layout: bffos
 title: Scrolling
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -12,6 +11,7 @@ scroll: top
 Used for vertically slide text, images and/or video across the device's display.
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/scrolling.jpg" alt="Scrolling (Image replacing code)"/>
     <article class="full frame">
@@ -54,10 +54,10 @@ Used for vertically slide text, images and/or video across the device's display.
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/scrolling.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <section role="region" id="main">
   <nav data-type="scrollbar">

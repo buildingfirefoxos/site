@@ -2,8 +2,7 @@
 layout: bffos
 title: Buttons
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -19,8 +18,8 @@ Performs an action when tapped by the user. These are highly flexible user inter
 ### Default
 Used when there are only a few actions and a list isn't needed. The main action button uses a special highlight color to indicate that it's the primary option.
 
-<div>
-  <label>Example:</label>
+<div class="grouped-content">
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/buttons_1.jpg" alt="Buttons (Image replacing code)"/>
     <article class="frame">
@@ -30,18 +29,21 @@ Used when there are only a few actions and a list isn't needed. The main action 
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
   
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<button>Default</button>
   <a class="recommend" role="button" href="#">Recommend</a>
   <button class="danger">Danger</button>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Disabled buttons
+
 <div>
-  <label>Example</label>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/buttons_2.png" alt="Buttons (Image replacing code)"/>
     <article class="frame">
@@ -58,10 +60,10 @@ Used when there are only a few actions and a list isn't needed. The main action 
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
   
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<div>
   <button disabled="disabled">Default</button>
   <a class="recommend" role="button" aria-disabled="true" href="#">Recommend</a>
@@ -74,11 +76,13 @@ Used when there are only a few actions and a list isn't needed. The main action 
 </div>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Button list
 Used when displaying a list of actions, or to trigger the display of a value selector.
 
 <div>
-  <label>Example</label>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/buttons_3.png" alt="Buttons (Image replacing code)"/>
     <article class="frame">
@@ -96,10 +100,10 @@ Used when displaying a list of actions, or to trigger the display of a value sel
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<ul>
   <li>
     <button>Default</button>

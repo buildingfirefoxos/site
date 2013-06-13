@@ -2,8 +2,7 @@
 layout: bffos
 title: Action Menu
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -21,6 +20,7 @@ An action menu presents a list of actions, related to the app's content, from wh
 >   * Tapping the "Cancel" button.
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/action_menu.jpg" alt="Action menu (Image replacing code)"/>
     <article class="full frame">
@@ -36,11 +36,11 @@ An action menu presents a list of actions, related to the app's content, from wh
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/action_menu.css">{% endhighlight %}
 
-  <label>HTML code:</label>
-  {% highlight html linenos=table %}<form role="dialog" onsubmit="return false;" data-type="action">
+  <h4>HTML code</h4>
+  {% highlight html linenos=table %}<form role="dialog" onsubmit="labelreturn false;" data-type="action">
   <header>Title</header>
   <menu>
     <button>Action 1</button>

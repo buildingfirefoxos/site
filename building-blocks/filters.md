@@ -2,8 +2,7 @@
 layout: bffos
 title: Filters
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -21,6 +20,7 @@ Filters can be used for two purposes: data filtering, in which the user can view
 > * A given set of filters may be labeled with either text or icons, but not both. Because filters’ heights are relatively small compared to tabs, text is typically the best practice.
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/filters1.png" alt="Filters (Image replacing code)"/>
     <article class="frame">
@@ -45,7 +45,7 @@ Filters can be used for two purposes: data filtering, in which the user can view
   <label>Css shared link: (Both Tabs and Filters are in tabs.css)</label>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/tabs.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}<ul role="tablist" data-type="filter" data-items="2">
   <li id="filter1-1" role="tab"><a href="#filter1-1">Action 01</a></li>
   <li id="filter1-2" role="tab"><a href="#filter1-2">Action 02</a></li>

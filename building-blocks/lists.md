@@ -2,8 +2,7 @@
 layout: bffos
 title: Lists
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -14,6 +13,7 @@ Used for displaying an enumeration of a set of items.
 ### Default
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/lists_1.png" alt="Lists (Image replacing code)"/>
     <article class="frame">
@@ -69,10 +69,10 @@ Used for displaying an enumeration of a set of items.
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/lists.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <section data-type="list">
   <header>Title</header>
@@ -125,9 +125,12 @@ Used for displaying an enumeration of a set of items.
 </section>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Edit mode
 
-<div id="lists-edit-mode">
+<div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/lists_2.png" alt="Lists (Image replacing code)"/>
     <article class="frame">
@@ -168,10 +171,10 @@ Used for displaying an enumeration of a set of items.
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/lists.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <section data-type="list">
   <ul data-type="edit">

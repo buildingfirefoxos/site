@@ -2,8 +2,7 @@
 layout: bffos
 title: Input areas
 section: building-blocks
-h1: Building Blocks
-h2: <strong>Firefox OS</strong> UI component's markup
+h2: <strong>Building Blocks:</strong> markup & examples
 scroll: top
 ---
 
@@ -14,6 +13,7 @@ Activates/Deactivates a given item. It’s also used to select an element within
 ### Default
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/input_1.png" alt="Input areas (Image replacing code)"/>
     <article class="frame">
@@ -33,10 +33,10 @@ Activates/Deactivates a given item. It’s also used to select an element within
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/input_areas.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <form>
   <p>
@@ -53,9 +53,12 @@ Activates/Deactivates a given item. It’s also used to select an element within
 </form>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Fieldset
 
-<div id="input-fielset">
+<div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/input_2.png" alt="Input areas (Image replacing code)"/>
     <article class="frame">
@@ -86,10 +89,10 @@ Activates/Deactivates a given item. It’s also used to select an element within
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/input_areas.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <form>
   <fieldset>
@@ -117,9 +120,12 @@ Activates/Deactivates a given item. It’s also used to select an element within
 </form>{% endhighlight %}
 </div>
 
+<hr>
+
 ### Forms
 
 <div>
+  <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/input_3.png" alt="Input areas (Image replacing code)"/>
     <article class="input frame">
@@ -162,10 +168,10 @@ Activates/Deactivates a given item. It’s also used to select an element within
     </article>
   </section>
 
-  <label>Css shared link:</label>
+  <h4>Css shared link</h4>
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/input_areas.css">{% endhighlight %}
 
-  <label>HTML code:</label>
+  <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <!-- form used at the top of the page with fixed/absolute position and content scrolls underneath -->
 <form role="search">
