@@ -4,15 +4,12 @@ main-menu:
   url: index.html
 - text: Building Blocks
   url: building-blocks
-- text: Common Controls
-  url: common-controls
 - text: Transitions
   url: transitions
+- text: Downloads
+  url: downloads.html
 ---
 
-{% if page.root != "root" %}
-  {% assign root = "../" %}
-{% endif %}
 {% assign section = {{page.section}} %}
 
 <!DOCTYPE html>
@@ -32,9 +29,9 @@ main-menu:
 
     <link rel="stylesheet" media="screen,projection,tv" href="https://mozorg.cdn.mozilla.net/media/css/sandstone_guide-min.css?build=128c8fb">
     
-    <link rel="stylesheet" media="screen,projection,tv" href="{{root}}css/highlight.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="/css/highlight.css">
     {% include additional_links.html %}
-    <link rel="stylesheet" media="screen,projection,tv" href="{{root}}css/style.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="/css/style.css">
     
     <link rel="shortcut icon" href="https://mozorg.cdn.mozilla.net/media/img/favicon.ico">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -53,7 +50,7 @@ main-menu:
             <ul id="nav-main-menu">
               {% for link in page.main-menu %}
                 <li>
-                  <a {% if (page.section == link.url %}class="current"{% endif %} href="{{root}}{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+                  <a {% if (page.section == link.url %}class="current"{% endif %} href="/{{link.url}}" title="{{link.title}}">{{link.text}}</a>
                 </li>
               {% endfor %}
             </ul>
@@ -62,7 +59,7 @@ main-menu:
         
         <hgroup id="main-feature" class="huge{% if page.root == "root" %} center{% endif %}">
           {% include downloads.html %}
-          <h1>{{page.h1}}</h1>
+          <h1><a href="/">Building Firefox OS</a></h1>
           <h2>{{page.h2}}</h2>
         </hgroup>
 
@@ -130,11 +127,11 @@ main-menu:
           
           <div class="col mozilla">
             <h3>
-                <a href="https://www.mozilla.org/en-US/"><img src="{{root}}images/footer-mozilla.png" alt="mozilla"></a>
+                <a href="https://www.mozilla.org/en-US/"><img src="/images/footer-mozilla.png" alt="mozilla"></a>
             </h3>
             <ul>
               <li>Portions of this content are ©1998–2013 by individual mozilla.org contributors. Content available under a <a href="https://www.mozilla.org/foundation/licensing/website-content.html">Creative Commons license</a>.</li>
-              <li><a href="{{root}}contribute.html">Contribute to this page</a></li>
+              <li><a href="/contribute.html">Contribute to this page</a></li>
               <li><a href="https://www.mozilla.org/en-US/about/contact.html#map-mountain_view">Contact Us</a></li>
             </ul>
             <ul>
@@ -155,9 +152,9 @@ main-menu:
       <script src="//mozorg.cdn.mozilla.net/media/js/libs/matchMedia.js"></script>
     <![endif]-->
 
-    <script src="{{root}}js/common-resp-min.js"></script>
-    <script src="{{root}}js/tabzilla.js"></script>
-    <script src="{{root}}js/jquery.tweet.js"></script>
-    <script src="{{root}}js/site.js"></script>
+    <script src="/js/common-resp-min.js"></script>
+    <script src="/js/tabzilla.js"></script>
+    <script src="/js/jquery.tweet.js"></script>
+    <script src="/js/site.js"></script>
   </body>
 </html>
