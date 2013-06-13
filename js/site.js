@@ -26,14 +26,15 @@ $(function() {
 
   //See More
   $('.billboard > blockquote').each(function() {
-    $(this).prev().append('<span class="read-more">Read more</span>');
-    // $(this).after('<span class="icon-more">See more</span>');
+    $(this).prev().append('<span class="read-more">More</span>');
   });
   
-  $('.read-more').click(function() { 
-    $(this).parent().siblings('blockquote').slideToggle(); 
-    // $(this).toggleClass('less'); 
-    $(this).hide(); 
+  $('.read-more').toggle(function() { 
+    $(this).parent().siblings('blockquote').slideDown(); 
+    $(this).text('Less'); 
+  }, function() { 
+    $(this).parent().siblings('blockquote').slideUp(); 
+    $(this).text('More'); 
   });
 
   //Detect Nightly browser
@@ -43,8 +44,46 @@ $(function() {
 
   //Scroll to top
   $('.scroll-top').click(function() {
-    $('body').animate({ scrollTop: 270 }, 'slow');
+    $('body').animate({ scrollTop: 0 }, 'slow');
   });
+
+  //Dropdown
+  $.each($('.dropdown'), function() {
+    $(this).find('.dropdown-toggle').text($(this).find('.dropdown-menu a:first').text());
+    $(this).find('.dropdown-menu li:first a').addClass('active');
+  });
+
+  $('.dropdown-toggle').mouseenter(function() {
+    $(this).addClass('hover');
+    $(this).closest('.dropdown').find('.dropdown-menu').addClass('hover');
+  });
+
+  $('.dropdown').mouseleave(function() {
+    $(this).find('.dropdown-menu').removeClass('hover');
+    $(this).find('.dropdown-toggle').removeClass('hover');
+  });
+
+  $('.dropdown-toggle').click(function() {
+    event.preventDefault();
+  });
+
+  $('.dropdown-menu a').click(function() {
+    event.preventDefault();
+    var thisToggle = $(this).closest('.dropdown').find('.dropdown-toggle')
+    var option = $(this).attr('href').replace( "#", "" );
+    var thisMenu = $(this).closest('.dropdown-menu');
+    thisMenu.removeClass('hover');
+    if ($(this).text() != thisToggle.text()) {
+      console.log($(this).closest('.dropdown').next().find('> li'));
+      $(this).closest('.dropdown').next().find('> li').hide();
+      $('#' + option).fadeIn('slow');
+      thisToggle.removeClass('hover').text($(this).text());
+      thisMenu.find('a').removeClass('active');
+      $(this).addClass('active');
+    }
+  });
+
+
 
   // TRANSITIONS
   function transtion_1_step(play,time) {

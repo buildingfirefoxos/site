@@ -33,7 +33,6 @@ main-menu:
     <link rel="stylesheet" media="screen,projection,tv" href="https://mozorg.cdn.mozilla.net/media/css/sandstone_guide-min.css?build=128c8fb">
     
     <link rel="stylesheet" media="screen,projection,tv" href="{{root}}css/highlight.css">
-    <link rel="stylesheet" media="screen,projection,tv" href="{{root}}css/tabs.css">
     {% include additional_links.html %}
     <link rel="stylesheet" media="screen,projection,tv" href="{{root}}css/style.css">
     
@@ -89,6 +88,7 @@ main-menu:
           {% endif %}
 
           <section class="content-section billboard">
+
             {{content}}
 
             {% if page.scroll == "top" %}
@@ -157,12 +157,6 @@ main-menu:
 
     <script src="{{root}}js/common-resp-min.js"></script>
     <script src="{{root}}js/tabzilla.js"></script>
-    <script src="{{root}}js/tabs.js"></script>
-    <script>
-      $(function() {
-        $( ".tabs" ).tabs();
-      });
-    </script>
     <script src="{{root}}js/jquery.tweet.js"></script>
     <script src="{{root}}js/site.js"></script>
   </body>

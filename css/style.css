@@ -38,13 +38,14 @@ html { font-size: 62.5%; }
 
 .content-section > h3 {
   padding-top: 30px;
-  border-top: 1px dotted #b5b5b5;
+  display: inline-block;
 }
 
 .content-section > h3:first-of-type {
   padding-top: 20px;
   border-top: none;
 }
+
 
 /* Home */
 body.Home #wrapper {
@@ -414,6 +415,105 @@ aside.left-side + section.billboard {
   right: 12px;
   position: absolute;
   content: "";
+}
+
+/* Dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  margin-left: 6px;
+  text-decoration: underline;
+  position: relative;
+  color: #484848;
+  font-size: 28px;
+  font-weight: 300;
+  padding-right: 30px;
+  white-space: nowrap;
+}
+
+.dropdown-toggle:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  background: url(../images/dropdown.png) right -24px no-repeat;
+  top: 9px;
+  right: 0;
+}
+
+.dropdown-toggle.hover:before {
+  background-position: right 1px;
+}
+
+.dropdown-menu {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  -webkit-transition: opacity 0.8s ease;
+  position: absolute;
+  background: #fff;
+  list-style: none;
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,.27);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,.27);
+  box-shadow: 0 0 4px rgba(0,0,0,.27);
+  margin: 0;
+  padding: 10px;
+  z-index: 10;
+}
+
+.dropdown-menu.hover {
+  opacity: 1;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  color: #484848;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 300;
+  display: block;
+  padding: 5px;
+}
+
+.dropdown-menu a.active {
+  background: #ebecec;
+}
+
+.dropdown-menu a:hover {
+  background: #67a7d0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu a:active {
+  background: #2780ba;
+}
+
+.dropdown-menu a:focus {
+  outline: none;
+}
+
+.dropdown-content {
+  list-style: none;
+  margin: 10px 0 0 0;
+  border-bottom: 1px dotted #b5b5b5;
+}
+
+.dropdown-content:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown-content li {
+  display: none;
+  margin: 0;
+}
+
+.dropdown-content li:first-child {
+  display: block;
 }
 
 /* Examples */
