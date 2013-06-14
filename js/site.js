@@ -10,20 +10,7 @@ function tooltip(el,text) {
 }
 
 $(function() {
-  //Tweet plugin
-  $(".tweet").tweet({
-    join_text: "auto",
-    username: "openwebdevice",
-    //avatar_size: 48,
-    count: 4,
-    auto_join_text_default: "",
-    auto_join_text_ed: "",
-    auto_join_text_ing: "",
-    auto_join_text_reply: "",
-    auto_join_text_url: "",
-    loading_text: "loading tweets..."
-  });
-
+  
   //See More
   $('.billboard > blockquote').each(function() {
     $(this).prev().append('<span class="read-more">More</span>');

@@ -385,13 +385,13 @@ aside nav.menu-bar ul li a:hover {
   color: #000;
 }
 
-aside.left-side + section.billboard {
+aside.left-side + section.content-section {
   margin-left: 300px;
   padding-top: 20px;
 }
 
 /* SEE MORE */
-.billboard > blockquote {
+.content-section > blockquote {
   display: none;
 }
 
@@ -1133,6 +1133,10 @@ body.Downloads .content-section li a.github {
   }
 
   .content-section {
+    width: 720px; 
+  }
+
+  aside.left-side + section.content-section {
     width: 420px; 
   }
 
@@ -1212,7 +1216,7 @@ body.Downloads .content-section li a.github {
     display: none;
   }
 
-  aside.left-side + section.billboard {
+  aside.left-side + section.content-section {
     margin-left: 0;
     width: auto;
   }
