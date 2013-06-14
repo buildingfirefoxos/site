@@ -173,16 +173,20 @@ body.Home .content-section > ul li#building-blocks a:hover figure {
 
 body.Home:after { /* Preload images */
   background: url(../images/building_blocks_icon_hover.png),
-              url(../images/common_controls_icon_hover.png),
+              url(../images/downloads_icon_hover.png),
               url(../images/transitions_icon_hover.png);
 }
 
-body.Home .content-section > ul li#common-controls figure {
-  background: url(../images/common_controls_icon.png) 121px 69px no-repeat;
+body.Home .content-section > ul li#downloads img {
+  margin-top: 15px;
 }
 
-body.Home .content-section > ul li#common-controls a:hover figure {
-  background-image: url(../images/common_controls_icon_hover.png);
+body.Home .content-section > ul li#downloads figure {
+  background: url(../images/downloads_icon.png) 121px 75px no-repeat;
+}
+
+body.Home .content-section > ul li#downloads a:hover figure {
+  background-image: url(../images/downloads_icon_hover.png);
 }
 
 body.Home .content-section > ul li#transitions figure {

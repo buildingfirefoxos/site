@@ -17,15 +17,6 @@ h2: Start creating your own apps
       <p>Reusable component set with markup and usage examples.</p>
     </a>
   </li>
-  <li id="common-controls">
-    <a class="cell" href="common-controls">
-      <figure>
-        <img src="images/common_controls.png" alt="Common Controls" />
-      </figure>
-      <h3>Common Controls</h3>
-      <p>Download all UI components in Photoshop vector format.</p>
-    </a>
-  </li>
   <li id="transitions">
     <a class="cell" href="transitions" >
       <figure>
@@ -33,6 +24,15 @@ h2: Start creating your own apps
       </figure>
       <h3>CSS Transitions</h3>
       <p>Ready to use animations and transitions for your apps.</p>
+    </a>
+  </li>
+  <li id="downloads">
+    <a class="cell" href="downloads">
+      <figure>
+        <img src="images/downloads.png" alt="downloads" />
+      </figure>
+      <h3>Downloads</h3>
+      <p>Get all Firefox OS goodies! Design stencils, Icons, fonts...</p>
     </a>
   </li>
 </ul>
