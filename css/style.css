@@ -36,7 +36,8 @@ html { font-size: 62.5%; }
 #main-feature h1 a:hover {
   color: #484848;
   text-decoration: none;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.75);
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.75),
+               -1px -1px 0 #484848;
 }
 
 #main-feature h2 a {
@@ -466,7 +467,7 @@ aside.left-side + section.billboard {
   box-shadow: 0 0 4px rgba(0,0,0,.27);
   margin: 0;
   padding: 10px;
-  z-index: 10;
+  z-index: 100;
 }
 
 .dropdown-menu.hover {

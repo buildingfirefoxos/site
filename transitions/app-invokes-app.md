@@ -2,8 +2,7 @@
 layout: bffos
 title: App invokes app
 section: transitions
-h1: Transitions
-h2: <strong>Firefox OS</strong> CSS animations
+h2: <strong>CSS animations</strong>
 ---
 
 ## App invokes app
@@ -11,6 +10,7 @@ h2: <strong>Firefox OS</strong> CSS animations
 (SYSTEM TRANSITION)
 
 <section class="transition">
+  <h4>Example</h4>
   <article id="example-invoke" class="phone-frame">
     <section class="full frame dark">
       <div class="play">
@@ -30,8 +30,10 @@ h2: <strong>Firefox OS</strong> CSS animations
       </div>
     </section>
   </article>
-  <label>CSS Animations:</label>
-  {% highlight css linenos=table %}
+</section>
+
+<h4>CSS Animations</h4>
+{% highlight css linenos=table %}
 /* Invoking app moves out */
 animation: invokingApp 0.6s forwards ease-out;
 @keyframes invokingApp {
@@ -58,4 +60,3 @@ animation: hideOverlay 0.3s forwards ease-in 0.3s;
   0%   { background: rgba(0,0,0,0.7); }
   100% { background: rgba(0,0,0,0); }
 }{% endhighlight %}
-</section>

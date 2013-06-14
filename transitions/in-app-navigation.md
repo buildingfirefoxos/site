@@ -2,8 +2,7 @@
 layout: bffos
 title: In app navigation
 section: transitions
-h1: Transitions
-h2: <strong>Firefox OS</strong> CSS animations
+h2: <strong>CSS animations</strong>
 ---
 
 ## In app navigation
@@ -11,6 +10,7 @@ h2: <strong>Firefox OS</strong> CSS animations
 Going deeper and back within an application
 
 <section class="transition">
+  <h4>Example</h4>
   <article id="example-deeper" class="phone-frame">
     <div class="play">
       <span class="glow"></span>
@@ -22,22 +22,24 @@ Going deeper and back within an application
         <div id="deeper-app-1" class="app" data-position="current">
           <header>
             <h1>Contacts</h1>
-            <img src="../images/transitions/contacts_header_1.png" alt="contacts_header_1">
+            <img src="../images/transitions/contacts_header.png" alt="contacts_header">
           </header>
-          <img src="../images/transitions/contacts.png" alt="contacts" class="body">
+          <img src="../images/transitions/contacts_body.png" alt="contacts_body" class="body">
         </div>
         <div id="deeper-app-2" class="app" data-position="right">
           <header>
             <h1>Mark Alfentino</h1>
-            <img src="../images/transitions/contacts_details_header_1.png" alt="contacts_details_header_1">
+            <img src="../images/transitions/contacts_details_header.png" alt="contacts_details_header">
           </header>
           <img src="../images/transitions/contacts_details.png" alt="contacts_details" class="body">
         </div>
       </div>
     </section>
   </article>
-  <label>CSS Animations:</label>
-  {% highlight css linenos=table %}
+</section>
+
+<h4>CSS Animations</h4>
+{% highlight css linenos=table %}
 /*------- Go Deeper -------*/
 /* Move main screen header h1 */
 animation: headerCurrentToLeft 0.4s forwards;
@@ -88,4 +90,3 @@ animation: fadeOut 0.4s forwards;
   0%   { opacity: 1; }
   100% { opacity: 0; }
 }{% endhighlight %}
-</section>

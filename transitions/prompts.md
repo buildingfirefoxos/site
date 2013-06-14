@@ -2,8 +2,7 @@
 layout: bffos
 title: Prompts
 section: transitions
-h1: Transitions
-h2: <strong>Firefox OS</strong> CSS animations
+h2: <strong>CSS animations</strong>
 ---
 
 ## Prompts
@@ -11,6 +10,7 @@ h2: <strong>Firefox OS</strong> CSS animations
 (SYSTEM TRANSITION)
 
 <section class="transition">
+  <h4>Example</h4>
   <article id="example-modal" class="phone-frame">
     <section class="full frame dark">
       <div class="play" style="left: 243px; top: 78px;">
@@ -27,8 +27,10 @@ h2: <strong>Firefox OS</strong> CSS animations
       </div>
     </section>
   </article>
-  <label>CSS Animations:</label>
-  {% highlight css linenos=table %}
+</section>
+
+<h4>CSS Animations</h4>
+{% highlight css linenos=table %}
 /* Launch Value Selector */
 animation: fadeIn 0.2s forwards;
 @keyframes fadeIn {
@@ -41,4 +43,3 @@ animation: fadeOut 0.2s forwards;
   0%   { opacity: 1; }
   100% { opacity: 0; }
 }{% endhighlight %}
-</section>

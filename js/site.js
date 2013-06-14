@@ -128,7 +128,7 @@ $(function() {
       setTimeout(function(){
         container.addClass('animate-1');       
         setTimeout(function(){
-          play.removeClass('hide').css({left: '173px', top: '300px'});
+          play.removeClass('hide').css({left: '158px', top: '300px'});
           tooltip(play,'Click to swipe left');
         },1000);
       },300);
@@ -144,7 +144,7 @@ $(function() {
       setTimeout(function(){
         container.addClass('animate-3');
         setTimeout(function(){
-          play.removeClass('hide').css({left: '173px', top: '564px'});
+          play.removeClass('hide').css({left: '158px', top: '548px'});
           container.removeClass('animate-1').removeClass('animate-2').removeClass('animate-3');
         },3000);
       },300); 
@@ -160,7 +160,7 @@ $(function() {
       setTimeout(function(){
         container.addClass('animate-1');       
         setTimeout(function(){
-          play.removeClass('hide').css({left: '173px', top: '300px'});
+          play.removeClass('hide').css({left: '158px', top: '300px'});
           tooltip(play,'Click to swipe left');
         },1000);
       },300);
@@ -185,7 +185,7 @@ $(function() {
       setTimeout(function(){
         container.addClass('animate-4');
         setTimeout(function(){
-          play.removeClass('hide').css({left: '173px', top: '564px'});
+          play.removeClass('hide').css({left: '158px', top: '548px'});
           container.removeClass('animate-1').removeClass('animate-2').removeClass('animate-3').removeClass('animate-4');
         },2000);
       },300); 
@@ -212,7 +212,7 @@ $(function() {
 
   //Go deeper
   $('#example-deeper .play').click(function(){
-    transtion_2_steps($(this),'23px','85px',1000,'193px','307px',2000);
+    transtion_2_steps($(this),'13px','69px',1000,'193px','291px',2000);
   });
 
   /*$('#example-back .play').click(function(){
@@ -229,7 +229,7 @@ $(function() {
   });
 
   $('#example-call-3 .play').click(function(){
-    transtion_2_steps($(this),'248px','484px',1000,'173px','395px',3000);
+    transtion_2_steps($(this),'235px','471px',1000,'173px','395px',3000);
   });
 
   $('#example-call-4 .play').click(function(){
@@ -241,7 +241,7 @@ $(function() {
   });
 
   $('#example-call-6 .play').click(function(){
-    transtion_2_steps($(this),'248px','484px',1000,'283px','435px',3000);
+    transtion_2_steps($(this),'235px','471px',1000,'283px','435px',3000);
   });
 
   $('#example-call-7 .play').click(function(){
@@ -254,6 +254,6 @@ $(function() {
 
   //Functionalities
   $('#example-fuctionalities .play').click(function(){
-    transtion_2_steps($(this),'175px','200px',1000,'135px','105px',2000);
+    transtion_2_steps($(this),'175px','200px',1000,'135px','89px',2000);
   });
 });

@@ -2,13 +2,13 @@
 layout: bffos
 title: Functionalities
 section: transitions
-h1: Transitions
-h2: <strong>Firefox OS</strong> CSS animations
+h2: <strong>CSS animations</strong>
 ---
 
 ## Functionalities
 
 <section class="transition">
+  <h4>Example</h4>
   <article id="example-fuctionalities" class="phone-frame">
     <div class="play">
       <span class="glow"></span>
