@@ -2,7 +2,7 @@
 layout: bffos
 title: Functionalities
 section: transitions
-h2: <strong>CSS animations</strong>
+h2: <strong>CSS transitions:</strong> Provide context using UI animations
 ---
 
 ## Functionalities

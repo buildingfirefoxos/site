@@ -2,7 +2,7 @@
 layout: bffos
 title: Opening and closing apps
 section: transitions
-h2: <strong>CSS animations</strong>
+h2: <strong>CSS transitions:</strong> Provide context using UI animations
 ---
 
 ## Opening and closing apps

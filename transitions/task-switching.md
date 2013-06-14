@@ -2,7 +2,7 @@
 layout: bffos
 title: Task switching
 section: transitions
-h2: <strong>CSS animations</strong>
+h2: <strong>CSS transitions:</strong> Provide context using UI animations
 ---
 
 ## Task switching
