@@ -1,6 +1,7 @@
 ---
 layout: bffos
 title: Downloads
+section: downloads
 root: root
 h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 ---
