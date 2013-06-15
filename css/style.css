@@ -1074,7 +1074,7 @@ body.Downloads .content-section li {
 }
 
 body.Downloads .content-section li:first-child {
-  margin-top: 0;
+  padding-top: 0;
 }
 
 body.Downloads .content-section li img {
@@ -1242,6 +1242,19 @@ body.Downloads .content-section li a.github {
   #colophon .col > .tweet {
     width: auto;
     margin: 20px;
+  }
+
+  body.Downloads .content-section li > p:first-child {
+    float: none;
+  }
+
+  body.Downloads .content-section li > h2,
+  body.Downloads .content-section li > p {
+    margin-left: 0;
+  }
+
+  body.Downloads .content-section li > p > img {
+    display: none;
   }
 }
 
