@@ -4,3 +4,4 @@ lsi: false
 pygments: true
 redirects: yes
 markdown: redcarpet
+comments: true

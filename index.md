@@ -5,6 +5,7 @@ section: index.html
 root: root
 h1: Building <strong>Firefox OS</strong>
 h2: Start creating your own apps
+comments: false
 ---
 
 <ul>
