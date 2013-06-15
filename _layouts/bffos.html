@@ -77,6 +77,7 @@ main-menu:
                 </ul>
               </nav>
             {% endif %}
+
           {% else %}
             <aside class="left-side">
               <nav class="menu-bar">
@@ -91,10 +92,9 @@ main-menu:
           <section class="content-section billboard">
 
             {{content}}
-                  
-            {% include comments.html %}
-            
+
             {% if page.title != "Home" %}
+              {% include comments.html %}
               <div class="scroll-top"><span>Back to top</span></div>
             {% endif %}
           </section>
@@ -164,6 +164,6 @@ main-menu:
     <script src="/js/common-resp-min.js"></script>
     <script src="/js/tabzilla.js"></script>
     <script src="/js/site.js"></script>
-    <script src="js/ga.js"></script>
+    <script src="/js/ga.js"></script>
   </body>
 </html>
