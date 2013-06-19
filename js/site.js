@@ -70,6 +70,12 @@ $(function() {
     }
   });
 
+  //Tooltips in header links
+  $('.header-links a').tipsy({ 
+    gravity: 'ne',
+    fade: true
+  });
+
 
 
   // TRANSITIONS
