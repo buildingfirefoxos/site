@@ -14,9 +14,9 @@ In your html you will have to add the class `comms-icon` together with the name 
   <section class="example icons">
     <div role="toolbar">
       <ul>
-        <li><button class="comms-icon cut">Cut</button></li>
-        <li><button class="comms-icon copy">Copy</button></li>
-        <li><button class="comms-icon paste">Paste</button></li>
+        <li><button class="comms-icon dailer-dialpad">dailer dialpad</button></li>
+        <li><button class="comms-icon dailer-recentcalls">dailer recentcalls</button></li>
+        <li><button class="comms-icon dailer-contacts">dailer contacts</button></li>
       </ul>
     </div>
   </section>
@@ -24,9 +24,9 @@ In your html you will have to add the class `comms-icon` together with the name 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<div role="toolbar">
   <ul>
-    <li><button class="comms-icon cut">Cut</button></li>
-    <li><button class="comms-icon copy">Copy</button></li>
-    <li><button class="comms-icon paste">Paste</button></li>
+    <li><button class="comms-icon dailer-dialpad">dailer dialpad</button></li>
+    <li><button class="comms-icon dailer-recentcalls">dailer recentcalls</button></li>
+    <li><button class="comms-icon dailer-contacts">dailer contacts</button></li>
   </ul>
 </div>{% endhighlight %}
 

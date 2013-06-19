@@ -1165,6 +1165,9 @@ section.icons li.comms-icon:after {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
 }
+section.icons li.comms-icon.dark:after {
+  background: rgba(0,0,0, 0.5);
+}
 section.icons li.action-icon:before,
 section.icons li.media-icon:before,
 section.icons li.comms-icon:before {
