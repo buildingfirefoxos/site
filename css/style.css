@@ -22,7 +22,10 @@ html { font-size: 62.5%; }
 
 #main-feature h2 {
   font-size: 37px;
-  
+  background: #c3d0db;
+  padding: 5px 20px 10px 20px;
+  display: block;
+  overflow: hidden;
 }
 
 #main-feature h1 a {
@@ -41,15 +44,28 @@ html { font-size: 62.5%; }
 }
 
 #main-feature h2 a {
-  background: #c3d0db;
   color: #484848;
   text-shadow: none;
-  display: block;
-  padding: 5px 20px 10px 20px;
 }
 
 #main-feature h2 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+#main-feature .header-links {
+  float: right;
+}
+
+#main-feature .header-links a {
+  font-size: 0;
+  background: url(../images/downloads/icon_download.png) no-repeat right bottom;
+  width: 40px;
+  height: 35px;
+  float: left;
+}
+
+#main-feature .header-links a.github {
+  background-image: url(../images/downloads/icon_github.png);
 }
 
 .content-section > h3 {

@@ -64,7 +64,10 @@ main-menu:
             <h2>{{page.h2}}</h2>
           {% else %}
             <h1><a href="/">Building <strong>Firefox OS</strong></a></h1>
-            <h2><a href="/{{page.section}}">{{page.h2}}</a></h2>
+            <h2>
+              <a href="/{{page.section}}">{{page.h2}}</a>
+              {% include downloads.html %}
+            </h2>
           {% endif %}
         </hgroup>
 
