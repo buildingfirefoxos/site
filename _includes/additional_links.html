@@ -47,4 +47,21 @@
   {% when 'transitions' %}
     <link rel="stylesheet" href="../css/system_animations.css">
     <link rel="stylesheet" href="../css/transitions.css">
+
+  {% when 'icons' %}
+    {% case page.title %}
+      <!-- Building Blocks -->
+      <link rel="stylesheet" href="../css/BB/style_unstable/toolbars.css">
+      {% when 'Primary actions' %}
+        <link rel="stylesheet" href="../css/BB/icons/styles/action_icons.css">
+      {% when 'Media' %}
+        <link rel="stylesheet" href="../css/BB/icons/styles/media_icons.css">
+      {% when 'Communications' %}
+        <link rel="stylesheet" href="../css/BB/icons/styles/comms_icons.css">
+      {% endcase %}
+      <!-- improve Building Blocks visualization in buildingfirefoxos.com -->
+      <link rel="stylesheet" href="../css/building_blocks.css">
+
+  <!-- Cross browser support for Building Blocks -->
+  <!--link rel="stylesheet" href="../css/BB/bb_cross_browser.css"-->
 {% endcase %} 

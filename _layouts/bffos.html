@@ -11,6 +11,7 @@ main-menu:
 ---
 
 {% assign section = {{page.section}} %}
+{% assign group = {{page.group}} %}
 
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
@@ -80,12 +81,8 @@ main-menu:
 
           {% else %}
             <aside class="left-side">
-              <nav class="menu-bar">
-                <ul>
-                  {% assign pages_list = site.pages | sort: "name" %}
-                  {% include pages_list %}
-                </ul>
-              </nav>
+              {% assign pages_list = site.pages | sort: "name" %}
+              {% include pages_list %}
             </aside>
           {% endif %}
 
@@ -94,8 +91,8 @@ main-menu:
             {{content}}
 
             {% if page.title != "Home" %}
-              {% include comments.html %}
               <div class="scroll-top"><span>Back to top</span></div>
+              {% include comments.html %}
             {% endif %}
           </section>
         </section>

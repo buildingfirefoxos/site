@@ -390,6 +390,12 @@ aside.left-side + section.content-section {
   padding-top: 20px;
 }
 
+aside nav.menu-bar h4 {
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px 10px 20px;
+}
+
 /* SEE MORE */
 .content-section > blockquote {
   display: none;
@@ -404,6 +410,7 @@ aside.left-side + section.content-section {
 
 .scroll-top {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .scroll-top span {
@@ -1114,6 +1121,87 @@ body.Downloads .content-section li a {
 
 body.Downloads .content-section li a.github {
   background-image: url(../images/downloads/icon_github.png);
+}
+
+/* ICONS */
+section.icons {
+  margin-bottom: 20px;
+  display: block;
+  overflow: hidden;
+}
+section.icons h2 {
+  font-size: 29px;
+  line-height: 29px;
+  color: #5a5a5a;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+section.icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section.icons li.action-icon {
+  line-height: 30px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 30px;
+}
+section.icons li.action-icon:after {
+  background: rgba(0,0,0, 0.8);
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+section.icons li.action-icon:before {
+  z-index: 1;
+}
+section.icons li.action-icon span {
+  padding: 7px 0 0 40px;
+  line-height: 13px;
+  float: left;
+}
+
+section.icons [role="toolbar"] {
+  height: 40px;
+  width: 320px;
+  background: rgba(0,0,0, 0.85);
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+section.icons [role="toolbar"] ul {
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.icons [role="toolbar"] li {
+  float: left;
+}
+
+section.icons [role="toolbar"] button {
+  width: 55px;
+  height: 40px;
+  border: none;
+  font-size: 0;
+  background: transparent no-repeat 50% 50%;
+  padding: 0;
+  border-radius: 0;
+}
+
+[role="toolbar"] button:active {
+  background-color: #008aaa;
 }
 
 /* -------------------------------- MEDIA QUERIES ----------------------------------- */

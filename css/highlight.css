@@ -59,6 +59,22 @@
 .vi { color: #008080 } /* Name.Variable.Instance */
 .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+/* Inline code */
+code {
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+
+pre code {
+  padding: 0;
+  white-space: inherit;
+  background-color: transparent;
+  border: none;
+}
+
 /* Line numbers */
 pre {
   padding: 10px;
