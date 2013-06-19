@@ -1141,7 +1141,9 @@ section.icons ul {
   margin: 0;
   padding: 0;
 }
-section.icons li.action-icon {
+section.icons li.action-icon,
+section.icons li.media-icon,
+section.icons li.comms-icon {
   line-height: 30px;
   font-size: 13px;
   margin-bottom: 10px;
@@ -1150,7 +1152,9 @@ section.icons li.action-icon {
   width: 200px;
   height: 30px;
 }
-section.icons li.action-icon:after {
+section.icons li.action-icon:after,
+section.icons li.media-icon:after,
+section.icons li.comms-icon:after {
   background: rgba(0,0,0, 0.8);
   content: "";
   width: 30px;
@@ -1161,10 +1165,14 @@ section.icons li.action-icon:after {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
 }
-section.icons li.action-icon:before {
+section.icons li.action-icon:before,
+section.icons li.media-icon:before,
+section.icons li.comms-icon:before {
   z-index: 1;
 }
-section.icons li.action-icon span {
+section.icons li.action-icon span,
+section.icons li.media-icon span,
+section.icons li.comms-icon span {
   padding: 7px 0 0 40px;
   line-height: 13px;
   float: left;
