@@ -80,6 +80,11 @@ html { font-size: 62.5%; }
   background-image: url(../images/downloads/icon_github_hover.png);
 }
 
+.content-section {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
 .content-section > h3 {
   padding-top: 30px;
   display: inline-block;
@@ -427,8 +432,6 @@ aside nav.menu-bar ul li a:hover {
 
 aside.left-side + section.content-section {
   margin-left: 300px;
-  padding-top: 20px;
-  padding-bottom: 0;
 }
 
 aside nav.menu-bar h4 {
@@ -1438,6 +1441,36 @@ section.icons [role="toolbar"] button {
   body.Downloads .content-section li > p > img {
     display: none;
   }
+  
+  body.Home .content-section > ul li#building-blocks figure {
+    background-image: url(../images/building_blocks_icon_hover.png);
+  }
+
+  body.Home .content-section > ul li#building-blocks a:hover figure,
+  body.Home .content-section > ul li#building-blocks a:active figure,
+  body.Home .content-section > ul li#building-blocks a:after figure {
+    background-image: url(../images/building_blocks_icon.png);
+  }
+
+  body.Home .content-section > ul li#transitions figure {
+    background-image: url(../images/transitions_icon_hover.png);
+  }
+
+  body.Home .content-section > ul li#transitions a:hover figure,
+  body.Home .content-section > ul li#transitions a:active figure,
+  body.Home .content-section > ul li#transitions a:after figure {
+    background-image: url(../images/transitions_icon.png);
+  }
+
+  body.Home .content-section > ul li#downloads figure {
+    background-image: url(../images/downloads_icon_hover.png);
+  }
+
+  body.Home .content-section > ul li#downloads a:hover figure,
+  body.Home .content-section > ul li#downloads a:active figure,
+  body.Home .content-section > ul li#downloads a:after figure {
+    background-image: url(../images/downloads_icon.png);
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1453,5 +1486,4 @@ section.icons [role="toolbar"] button {
   body.Home #main-feature h2 {
     display: none;
   }
-
 }

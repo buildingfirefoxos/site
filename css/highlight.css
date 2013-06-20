@@ -104,7 +104,18 @@ pre {
 }
 
 .highlighttable .code pre {
-  width: 600px;
+  width: 590px;
   overflow: scroll;
 }
 
+@media only screen and (max-width: 1000px) and (min-width: 480px) {
+  .highlighttable .code pre {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .highlighttable .code pre {
+    width: 230px;
+  }
+}
