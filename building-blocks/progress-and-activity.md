@@ -3,7 +3,6 @@ layout: bffos
 title: Progress and activity
 section: building-blocks
 h2: <strong>Building Blocks:</strong> markup & examples
-scroll: top
 ---
 
 ## Progress and activity

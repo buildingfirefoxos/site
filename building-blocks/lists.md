@@ -3,7 +3,6 @@ layout: bffos
 title: Lists
 section: building-blocks
 h2: <strong>Building Blocks:</strong> markup & examples
-scroll: top
 ---
 
 ## Lists

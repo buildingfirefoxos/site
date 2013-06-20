@@ -23,10 +23,12 @@
   <ul>
     {% for node in pages_list %}
       {% if section == null or section == node.section %}
-        {% if page.url == node.url %}
-          <li><a href="{{node.url}}" class="current">{{node.title}}</a></li>
-        {% else %}
-          <li><a href="{{node.url}}">{{node.title}}</a></li>
+        {% if node.group != "main" %}
+          {% if page.url == node.url %}
+            <li><a href="{{node.url}}" class="current">{{node.title}}</a></li>
+          {% else %}
+            <li><a href="{{node.url}}">{{node.title}}</a></li>
+          {% endif %}
         {% endif %}
       {% endif %}
     {% endfor %}

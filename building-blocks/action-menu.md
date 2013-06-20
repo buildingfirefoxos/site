@@ -3,7 +3,6 @@ layout: bffos
 title: Action Menu
 section: building-blocks
 h2: <strong>Building Blocks:</strong> markup & examples
-scroll: top
 ---
 
 ## Action menu

@@ -3,7 +3,6 @@ layout: bffos
 title: Headers
 section: building-blocks
 h2: <strong>Building Blocks:</strong> markup & examples
-scroll: top
 ---
 
 ## Headers

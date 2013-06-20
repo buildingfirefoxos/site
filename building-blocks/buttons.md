@@ -3,7 +3,6 @@ layout: bffos
 title: Buttons
 section: building-blocks
 h2: <strong>Building Blocks:</strong> markup & examples
-scroll: top
 ---
 
 ## Buttons
