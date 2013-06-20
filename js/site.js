@@ -29,6 +29,17 @@ $(function() {
     $('body').addClass('not-nightly');
   }
 
+  // Test for support for the 'rem' unit to show images fallback in BB section
+  if ($('body').hasClass('BB')) {
+    var elem = document.createElement('p');
+    elem.style.cssText = 'font-size: 1.5rem;';
+    if (elem.style.fontSize.indexOf('rem') > -1) {
+      console.log("rems supported");
+    } else {
+      console.log("rems not supported"); 
+    }
+  }
+
   //Scroll to top
   $('.scroll-top').click(function() {
     $('body').animate({ scrollTop: 0 }, 'slow');
