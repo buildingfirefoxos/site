@@ -58,26 +58,33 @@ html { font-size: 62.5%; }
 
 #main-feature .header-links a {
   font-size: 0;
-  background: url(../images/downloads/icon_download.png) no-repeat right bottom;
-  width: 40px;
+  background: url(../images/downloads/icon_download.png) no-repeat center bottom;
+  width: 32px;
   height: 35px;
   float: left;
+  margin-left: 10px;
   transition: background 1s ease;
   -webkit-transition: background 1s ease;
 }
 
-#main-feature .header-links a:hover,
-#main-feature .header-links a:after {
+#main-feature .header-links a:hover {
   background-image: url(../images/downloads/icon_download_hover.png);
+}
+#main-feature .header-links a:after {
+  content: url(../images/downloads/icon_download_hover.png);
+  display: none;
 }
 
 #main-feature .header-links a.github {
   background-image: url(../images/downloads/icon_github.png);
 }
 
-#main-feature .header-links a.github:hover,
-#main-feature .header-links a.github:after {
+#main-feature .header-links a.github:hover {
   background-image: url(../images/downloads/icon_github_hover.png);
+}
+#main-feature .header-links a.github:after {
+  content: url(../images/downloads/icon_github_hover.png);
+  display: none;
 }
 
 .content-section {
@@ -206,9 +213,10 @@ body.Home .content-section > ul li#building-blocks a:hover figure {
 }
 
 body.Home:after { /* Preload images */
-  background: url(../images/building_blocks_icon_hover.png),
-              url(../images/downloads_icon_hover.png),
-              url(../images/transitions_icon_hover.png);
+  content: url(../images/building_blocks_icon_hover.png),
+           url(../images/downloads_icon_hover.png),
+           url(../images/transitions_icon_hover.png);
+  display: none;
 }
 
 body.Home .content-section > ul li#downloads img {
@@ -1106,7 +1114,8 @@ section.example .full.frame {
 .tipsy-inner { margin: 0 -5px; padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 200px; text-align: center; }
 .tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
 .tipsy-arrow { position: absolute; background: url('../images/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
-.tipsy-n .tipsy-arrow { top: -4px; left: 50%; margin-left: -4px; }
+.tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -4px; }
+.tipsy-n .tipsy-arrow.custom { top: -4px; }
 .tipsy-nw .tipsy-arrow { top: 0; left: 6px; }
 .tipsy-ne .tipsy-arrow { top: 0; right: 6px; }
 .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -4px; background-position: bottom left; }
@@ -1377,13 +1386,18 @@ section.icons [role="toolbar"] button {
 
   aside.left-side {
     float: none;
+    max-height: 300px;
+    overflow: scroll;
+    margin-bottom: 10px;
   }
 
   aside nav.menu-bar {
     width: auto;
-    max-height: 300px;
-    overflow: scroll;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  aside nav.menu-bar h4 {
+    display: none;
   }
 
   aside nav.menu-bar ul li a.current:after {
@@ -1490,4 +1504,14 @@ section.icons [role="toolbar"] button {
   body.Home #main-feature h2 {
     display: none;
   }
+
+  section.example {
+    padding: 20px 0;
+  }
+
+  body.BB section.example .frame {
+    margin-left: -10px;
+    overflow: hidden;
+  }
+
 }

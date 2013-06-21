@@ -23,7 +23,7 @@ An action menu presents a list of actions, related to the app's content, from wh
   <section class="example">
     <img src="../images/BB/action_menu.jpg" alt="Action menu (Image replacing code)"/>
     <article class="full frame">
-      <form role="dialog" onsubmit="return false;" data-type="action">
+      <form role="dialog" data-type="action">
         <header>Title</header>
         <menu>
           <button>Action 1</button>
@@ -39,7 +39,7 @@ An action menu presents a list of actions, related to the app's content, from wh
   {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/action_menu.css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}<form role="dialog" onsubmit="labelreturn false;" data-type="action">
+  {% highlight html linenos=table %}<form role="dialog" data-type="action">
   <header>Title</header>
   <menu>
     <button>Action 1</button>

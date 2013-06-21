@@ -38,7 +38,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
       <section id="drawer" role="region">
         <header>
           <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
-          <a href="#drawer_"><span class="icon icon-menu">show sidebar</span></a>
+          <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
           <h1>Inbox</h1>
         </header>
         <div role="main"></div>
@@ -77,7 +77,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 <section id="drawer" role="region">
   <header>
     <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
-    <a href="#drawer_"><span class="icon icon-menu">show sidebar</span></a>
+    <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
     <h1>Inbox</h1>
   </header>
   <div role="main"></div>

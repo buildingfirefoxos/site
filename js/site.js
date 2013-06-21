@@ -2,7 +2,7 @@
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
 function tooltip(el,text) {
-  el.after('<div class="tipsy tipsy-n"><span class="tipsy-arrow"></span><span class="tipsy-inner">'+ text +'</span></div>');
+  el.after('<div class="tipsy tipsy-n custom"><span class="tipsy-arrow"></span><span class="tipsy-inner">'+ text +'</span></div>');
   var tooltip = el.siblings('.tipsy');
   var ttLeft = el.position().left - (tooltip.width()/2) + 17;
   var ttTop = el.position().top + 50;
@@ -83,7 +83,7 @@ $(function() {
 
   //Tooltips in header links
   $('.header-links a').tipsy({ 
-    gravity: 'ne',
+    gravity: 'n',
     fade: true
   });
 

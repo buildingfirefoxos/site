@@ -208,14 +208,12 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 .example section#drawer[role="region"] {
-  padding: 0;
 }
 
 .example #drawer div[role="main"] {
   background: #fff;
-  height: calc(100% - 5rem);
+  height: 43rem;
   overflow: hidden;
-  height: 48rem;
 }
 
 .example #drawer div[role="main"] p {
@@ -224,35 +222,24 @@ form[role="dialog"][data-type="confirm"] > section {
 
 .example section#drawer[role="region"] {
   width: 100%;
-  /*transition: all 0.25s ease;*/
   position: relative;
-  left: 80%;
   z-index: 100;
-  padding-left: 0;
+  padding-left: 1rem;
 }
 
 .example section[role="region"] > header:first-child {
+  margin-left: -0.5rem;
+}
+.example section[role="region"]:target > header:first-child {
   margin-left: 0;
-}
-
-.example section[role="region"] > header:first-child h1 {
-  margin-left: 3rem;
-}
-
-.example section#drawer[role="region"] > header:first-child h1 {
-  margin-left: 5rem;
-}
-
-.example section#drawer[role="region"] > header:first-child > a .icon:after {
-  width: 4rem;
-}
-
-.example section#drawer[role="region"] > header:first-child > a {
-  background-position: 4rem center;
 }
 
 .example section[data-type="sidebar"] > header h1 {
 	color: #fff;	
+}
+
+.example section[data-type="sidebar"] > nav > ul > li > a:hover {
+  color: #fff;
 }
 
 /* Status */
@@ -273,46 +260,7 @@ form[role="search"] button.icon-attachment:before {
   margin-bottom: 1.5rem;
 }
 
-/* COLLISIONS */
-/* Collisions: Drawer with headers */
-.page-headers section[role="region"],
-.page-progress-and-activity section[role="region"] {
-	left: 0;
-	transition: none;
-	width: auto;
-	padding-left: 0;
-}
-
-.page-headers section[role="region"] > header:first-child,
-.page-progress-and-activity section[role="region"] > header:first-child {
-    margin-left: 0;
-}
-
-/* SHOULD BE FIXED IN BB */
-/* Scrolling */
-nav[data-type="scrollbar"] p {
-    font: 300 6rem/10.5rem "MozTT", Sans-serif;
-}
-
-/* Drawer:
-section[role="region"] > header:first-child > a .icon {
-	margin-left: 1rem;
-}
-We will solve this just for our page */
-.page-drawer section[role="region"] > header:first-child > a .icon {
-  margin-left: 1rem;
-}
-
-
-/* Need to fix in latest release */
-/* Current bffos site replaces this values */
-section[role="status"] p {
-  color: #fff;
-}
-form[role="dialog"][data-type="confirm"] p {
-  color: #fff;
-  font-size: 2.2rem;
-} 
+/* SHOULD BE CHECKED IN BB */
 [role="tablist"] > [role="tab"] > a.icon:after {
   background-size: auto;
 }
