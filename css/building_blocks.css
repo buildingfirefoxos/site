@@ -130,7 +130,6 @@ form[role="dialog"][data-type="confirm"] > section {
 
 /* Seekbars */
 .example .seekbars.frame section[role="region"] {
-  background: #fff;
   padding: 2rem;
 }
 

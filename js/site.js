@@ -42,7 +42,6 @@ $(function() {
 
   //Scroll to top
   $('.scroll-top').click(function() {
-    console.log('scroll');
     $('body,html').animate({ scrollTop: 0 }, 'slow');
   });
 

@@ -21,7 +21,7 @@ Filters can be used for two purposes: data filtering, in which the user can view
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/filters1.png" alt="Filters (Image replacing code)"/>
+    <img src="../images/BB/filters.png" alt="Filters (Image replacing code)"/>
     <article class="frame">
       <ul role="tablist" data-type="filter" data-items="2">
         <li id="filter1-1" role="tab"><a href="#filter1-1">Action 01</a></li>
