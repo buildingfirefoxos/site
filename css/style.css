@@ -454,7 +454,11 @@ aside nav.menu-bar h4 {
 
 .scroll-top {
   text-align: center;
-  margin: 30px 0;
+  margin: 20px 0 30px 0;
+  padding: 30px 0;
+  border-top: 1px dotted #b5b5b5;
+  border-bottom: 1px dotted #b5b5b5;
+  height: 27px;
 }
 
 .scroll-top span {
@@ -523,7 +527,7 @@ aside nav.menu-bar h4 {
   box-shadow: 0 0 4px rgba(0,0,0,.27);
   margin: 0;
   padding: 10px;
-  z-index: 100;
+  z-index: 200;
 }
 
 .dropdown-menu.hover {

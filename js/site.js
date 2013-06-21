@@ -42,7 +42,8 @@ $(function() {
 
   //Scroll to top
   $('.scroll-top').click(function() {
-    $('body').animate({ scrollTop: 0 }, 'slow');
+    console.log('scroll');
+    $('body,html').animate({ scrollTop: 0 }, 'slow');
   });
 
   //Dropdown
@@ -65,7 +66,7 @@ $(function() {
     event.preventDefault();
   });
 
-  $('.dropdown-menu a').click(function() {
+  $('.dropdown-menu a').click(function(event) {
     event.preventDefault();
     var thisToggle = $(this).closest('.dropdown').find('.dropdown-toggle')
     var option = $(this).attr('href').replace( "#", "" );

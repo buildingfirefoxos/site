@@ -81,13 +81,15 @@ form[role="dialog"][data-type="confirm"] > section {
   overflow: hidden;
 }
 
-.example {
+.example * {
   font-family: "FeuraSans" !important;
 }
 
 .example h1,
-.example h2 {
+.example h2,
+.example h3 {
   letter-spacing: 0;
+  text-shadow: none;
 }
 
 .example ul {
