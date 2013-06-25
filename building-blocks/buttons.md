@@ -7,15 +7,15 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Buttons
 
-Performs an action when tapped by the user. These are highly flexible user interface objects that have a wide variety of styles.
+Buttons perform an action when tapped by the user. Firefox OS has a wide variety of button styles to accommodate different uses and contexts. 
 
 > ### Characteristics
-> * Buttons have two components: a visual target and a hit target. The hit target is always larger, in order to reduce targeting errors by making the button easier to tap.
+> * Buttons have two components: a visual target and a hit target. The visual target is the button the user sees on the screen. The hit target is an invisible area that responds to the tap. To minimize tapping errors, the hit target is typically larger than the visual target. 
 > * Buttons have two states: normal and pressed.
-> * Buttons can also be disabled, which means they can't be activated by the user, and are displayed dimmed to indicate that they're disabled.
+> * Disabled buttons are buttons that do not respond to a tap. Disabled buttons are dimmed.
 
 ### Default
-Used when there are only a few actions and a list isn't needed. The main action button uses a special highlight color to indicate that it's the primary option.
+Default buttons are used when there are only a few actions and a list isn't needed. A primary action button uses a special highlight color to improve visibility and simplify the choice for the user. Buttons that have potentially negative consequences, such as deleting an item, are highlighted in red.
 
 <div class="grouped-content">
   <h4>Example</h4>
@@ -23,7 +23,7 @@ Used when there are only a few actions and a list isn't needed. The main action 
     <img src="../images/BB/buttons_1.jpg" alt="Buttons (Image replacing code)"/>
     <article class="frame">
       <button>Default</button>
-      <a class="recommend" role="button" href="#">Recommend</a>
+      <a class="recommend" role="button" href="#">Primary</a>
       <button class="danger">Danger</button>
     </article>
   </section>
@@ -40,6 +40,7 @@ Used when there are only a few actions and a list isn't needed. The main action 
 <hr>
 
 ### Disabled buttons
+Disabled buttons do not respond to users' taps.
 
 <div>
   <h4>Example</h4>
@@ -77,8 +78,8 @@ Used when there are only a few actions and a list isn't needed. The main action 
 
 <hr>
 
-### Button list
-Used when displaying a list of actions, or to trigger the display of a value selector.
+### List buttons
+List buttons are used when displaying a list of actions, or to trigger the display of a value selector.
 
 <div>
   <h4>Example</h4>
