@@ -33,7 +33,7 @@ group: main
         <img src="images/downloads.png" alt="downloads" />
       </figure>
       <h3>Downloads</h3>
-      <p>Get all Firefox OS goodies! Design stencils, Icons, fonts...</p>
+      <p>Get all Firefox OS goodies! Design stencils, icons, fonts...</p>
     </a>
   </li>
 </ul>
