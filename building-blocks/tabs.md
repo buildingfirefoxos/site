@@ -7,7 +7,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Tabs
 
-Allows multiple instances to be contained within a single window. Tabs are used as a navigational widget for switching between sets of views.
+Tabs allow users to navigate between multiple views within a single screen. 
 
 <div>
   <h4>Example</h4>
