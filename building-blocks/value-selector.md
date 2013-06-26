@@ -9,7 +9,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 (SYSTEM COMPONENT)
 
-Provides a way for the user to select one of more values, usually from a Form interface. Most commonly associated with forms (eg: Setting up a Calendar event).
+Value selectors allow users to select one of more values from a single form field.
 
 ### Single selector
 
