@@ -12,7 +12,7 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     Download all Firefox OS UI components in one single file and create quick mockups of your applications by just  making drag and drop. The layered PSD (Photoshop) contains editable effects, fonts and shapes so you can easily customize your app.
 
-    [Design stencil kit (Photoshop file .zip)](https://mozilla.box.com/shared/static/5ucf52a98q1rd20eu5lm.zip)
+    [Design stencil kit (Photoshop file .zip)](https://mozilla.box.com/s/5ucf52a98q1rd20eu5lm)
 
 *   ![alt Building Blocks](../images/downloads/blocks.png) 
 
@@ -30,11 +30,11 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     You’ll find different icon sets, from primary action icons to communications, settings and media icons. They’re available as layered PSD files in vector format, so they’re ideal to be used in different devices no matter the screen size without loosing quality.
 
-    [Action Icons (Photoshop file .zip)](https://mozilla.box.com/shared/static/jp5lrplbuont96ypm27q.zip)
+    [Action Icons (Photoshop file .zip)](https://mozilla.box.com/s/jp5lrplbuont96ypm27q)
 
-    [Settings Icons (Photoshop file .zip)](https://mozilla.box.com/shared/static/flp11jpmu89c32lasm4u.zip)
+    [Settings Icons (Photoshop file .zip)](https://mozilla.box.com/s/flp11jpmu89c32lasm4u)
 
-*  ![alt Icon set](../images/downloads/icons.png) 
+*  ![alt Icon set](../images/downloads/fonts.png) 
 
     ## Fonts
 
