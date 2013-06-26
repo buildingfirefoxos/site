@@ -7,7 +7,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Toolbars
 
-Contains actions, indicators, and navigation associated with the current view (eg: Delete selected items, Refresh content)
+Toolbars contain actions, indicators, and navigation associated with the current view. 
 
 <div>
   <h4>Example</h4>
