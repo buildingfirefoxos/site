@@ -10,7 +10,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 A confirmation prompt is used to confirm an action or inform the user of an event. Confirmation prompts are frequently used to confirm tasks that cannot be undone, such as permanently deleting an item. Confirmation prompts are designed to disrupt tasks and, as a result, should be used sparingly.
 
 > ### Characteristics
-> * Confirmation prompts are modal; they occupy the entire screen, and require user input to close them.
+> * Confirmation prompts are currently modal - they occupy the entire screen, and require user input to close them.
 
 > #### A confirmation prompts consist of:
 > * Title (optional)
