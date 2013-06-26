@@ -8,11 +8,6 @@ h2: <strong>Contribute:</strong> Help us improve our content
 
 ##### This site is hosted in github, so first thing: **how good are you at github?**
 
-* [I have never heard of github before](#noidea)
-* [I just have a github account](#account)
-* [I have some knowledge](#knowledge)
-* [I'm a github expert](#expert)
-
 <a name="noidea"></a>
 
 ### Signing up for a new GitHub account
