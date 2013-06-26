@@ -7,7 +7,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Input areas
 
-Activates/Deactivates a given item. It’s also used to select an element within a list.
+An input area is a data entry field. There are many variations on what an input area can look like - they can be as simple as a text entry field, and as complex as a multi-part entry field with text entry, value selectors, and buttons. 
 
 ### Default
 
