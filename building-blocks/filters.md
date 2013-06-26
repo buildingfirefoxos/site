@@ -41,8 +41,8 @@ Filters can be used for two purposes: data filtering, in which the user can view
     </article>
   </section>
 
-  <label>Css shared link: (Both Tabs and Filters are in tabs.css)</label>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/tabs.css">{% endhighlight %}
+  <h4>Css link (Both Tabs and Filters are in tabs.css)</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/tabs.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<ul role="tablist" data-type="filter" data-items="2">

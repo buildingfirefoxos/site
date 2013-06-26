@@ -32,8 +32,8 @@ State of an app where content becomes editable by the user (eg: deleting message
     </article>
   </section>
 
-  <h4>Css shared link</h4>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/edit_mode.css">{% endhighlight %}
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/edit_mode.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<form role="dialog" data-type="edit">

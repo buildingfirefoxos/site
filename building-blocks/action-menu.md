@@ -35,8 +35,8 @@ An action menu presents a list of actions, related to the app's content, from wh
     </article>
   </section>
 
-  <h4>Css shared link</h4>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/action_menu.css">{% endhighlight %}
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/action_menu.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<form role="dialog" data-type="action">

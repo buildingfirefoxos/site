@@ -30,8 +30,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}<progress></progress>{% endhighlight %}
@@ -46,8 +46,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}
@@ -63,8 +63,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}
@@ -80,8 +80,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}
@@ -116,8 +116,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}
@@ -147,8 +147,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}
@@ -180,8 +180,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}
@@ -235,8 +235,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}
@@ -271,8 +271,8 @@ Used for providing user with visual feedback that a process is active.
       </article>
     </section>
 
-    <h4>Css shared link</h4>
-    {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/progress_activity.css">{% endhighlight %}
+    <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}

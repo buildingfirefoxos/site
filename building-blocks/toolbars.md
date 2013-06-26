@@ -28,8 +28,8 @@ Toolbars contain actions, indicators, and navigation associated with the current
     </article>
   </section>
 
-  <h4>Css shared link</h4>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style_unstable/toolbars.css">{% endhighlight %}
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/toolbars.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}

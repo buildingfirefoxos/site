@@ -28,8 +28,8 @@ Default buttons are used when there are only a few actions and a list isn't need
     </article>
   </section>
 
-  <h4>Css shared link</h4>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/buttons.css" rel="stylesheet" type="text/css">{% endhighlight %}
   
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<button>Default</button>
@@ -60,9 +60,9 @@ Disabled buttons do not respond to users' taps.
     </article>
   </section>
 
-  <h4>Css shared link</h4>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
-  
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/buttons.css" rel="stylesheet" type="text/css">{% endhighlight %}
+
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<div>
   <button disabled="disabled">Default</button>
@@ -100,8 +100,8 @@ List buttons are used when displaying a list of actions, or to trigger the displ
     </article>
   </section>
 
-  <h4>Css shared link</h4>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/buttons.css">{% endhighlight %}
+  <h4>Css link</h4>
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/buttons.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<ul>

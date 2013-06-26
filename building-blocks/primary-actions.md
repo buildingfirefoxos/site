@@ -21,6 +21,9 @@ In your html you will have to add the class `action-icon` together with the name
     </div>
   </section>
 
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/icons/styles/action_icons.css" rel="stylesheet" type="text/css">{% endhighlight %}
+
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<div role="toolbar">
   <ul>

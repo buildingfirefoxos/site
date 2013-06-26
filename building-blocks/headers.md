@@ -68,8 +68,8 @@ Used for labeling the active view and providing top-level navigation and inputs 
     </article>
   </section>
 
-  <h4>Css shared link</h4>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/headers.css">{% endhighlight %}
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/headers.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<section role="region">
@@ -144,8 +144,8 @@ Used for labeling the active view and providing top-level navigation and inputs 
     </article>
   </section>
 
-  <h4>Css shared link</h4>
-  {% highlight html linenos=table %}<link rel="stylesheet" type="text/css" href="shared/style/headers.css">{% endhighlight %}
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/headers.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}

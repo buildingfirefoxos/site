@@ -7,7 +7,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Value selectors
 
-(SYSTEM COMPONENT)
+(SYSTEM COMPONENT: This is how `<select>` and `<input type="time" />` will be displayed in Firefox OS)
 
 Value selectors allow users to select one of more values from a single form field.
 
@@ -43,7 +43,7 @@ Value selectors allow users to select one of more values from a single form fiel
       </article>
   </section>
 
-  <label>To launch it use:</label>
+  <h4>To launch it use:</h4>
   {% highlight html linenos=table %}
 <select>
   <option>Option 1</option>
@@ -128,7 +128,7 @@ Value selectors allow users to select one of more values from a single form fiel
     </article>
   </section>
 
-  <label>To launch it use:</label>
+  <h4>To launch it use:</h4>
   {% highlight html linenos=table %}
 <select multiple="true">
   <option>Option 1</option>
@@ -207,7 +207,7 @@ Value selectors allow users to select one of more values from a single form fiel
     </article>
   </section>
 
-  <label>To launch it use:</label>
+  <h4>To launch it use:</h4>
   {% highlight html linenos=table %}
 <input type="time" />{% endhighlight %}
 </div>
