@@ -7,7 +7,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Scrolling
 
-Used for vertically slide text, images and/or video across the device's display.
+Used to vertically slide text, images and/or video across the device's display.
 
 <div>
   <h4>Example</h4>
