@@ -10,7 +10,11 @@ function tooltip(el,text) {
 }
 
 $(function() {
-  
+  //Open external links in new tab
+  $(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+  }).attr('target', '_blank');
+
   //See More
   $('.billboard > blockquote').each(function() {
     $(this).prev().append('<span class="read-more">More</span>');

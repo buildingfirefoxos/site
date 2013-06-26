@@ -6,30 +6,22 @@ h1: Contribute to this page
 h2: <strong>Contribute:</strong> Help us improve our content
 ---
 
-##### This site is hosted in github, so first thing: **how good are you at github?**
+##### This site is hosted in github: [https://github.com/buildingfirefoxos/site](https://github.com/buildingfirefoxos/site), feel free to propose changes by following these steps:
 
-* [I have never heard of github before](#noidea)
-* [I just have a github account](#account)
-* [I have some knowledge](#knowledge)
-* [I'm a github expert](#expert)
-
-<a name="noidea"></a>
-
-### Signing up for a new GitHub account
+### 1. Signing up for a new GitHub account
 Go to [github](https://github.com/) an fill the form (it will take you 30 seconds).
 
-<a name="account"></a>
 
-### Forking Buildingfirefoxos
-* Sign in your GitHub account, you know that... [github](https://github.com/login).
-* You can fork Buildingfirefoxos' repository clicking [here](https://github.com/buildingfirefoxos/site/fork).
+### 2. Browse Building Firefox OS site
+* Sign in your GitHub account, if you have not already ([github sigin](https://github.com/login)).
+* And go to [buildingfirefoxos repository](https://github.com/buildingfirefoxos/site).
 
-### Editing some content
-##### Let's edit content the esay way:
-* Go to [prose.io](http://prose.io/) and click 'AUTHORIZE WITH GITHUB'.
-* Look for repository called 'site'.
-* Bowse to the file you want to modify and click the 'edit' button next to it.
-* (Need to see how PR works there!) 
+### 3. Edit content
+* Look for for the file you want to contribute to. (sections in the site e.g Building blocks are contained in a folder with the same name)
+* Click on **Edit** button and modify the file.
+* Click on **Propose file change** button.
+* Add a brief description for your changes and click on **Send pull request** button.
+* Your changes have been submited. You will be notified once they are included in our site.
 
-##### Editing the pro way:
-  * more steps to come :)
+### 4. You are done!
+Thanks for contributing to Building Firefox OS.
