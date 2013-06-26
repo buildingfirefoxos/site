@@ -7,7 +7,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Switches
 
-Activates/Deactivates a given item. It’s also used to select an element within a list.
+Switches activate/deactivate a given item. They are also used to select a elements within a list.
 
 ### Checkboxes
 
