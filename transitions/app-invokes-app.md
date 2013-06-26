@@ -7,8 +7,6 @@ h2: <strong>CSS transitions:</strong> Provide context using UI animations
 
 ## App invokes app
 
-(SYSTEM TRANSITION)
-
 <section class="transition">
   <h4>Example</h4>
   <article id="example-invoke" class="phone-frame">

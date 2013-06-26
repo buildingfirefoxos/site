@@ -7,8 +7,6 @@ h2: <strong>CSS transitions:</strong> Provide context using UI animations
 
 ## Calls
 
-(SYSTEM TRANSITION)
-
 ### From dialer:
 
 <div class="dropdown">

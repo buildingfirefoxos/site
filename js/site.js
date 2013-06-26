@@ -15,6 +15,10 @@ $(function() {
   $('.billboard > blockquote').each(function() {
     $(this).prev().append('<span class="read-more">More</span>');
   });
+
+  $('.Downloads blockquote').each(function() {
+    $(this).prev().append('<span class="read-more">More</span>');
+  });
   
   $('.read-more').toggle(function() { 
     $(this).parent().siblings('blockquote').slideDown(); 

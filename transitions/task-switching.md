@@ -7,8 +7,6 @@ h2: <strong>CSS transitions:</strong> Provide context using UI animations
 
 ## Task switching
 
-(SYSTEM TRANSITION)
-
 ### Task navigation
 
 <section class="transition">

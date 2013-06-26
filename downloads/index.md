@@ -12,15 +12,15 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     Download all Firefox OS UI components in one single file and create quick mockups of your applications by just  making drag and drop. The layered PSD (Photoshop) contains editable effects, fonts and shapes so you can easily customize your app.
 
-    [Download PSD (.zip)](https://mozilla.box.com/shared/static/5ucf52a98q1rd20eu5lm.zip)
+    [Design stencil kit (Photoshop file .zip)](https://mozilla.box.com/shared/static/5ucf52a98q1rd20eu5lm.zip)
 
 *   ![alt Building Blocks](../images/downloads/blocks.png) 
 
     ## Building Blocks
 
-    Mockup your apps with the Design stencil kit and, when you’re satisfied with the results, use the same components available as Building Blocks . All the components you’ll find in the Design stencil kit have their equivalent as a HTML/CSS  Building Block.
+    In this pack you will find all CSS, assets, icons and fonts used in Firefox OS as well as HTML examples on how to use them. These Building Blocks are CSS and HTML only. We are working in some Javascript to interact with them.
 
-    [Download All Building Blocks (.zip)](https://github.com/buildingfirefoxos/Building-Blocks/archive/gh-pages.zip)
+    [Building Blocks (.zip)](https://github.com/buildingfirefoxos/Building-Blocks/archive/gh-pages.zip)
 
     <a class="github" href="https://github.com/buildingfirefoxos/Building-Blocks">Github repository</a> 
 
@@ -29,3 +29,16 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
     ## Icon set
 
     You’ll find different icon sets, from primary action icons to communications, settings and media icons. They’re available as layered PSD files in vector format, so they’re ideal to be used in different devices no matter the screen size without loosing quality.
+
+    [Action Icons (Photoshop file .zip)](https://mozilla.box.com/shared/static/jp5lrplbuont96ypm27q.zip)
+
+    [Settings Icons (Photoshop file .zip)](https://mozilla.box.com/shared/static/flp11jpmu89c32lasm4u.zip)
+
+*  ![alt Icon set](../images/downloads/icons.png) 
+
+    ## Fonts
+
+    The default font used in Firefox OS is "Feura Sans". You will find it in three different weights: Light, Regular and Medium. Note that "Bold" and "Medium" have exactly the same weight, that's because the font is still work in progress. Please, refer to the license file to check font's usage permissions.
+
+    <a class="github" href="https://github.com/mozilla-b2g/moztt/tree/master/FeuraSans-1.0">Feura Sans (.ttf)</a> 
+

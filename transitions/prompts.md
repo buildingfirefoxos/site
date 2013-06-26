@@ -7,8 +7,6 @@ h2: <strong>CSS transitions:</strong> Provide context using UI animations
 
 ## Prompts
 
-(SYSTEM TRANSITION)
-
 <section class="transition">
   <h4>Example</h4>
   <article id="example-modal" class="phone-frame">

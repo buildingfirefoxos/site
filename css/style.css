@@ -449,7 +449,8 @@ aside nav.menu-bar h4 {
 }
 
 /* SEE MORE */
-.content-section > blockquote {
+.content-section > blockquote,
+.Downloads blockquote {
   display: none;
 }
 
@@ -1132,13 +1133,14 @@ body.Downloads .content-section ul {
 body.Downloads .content-section li {
   padding: 20px 0 30px 0;
   margin: 0;
-  border-bottom: 1px dotted #b5b5b5;  
+  border-top: 1px dotted #b5b5b5;  
   display: block;
   overflow: hidden;
 }
 
 body.Downloads .content-section li:first-child {
   padding-top: 0;
+  border-top: none;
 }
 
 body.Downloads .content-section li img {
@@ -1192,6 +1194,23 @@ body.Downloads .content-section li a.github {
 body.Downloads .content-section li a.github:hover,
 body.Downloads .content-section li a.github:after {
   background-image: url(../images/downloads/icon_github_hover.png);
+}
+
+body.Downloads .content-section li blockquote {
+  margin: 0 0 40px 355px;
+}
+
+body.Downloads .content-section li blockquote a {
+  background: none;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0;
+  border: none;
+}
+
+body.Downloads .content-section li blockquote a:hover {
+  background: none;
 }
 
 /* ICONS */

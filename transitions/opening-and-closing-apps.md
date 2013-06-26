@@ -7,8 +7,6 @@ h2: <strong>CSS transitions:</strong> Provide context using UI animations
 
 ## Opening and closing apps
 
-(SYSTEM TRANSITION)
-
 ### Opening an app
 
 <section class="transition">
