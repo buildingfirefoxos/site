@@ -7,13 +7,18 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Confirm
 
-A confirmation prompt asks the user to take or confirm an action, such as responding to a system event such as asking the user to restart the device after swapping SIM cards, or to ask the user to grant or deny permission to perform a task.
+A confirmation prompt is used to confirm an action or inform the user of an event. Confirmation prompts are frequently used to confirm tasks that cannot be undone, such as permanently deleting an item. Confirmation prompts are designed to disrupt tasks and, as a result, should be used sparingly.
 
 > ### Characteristics
-> * Opened from buttons within app content; these buttons are often inside toolbars (for example, the Browser app’s “Share” button).
-> * Action menus contain one or more items.
-> * Buttons have two states: normal and pressed.
-> * These menus expand in height to accomodate their items, to a maximum of the screen’s height. Once that maximum height is reached.
+> * Confirmation prompts are modal; they occupy the entire screen, and require user input to close them.
+
+> #### A confirmation prompts consist of:
+> * Title (optional)
+> * Body
+> * Icon (optional)
+> * A Confirmation input button, whose label can be customized
+> * An optional Cancel input button, whose label can be customized
+
 
 ### Default
 
