@@ -1261,6 +1261,7 @@ section.icons li.action-icon:before,
 section.icons li.media-icon:before,
 section.icons li.comms-icon:before {
   z-index: 1;
+  left: 0;
 }
 section.icons li.action-icon span,
 section.icons li.media-icon span,
