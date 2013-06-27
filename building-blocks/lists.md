@@ -26,11 +26,12 @@ Lists are used to display a set of consecutive items, such as a list of contacts
         <header>Title</header>
         <ul>
           <li>
-            <p>Margherita <strong>Gomez</strong></p>
+            <p>Travis Gray</p>
           </li>
           <li>
             <a href="#">
-              <p>Margherita Clickable <strong>Gomez</strong></p>
+              <p>Travis Gray</p>
+              <p>Clickable item</p>
             </a>
           </li>
           <li>
@@ -38,8 +39,8 @@ Lists are used to display a set of consecutive items, such as a list of contacts
               <img alt="placeholder" src="myimage.jpg">
             </aside>
             <a href="#">
-              <p>Margherita <strong>Gomez</strong></p>
-              <p>Family</p>
+              <p>Travis Gray</p>
+              <p>Beginning of message</p>
             </a>
           </li>
         </ul>
@@ -50,8 +51,8 @@ Lists are used to display a set of consecutive items, such as a list of contacts
               <img alt="placeholder" src="myimage.jpg">
             </aside>
             <a href="#">
-              <p>Margherita <strong>Gomez</strong></p>
-              <p>Family</p>
+              <p>Travis Gray</p>
+              <p>Disabled item</p>
             </a>
           </li>
           <li>
@@ -59,13 +60,10 @@ Lists are used to display a set of consecutive items, such as a list of contacts
               <aside class="icon icon-callout">
                 asidecall
               </aside>
-              <p>
-                Margherita <strong>Gomez</strong>
-                <em>(2)</em>
-              </p>
+              <p>Travis Gray <em>(2)</em></p>
               <p>
                 <time datetime="17:43">5:43PM</time>
-                Mobile, Vivo
+                Mobile
               </p>
             </a>
           </li>
@@ -83,11 +81,12 @@ Lists are used to display a set of consecutive items, such as a list of contacts
   <header>Title</header>
   <ul>
     <li>
-      <p>Margherita <strong>Gomez</strong></p>
+      <p>Travis Gray</p>
     </li>
     <li>
       <a href="#">
-        <p>Margherita Clickable <strong>Gomez</strong></p>
+        <p>Travis Gray</p>
+        <p>Clickable item</p>
       </a>
     </li>
     <li>
@@ -95,8 +94,8 @@ Lists are used to display a set of consecutive items, such as a list of contacts
         <img alt="placeholder" src="myimage.jpg">
       </aside>
       <a href="#">
-        <p>Margherita <strong>Gomez</strong></p>
-        <p>Family</p>
+        <p>Travis Gray</p>
+        <p>Beginning of message</p>
       </a>
     </li>
   </ul>
@@ -107,8 +106,8 @@ Lists are used to display a set of consecutive items, such as a list of contacts
         <img alt="placeholder" src="myimage.jpg">
       </aside>
       <a href="#">
-        <p>Margherita <strong>Gomez</strong></p>
-        <p>Family</p>
+        <p>Travis Gray</p>
+        <p>Disabled item</p>
       </a>
     </li>
     <li>
@@ -116,13 +115,10 @@ Lists are used to display a set of consecutive items, such as a list of contacts
         <aside class="icon icon-callout">
           asidecall
         </aside>
-        <p>
-          Margherita <strong>Gomez</strong>
-          <em>(2)</em>
-        </p>
+        <p>Travis Gray <em>(2)</em></p>
         <p>
           <time datetime="17:43">5:43PM</time>
-          Mobile, Vivo
+          Mobile
         </p>
       </a>
     </li>
@@ -150,8 +146,8 @@ Lists are used to display a set of consecutive items, such as a list of contacts
               <img alt="placeholder" src="myimage.jpg">
             </aside>
             <a href="#">
-              <p>Margherita <strong>Gomez</strong></p>
-              <p>Family</p>
+              <p>Travis Gray</p>
+              <p>Beginning of message</p>
             </a>
           </li>
           <li>
@@ -161,13 +157,10 @@ Lists are used to display a set of consecutive items, such as a list of contacts
             </label>
             <a href="#">
               <aside class="icon icon-callout"></aside>
-              <p>
-                Margherita <strong>Gomez</strong>
-                <em>(2)</em>
-              </p>
+              <p>Travis Gray <em>(2)</em></p>
               <p>
                 <time datetime="17:43">5:43PM</time>
-                Mobile, Vivo
+                Mobile
               </p>
             </a>
           </li>
@@ -192,8 +185,8 @@ Lists are used to display a set of consecutive items, such as a list of contacts
         <img alt="placeholder" src="myimage.jpg">
       </aside>
       <a href="#">
-        <p>Margherita <strong>Gomez</strong></p>
-        <p>Family</p>
+        <p>Travis Gray</p>
+        <p>Beginning of message</p>
       </a>
     </li>
     <li>
@@ -203,13 +196,10 @@ Lists are used to display a set of consecutive items, such as a list of contacts
       </label>
       <a href="#">
         <aside class="icon icon-callout"></aside>
-        <p>
-          Margherita <strong>Gomez</strong>
-          <em>(2)</em>
-        </p>
+        <p>Travis Gray <em>(2)</em></p>
         <p>
           <time datetime="17:43">5:43PM</time>
-          Mobile, Vivo
+          Mobile
         </p>
       </a>
     </li>
