@@ -27,7 +27,7 @@ main-menu:
     <script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" media="screen,projection,tv" href="https://mozorg.cdn.mozilla.net/media/css/sandstone_guide-min.css?build=128c8fb">
+    <link rel="stylesheet" media="screen,projection,tv" href="/css/sandstone_guide-min.css">
     
     <link rel="stylesheet" media="screen,projection,tv" href="/css/highlight.css">
     {% include additional_links.html %}
@@ -37,7 +37,8 @@ main-menu:
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </head>
 
-  <body id="sandstone" class="html-ltr sky {{page.title}}">
+  <body id="sandstone" class="html-ltr sky image-fallback {{page.title}}"
+>
 
     <div id="outer-wrapper">
       <div id="wrapper">
@@ -161,7 +162,6 @@ main-menu:
       <script src="//mozorg.cdn.mozilla.net/media/js/libs/matchMedia.js"></script>
     <![endif]-->
 
-    <script src="/js/common-resp-min.js"></script>
     <script src="/js/tabzilla.js"></script>
     <script src="/js/jquery.tipsy.js"></script>
     <script src="/js/site.js"></script>

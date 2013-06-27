@@ -33,8 +33,11 @@ $(function() {
   });
 
   //Detect Nightly browser
-  if ( !($.browser.mozilla) && ($.browser.version > '20.0') ) {
-    $('body').addClass('not-nightly');
+  if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){ //test for Firefox/x.x or Firefox x.x (ignoring remaining digits);
+    var ffversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+    if (ffversion>=20) {
+      $('body').removeClass('image-fallback');
+    }
   }
 
   // Test for support for the 'rem' unit to show images fallback in BB section
