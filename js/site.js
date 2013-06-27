@@ -72,6 +72,10 @@ $(function() {
     $(this).closest('.dropdown').find('.dropdown-menu').addClass('hover');
   });
 
+  $('.dropdown-toggle').click(function(event) {
+    event.preventDefault();
+  });
+
   $('.dropdown').mouseleave(function() {
     $(this).find('.dropdown-menu').removeClass('hover');
     $(this).find('.dropdown-toggle').removeClass('hover');

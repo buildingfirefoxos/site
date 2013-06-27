@@ -496,32 +496,47 @@ aside nav.menu-bar h4 {
 
 /* Dropdown */
 .dropdown {
-  display: inline-block;
+  position: relative;
+  height: 65px;
 }
 
 .dropdown-toggle {
-  margin-left: 6px;
-  text-decoration: underline;
-  position: relative;
+  position: absolute;
   color: #484848;
   font-size: 28px;
   font-weight: 300;
   padding-right: 30px;
   white-space: nowrap;
+  border: 1px solid #e1e1e8;
+  height: 50px;
+  line-height: 50px;
+  text-indent: 15px;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 201;
+}
+
+.dropdown-toggle:hover {
+  text-decoration: none;
 }
 
 .dropdown-toggle:before {
   position: absolute;
   content: "";
-  height: 23px;
-  width: 23px;
-  background: url(../images/dropdown.png) right -24px no-repeat;
-  top: 9px;
+  height: 50px;
+  width: 50px;
+  background: #63a6d1 url(../images/dropdown.png) center no-repeat;
+  top: 0;
   right: 0;
+  border-left: 1px solid #63a6d1;
+  transition: background 0.8s ease, border 0.8s ease;
+  -webkit-transition: background 0.8s ease, border 0.8s ease;
 }
 
 .dropdown-toggle.hover:before {
-  background-position: right 1px;
+  background-color: #ececec;
+  border-color: #e1e1e8;
 }
 
 .dropdown-menu {
@@ -529,14 +544,19 @@ aside nav.menu-bar h4 {
   transition: opacity 0.8s ease;
   -webkit-transition: opacity 0.8s ease;
   position: absolute;
-  background: #fff;
   list-style: none;
-  -moz-box-shadow: 0 0 4px rgba(0,0,0,.27);
-  -webkit-box-shadow: 0 0 4px rgba(0,0,0,.27);
-  box-shadow: 0 0 4px rgba(0,0,0,.27);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,.3);
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
   margin: 0;
-  padding: 10px;
   z-index: 200;
+  left: 0;
+  top: 0;
+  padding-top: 51px;
+  right: 0;
+  background: #fff;
+  padding: 60px 10px 10px 10px;
+  border: 1px solid #e1e1e8;
 }
 
 .dropdown-menu.hover {
