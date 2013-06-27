@@ -61,13 +61,27 @@ a[role="button"]:hover {
 }
 
 /* No hover state in BB */
-(not:[role="toolbar"]) button:hover,
-a[role="button"]:hover,
-button.recommend:hover,
+button {
+  cursor: pointer;
+}
+
+button:hover, 
+a[role="button"]:hover, 
+button.recommend:hover, 
 a.recommend[role="button"]:hover {
-	border-color: #00a0c8;
-	background: #00a0c8;
-	color: #333;
+  border-color: #008aaa;
+  background: #008aaa;
+  background-size: auto 100%;
+  color: #333;
+}
+
+button.danger:hover, 
+a[role="button"].danger:hover, 
+.button.danger:hover {
+  background-image: url(buttons/images/ui/danger-press.png);
+  background-color: #890707;
+  border-color: #820000;
+  color: #fff;
 }
 
 /* Overwrite position: fixed to allow positioning in example frame */
