@@ -24,13 +24,18 @@ $(function() {
     $(this).prev().append('<span class="read-more">More</span>');
   });
   
-  $('.read-more').toggle(function() { 
-    $(this).parent().siblings('blockquote').slideDown(); 
-    $(this).text('Less'); 
-  }, function() { 
-    $(this).parent().siblings('blockquote').slideUp(); 
-    $(this).text('More'); 
+  $('.read-more').click(function() {
+    if ($(this).data("clicked")) { 
+      $(this).parent().siblings('blockquote').slideUp(); 
+      $(this).text('More');
+      $(this).data("clicked",false);
+    } else {
+      $(this).parent().siblings('blockquote').slideDown(); 
+      $(this).text('Less');
+      $(this).data("clicked",true);
+    }
   });
+
 
   //Detect Nightly browser
   if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){ //test for Firefox/x.x or Firefox x.x (ignoring remaining digits);

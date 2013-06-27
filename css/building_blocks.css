@@ -99,6 +99,11 @@ form[role="dialog"][data-type="confirm"] > section {
   font-family: "FeuraSans" !important;
 }
 
+/* Avoid going to the top of the page because of href="#" */
+.example a {
+  pointer-events: none;
+}
+
 .example h1,
 .example h2,
 .example h3 {
@@ -242,7 +247,7 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 .example section[role="region"] > header:first-child {
-  margin-left: -0.5rem;
+ /* margin-left: -0.5rem;*/
 }
 .example section[role="region"]:target > header:first-child {
   margin-left: 0;

@@ -9,14 +9,13 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 Used for labeling the active view and providing top-level navigation and inputs for the active view.
 
-### Characteristics
-
-* A header is a horizontal bar the full width of the screen, which appears at the top of the screen in most apps.
-* Headers float above content, with the option of flowing with content in special instances, such as in the Browser app.
-* The heading's text provides the name of the current view.
-* The heading may optionally include additional text; for example, in an email app, the number of unread messages may be displayed.
-* Headers may include inputs for navigating and manipulating the current view.
-* Most apps (full-screen games being an obvious exception) have a header.
+> ### Characteristics
+> * A header is a horizontal bar the full width of the screen, which appears at the top of the screen in most apps.
+> * Headers float above content, with the option of flowing with content in special instances, such as in the Browser app.
+> * The heading's text provides the name of the current view.
+> * The heading may optionally include additional text; for example, in an email app, the number of unread messages may be displayed.
+> * Headers may include inputs for navigating and manipulating the current view.
+> * Most apps (full-screen games being an obvious exception) have a header.
 
 ### Default
   

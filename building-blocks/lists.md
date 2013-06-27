@@ -9,11 +9,11 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 Lists are used to display a set of consecutive items, such as a list of contacts or a list of messages.
 
-### Characteristics
+> ### Characteristics
 
-* List items may vary in height (from one to three rows in a single item).
-* List items may be as simple as just a text string, to including images, text, and buttons.
-* Lists are comprised of rows, with optional section headers.
+> * List items may vary in height (from one to three rows in a single item).
+> * List items may be as simple as just a text string, to including images, text, and buttons.
+> * Lists are comprised of rows, with optional section headers.
 
 ### Default
 

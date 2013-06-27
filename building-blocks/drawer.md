@@ -10,7 +10,6 @@ h2: <strong>Building Blocks:</strong> markup & examples
 Drawers provide access to top-level navigation options that may be too numerous for a tabs or toolbar interface. Drawers can also be used to access user-generated content such as browser tabs, accounts in an email or messaging client, or multiple calendars. Drawers slide out from the edge of the screen at the user's request (pushing the underlying content aside), then slide back out of the way when no longer needed.
 
 > ### Characteristics
-
 > * Drawers provide access to top-level navigation links that are usually user-configurable. For example, these are used for accessing accounts in the Email and Calendar apps, and for the list of open tabs in the Browser app.
 > * Drawers can also be used to provide access to secondary or "power-user" features.
 > * With the exception of browser, drawers are positioned on the left side of the screen.

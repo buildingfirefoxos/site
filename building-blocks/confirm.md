@@ -12,7 +12,7 @@ A confirmation prompt is used to confirm an action or inform the user of an even
 > ### Characteristics
 > * Confirmation prompts are currently modal - they occupy the entire screen, and require user input to close them.
 
-> #### A confirmation prompts consist of:
+> ##### A confirmation prompts consist of:
 > * Title (optional)
 > * Body
 > * Icon (optional)
