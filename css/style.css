@@ -1412,6 +1412,7 @@ section.icons [role="toolbar"] button {
   aside nav.menu-bar {
     width: auto;
     margin-bottom: 0;
+    text-align: left;
   }
 
   aside nav.menu-bar h4 {
