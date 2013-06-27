@@ -21,7 +21,7 @@ Drawers provide access to top-level navigation options that may be too numerous 
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/drawer.jpg" alt="Drawer (Image replacing code)"/>
-    <article class="full frame">
+    <article class="full frame drawer">
       <section data-type="sidebar">
         <header>
           <menu type="toolbar">

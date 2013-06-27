@@ -16,32 +16,31 @@ Toolbars contain actions, indicators, and navigation associated with the current
     <article class="frame">
       <div role="toolbar">
         <ul>
-          <li><button class="pack-icon-delete">Delete</button></li>
+          <li><button class="action-icon delete">Cut</button></li>
         </ul>
         <ul>
-          <li><button class="pack-icon-mark">Mark</button></li>
-          <li><button class="pack-icon-send">Send</button></li>
-          <li><button class="pack-icon-move">Move</button></li>
-          <li><button class="pack-icon-share">Share</button></li>
+          <li><button class="action-icon cut">Cut</button></li>
+          <li><button class="action-icon copy">Copy</button></li>
+          <li><button class="action-icon paste">Paste</button></li>
         </ul>
       </div>
     </article>
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/toolbars.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/toolbars.css" rel="stylesheet" type="text/css">
+<link href="(your styles folder)/icons/styles/action_icons.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}
 <div role="toolbar">
   <ul>
-    <li><button class="pack-icon-delete">Delete</button></li>
+    <li><button class="action-icon delete">Cut</button></li>
   </ul>
   <ul>
-    <li><button class="pack-icon-mark">Mark</button></li>
-    <li><button class="pack-icon-send">Send</button></li>
-    <li><button class="pack-icon-move">Move</button></li>
-    <li><button class="pack-icon-share">Share</button></li>
+    <li><button class="action-icon cut">Cut</button></li>
+    <li><button class="action-icon copy">Copy</button></li>
+    <li><button class="action-icon paste">Paste</button></li>
   </ul>
 </div>{% endhighlight %}
 </div>
