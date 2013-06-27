@@ -23,5 +23,9 @@ Go to [github](https://github.com/) an fill the form (it will take you 30 second
 * Add a brief description for your changes and click on **Send pull request** button.
 * Your changes have been submited. You will be notified once they are included in our site.
 
+**Note:** If you're not already familiar with Markdown, you should spend 15 minutes and go over the excellent [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) at Daring Fireball.
+
 ### 4. You are done!
 Thanks for contributing to Building Firefox OS.
+
+
