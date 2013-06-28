@@ -7,7 +7,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 
 ## Value selectors
 
-(SYSTEM COMPONENT: This is how `<select>` and `<input type="time" />` will be displayed in Firefox OS)
+(SYSTEM COMPONENT: This is how `<select>`, `<input type="time" />` and `<input type="date" />` are displayed in Firefox OS)
 
 Value selectors allow users to select one of more values from a single form field.
 
