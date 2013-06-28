@@ -16,12 +16,12 @@ Toolbars contain actions, indicators, and navigation associated with the current
     <article class="frame">
       <div role="toolbar">
         <ul>
-          <li><button class="action-icon delete">Cut</button></li>
+          <li><button class="action-icon delete">delete</button></li>
         </ul>
         <ul>
-          <li><button class="action-icon cut">Cut</button></li>
-          <li><button class="action-icon copy">Copy</button></li>
-          <li><button class="action-icon paste">Paste</button></li>
+          <li><button class="action-icon email-flag">Flag</button></li>
+          <li><button class="action-icon email-markread">Mark read</button></li>
+          <li><button class="action-icon move">Move</button></li>
         </ul>
       </div>
     </article>
@@ -35,12 +35,12 @@ Toolbars contain actions, indicators, and navigation associated with the current
   {% highlight html linenos=table %}
 <div role="toolbar">
   <ul>
-    <li><button class="action-icon delete">Cut</button></li>
+    <li><button class="action-icon delete">delete</button></li>
   </ul>
   <ul>
-    <li><button class="action-icon cut">Cut</button></li>
-    <li><button class="action-icon copy">Copy</button></li>
-    <li><button class="action-icon paste">Paste</button></li>
+    <li><button class="action-icon email-flag">Flag</button></li>
+    <li><button class="action-icon email-markread">Mark read</button></li>
+    <li><button class="action-icon move">Move</button></li>
   </ul>
 </div>{% endhighlight %}
 </div>

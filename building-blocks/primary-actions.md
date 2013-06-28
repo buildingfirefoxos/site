@@ -14,9 +14,9 @@ In your html you will have to add the class `action-icon` together with the name
   <section class="example icons">
     <div role="toolbar">
       <ul>
-        <li><button class="action-icon cut">Cut</button></li>
-        <li><button class="action-icon copy">Copy</button></li>
-        <li><button class="action-icon paste">Paste</button></li>
+        <li><button class="action-icon delete">delete</button></li>
+        <li><button class="action-icon email-flag">Flag</button></li>
+        <li><button class="action-icon email-markread">Mark read</button></li>
       </ul>
     </div>
   </section>
@@ -27,9 +27,9 @@ In your html you will have to add the class `action-icon` together with the name
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<div role="toolbar">
   <ul>
-    <li><button class="action-icon cut">Cut</button></li>
-    <li><button class="action-icon copy">Copy</button></li>
-    <li><button class="action-icon paste">Paste</button></li>
+    <li><button class="action-icon delete">delete</button></li>
+    <li><button class="action-icon email-flag">Flag</button></li>
+    <li><button class="action-icon email-markread">Mark read</button></li>
   </ul>
 </div>{% endhighlight %}
 
