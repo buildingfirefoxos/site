@@ -1,5 +1,6 @@
 /* ----------- TimeSelectorView ---------- */
-#time-picker .picker-container {
+#time-picker .picker-container,
+#date-picker .picker-container {
   -moz-box-sizing: border-box;
   position: relative;
   width: calc(100% - 5rem);
@@ -11,7 +12,8 @@
   overflow: hidden;
 }
 
-#time-picker .picker-container:before {
+#time-picker .picker-container:before,
+#date-picker .picker-container:before {
   content: '';
   position: absolute;
   top: 0;
@@ -25,7 +27,8 @@
   z-index: 10;
 }
 
-#time-picker .picker-container:after {
+#time-picker .picker-container:after,
+#date-picker .picker-container:after {
   content: '';
   position: absolute;
   right: 0;
@@ -39,13 +42,18 @@
   z-index: 10;
 }
 
-#time-picker .picker-bar-background {
+#time-picker .picker-bar-background,
+#date-picker .picker-bar-background {
   position: absolute;
   top: 0;
   right: 0;
   width: calc(100% / 3);
   height: 100%;
-  background: url("../themes/default/images/ui/time_pattern.png");
+  background: url("value_selector/images/ui/time_pattern.png");
+}
+
+#date-picker .picker-bar-background {
+  width: 30%;
 }
 
 #time-picker.format24h .picker-bar-background {
@@ -54,20 +62,23 @@
 
 #time-picker .value-picker-hours-wrapper,
 #time-picker .value-picker-minutes-wrapper,
-#time-picker .value-picker-hour24-wrapper {
+#time-picker .value-picker-hour24-wrapper,
+#date-picker .value-picker-month-wrapper,
+#date-picker .value-picker-day-wrapper,
+#date-picker .value-picker-year-wrapper {
   -moz-box-sizing: border-box;
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% / 3);
   height: 100%;
   padding-top: 8.3rem;
   border-right: solid 0.2rem;
   -moz-border-right-colors: #1d1d1d #4a4a4a;
+  width: 33.33%;
 }
 
 #time-picker .format12h .value-picker-minutes-wrapper {
-  left: calc(100% / 3);
+  left: 33.33%;
 }
 
 #time-picker .format12h .value-picker-hour24-wrapper {
@@ -101,7 +112,8 @@
   z-index: 1;
 }
 
-#time-picker .value-indicator {
+#time-picker .value-indicator,
+#date-picker .value-indicator {
   position: absolute;
   width: 100%;
   height: 4.6rem;
@@ -111,14 +123,24 @@
   pointer-events: none;
 }
 
-#time-picker .value-indicator > .value-indicator-colon {
+#time-picker .value-indicator-colon,
+#time-picker .value-indicator-separator,
+#date-picker .value-indicator-separator {
   position: absolute;
-  width: calc(100% - (100% / 3));
-  height: 100%;
-  font: 2.2rem/4.4rem 'MozTT',sans-serif;
+  font-size: 2.2rem;
+  line-height: 4.4rem;
   text-align: center;
   background-color: #00A5C5;
   pointer-events: none;
+  z-index: 20;
+  width: 1rem;
+  left: 33.33%;
+  margin-left: -0.5rem;
+  height: 4.6rem;
+}
+
+#time-picker .value-indicator-separator {
+  left: 66.66%;
 }
 
 #time-picker .format24h .value-indicator-colon {
@@ -132,7 +154,9 @@ div.animation-on {
 
 .picker-unit {
   position: relative;
-  font: 2.2rem/5.6rem 'MozTT',sans-serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 5.6rem;
   color: #fff;
   text-align: center;
   vertical-align: middle;
@@ -141,3 +165,25 @@ div.animation-on {
   pointer-events: none;
 }
 
+#date-picker .value-picker-month-wrapper {
+  width: 50%;
+  left: 0;
+}
+
+#date-picker .value-picker-day-wrapper {
+  width: 20%;
+  left: 50%;
+}
+
+#date-picker .value-picker-year-wrapper {
+  right: 0;  
+  left: 70%;
+}
+
+#date-picker .value-indicator-separator {
+  left: 70%;
+}
+
+#date-picker .value-indicator-separator.first {
+  left: 50%;
+}

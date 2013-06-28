@@ -1056,6 +1056,7 @@ section.example .full.frame {
   text-transform: uppercase;
   text-shadow: none;
   margin-bottom: 20px;
+  font-weight: 300;
 }
 
 #colophon ul {
