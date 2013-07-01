@@ -150,7 +150,7 @@ body.Home .content-section {
   border: none;
   box-shadow: none;
   padding: 0;
-  margin: 15px 0 40px 0;
+  margin: 15px 0 5px 0;
 }
 
 body.Home .content-section > ul {
@@ -269,6 +269,59 @@ body.Home .content-section > ul li a:hover p {
   font-size: 19px;
   line-height: 21px;
   margin-bottom: 20px;
+}
+
+body.Home .content-section h4 {
+  color: #626363;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 30px 0 35px 90px;
+  position: relative;
+  background: #fff;
+  margin-top: 20px;
+}
+
+body.Home .content-section h4:before {
+  position: absolute;
+  content: "";
+  background: url(../images/working_on.png) no-repeat;
+  height: 78px;
+  width: 98px;
+  left: 5px;
+  top: -10px;
+}
+
+body.Home .content-section h4 + ul {
+  background: url(../images/working_on_bk.png) repeat-x;
+  padding: 0 30px 0 13px;
+}
+
+body.Home .content-section h4 + ul li {
+  color: #3c3c3c;
+  float: none;
+  background: url(../images/working_on_dot.png) 0 4px no-repeat;
+  width: auto;
+  text-align: left;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0 0 15px 30px;
+  margin: 0;
+}
+
+body.Home .content-section h4 + ul li:first-child {
+  padding: 0 0 20px 30px;
+}
+
+body.Home .content-section h4 + ul li a {
+  padding: 0;
+  display: inline-block;
+  color: #3c3c3c;
+  text-decoration: underline;
+  font-weight: bold;
+}
+body.Home .content-section h4 + ul li a:hover {
+  color: #67a7d0;
+  text-decoration: underline;
 }
 
 /* Header Downloads */
@@ -1104,31 +1157,17 @@ section.example .full.frame {
   text-decoration: none;
 }
 
-.tweet_list {
-  margin: 0;
-  padding: 0;
-  overflow-y: hidden;
-}
-  
-.tweet_list li {
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-bottom: 20px;
-  list-style-type: none;
-}
-        
-.tweet_list .tweet_avatar {
-  /*padding-right: .5em; float: left;*/
-  display: none;
+/* Poll */
+#poll {
+  width: 100%;
+  min-height: 298px;
+  border: 1px solid #444;
+  background: #333;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
-/*.tweet_list .tweet_avatar img {
-  vertical-align: middle;
-}*/
-
-.tweet_time {
-  display: none;
-}
 
 /* TOOLTIP */
 .tipsy { padding: 5px; font-size: 14px; position: absolute; z-index: 100; }
@@ -1389,6 +1428,10 @@ section.icons [role="toolbar"] button {
     padding-right: 40px;
   }
 
+  body.Home .content-section h4 + ul li {
+    border: none;
+  }
+
   #colophon .row {
     width: 760px;
   }
@@ -1462,6 +1505,15 @@ section.icons [role="toolbar"] button {
     display: none;
   }
 
+  body.Home .content-section h4 + ul {
+    background: #fff;
+    padding-bottom: 20px;
+  }
+
+  body.Home .content-section h4 + ul li {
+    border: none;
+  }
+
   aside.left-side + section.content-section {
     margin-left: 0;
     width: auto;
@@ -1485,7 +1537,8 @@ section.icons [role="toolbar"] button {
   }
 
   #colophon .col > ul,
-  #colophon .col > .tweet {
+  #colophon .col > .tweet,
+  #colophon .col > #poll {
     width: auto;
     margin: 20px;
   }
@@ -1517,6 +1570,10 @@ section.icons [role="toolbar"] button {
 
   body.Home #main-feature h2 {
     display: none;
+  }
+
+  body.Home .content-section h4 + ul {
+    background: #fff;
   }
 
   section.example {
