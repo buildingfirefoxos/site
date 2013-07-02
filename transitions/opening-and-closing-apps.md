@@ -31,6 +31,22 @@ h2: <strong>CSS transitions:</strong> Provide context using UI animations
   </article>
 </section>
 
+<h4>CSS Animations</h4>
+{% highlight css linenos=table %}
+/* Scale icons */
+animation: openAppIcons 0.3s forwards ease;
+@keyframes openAppIcons {
+  0%   { transform: scale(1.0); }
+  100% { transform: scale(1.8); }
+}
+
+/* Show app */
+animation: openApp 0.3s forwards ease;
+@keyframes openApp {
+  0%   { transform: scale(0.1); opacity: 0; }
+  100% { transform: scale(1.0); opacity: 1; }
+}{% endhighlight %}
+
 <hr>
 
 ### Closing an app
@@ -56,3 +72,19 @@ h2: <strong>CSS transitions:</strong> Provide context using UI animations
     </section>
   </article>
 </section>
+
+<h4>CSS Animations</h4>
+{% highlight css linenos=table %}
+/* Scale icons */
+animation: closeAppIcons 0.3s forwards ease;
+@keyframes closeAppIcons {
+  0%   { transform: scale(1.8); }
+  100% { transform: scale(1.0); }
+}
+
+/* Hide app */
+animation: closeApp 0.3s forwards ease;
+@keyframes closeApp {
+  0%   { transform: scale(1.0); opacity: 1; }
+  100% { transform: scale(0.1); opacity: 0; }
+}{% endhighlight %}

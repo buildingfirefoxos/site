@@ -314,11 +314,12 @@ body.Home .content-section h4 + ul li:first-child {
 
 body.Home .content-section h4 + ul li a {
   padding: 0;
-  display: inline-block;
+  display: inline;
   color: #3c3c3c;
   text-decoration: underline;
   font-weight: bold;
 }
+
 body.Home .content-section h4 + ul li a:hover {
   color: #67a7d0;
   text-decoration: underline;
