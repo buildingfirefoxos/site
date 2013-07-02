@@ -25,3 +25,11 @@ h2: <strong>CSS transitions:</strong> Provide context using UI animations
     </section>
   </article>
 </section>
+
+<h4>CSS Animations</h4>
+{% highlight css linenos=table %}
+transition: transform 0.2s ease-in;
+/* Show functionality */
+transform: translateY(234px); /* Screen height - functionality height, (translateY(0) for full screen functionalities) */
+/* Hide functionality */
+transform: translateY(100%);{% endhighlight %}
