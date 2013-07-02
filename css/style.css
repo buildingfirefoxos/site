@@ -1177,7 +1177,7 @@ section.example .full.frame {
 .tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -4px; }
 .tipsy-n .tipsy-arrow.custom { top: -4px; }
 .tipsy-nw .tipsy-arrow { top: 0; left: 6px; }
-.tipsy-ne .tipsy-arrow { top: 0; right: 6px; }
+.tipsy-ne .tipsy-arrow { top: 0; right: 10px; }
 .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -4px; background-position: bottom left; }
 .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; background-position: bottom left; }
 .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; background-position: bottom left; }
