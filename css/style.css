@@ -70,9 +70,10 @@ html { font-size: 62.5%; }
 #main-feature .header-links a:hover {
   background-image: url(../images/downloads/icon_download_hover.png);
 }
+
 #main-feature .header-links a:after {
   content: url(../images/downloads/icon_download_hover.png);
-  display: none;
+  opacity: 0;
 }
 
 #main-feature .header-links a.github {
@@ -82,9 +83,10 @@ html { font-size: 62.5%; }
 #main-feature .header-links a.github:hover {
   background-image: url(../images/downloads/icon_github_hover.png);
 }
+
 #main-feature .header-links a.github:after {
   content: url(../images/downloads/icon_github_hover.png);
-  display: none;
+  opacity: 0;
 }
 
 .content-section {
@@ -216,7 +218,7 @@ body.Home:after { /* Preload images */
   content: url(../images/building_blocks_icon_hover.png),
            url(../images/downloads_icon_hover.png),
            url(../images/transitions_icon_hover.png);
-  display: none;
+  opacity: 0;
 }
 
 body.Home .content-section > ul li#downloads img {
@@ -1240,8 +1242,13 @@ body.Downloads .content-section li a {
   -webkit-transition: background 1s ease, color 1s ease;
 }
 
-body.Downloads .content-section li a:hover,
-body.Downloads .content-section li a:after {
+body.Downloads:after { /* Preload images */
+  content: url(../images/downloads/icon_download_hover.png),
+           url(./images/downloads/icon_github_hover.png);
+  opacity: 0;
+}
+
+body.Downloads .content-section li a:hover {
   color: #484848;
   background-color: #ced6df;
   background-image: url(../images/downloads/icon_download_hover.png);
@@ -1251,8 +1258,7 @@ body.Downloads .content-section li a.github {
   background-image: url(../images/downloads/icon_github.png);
 }
 
-body.Downloads .content-section li a.github:hover,
-body.Downloads .content-section li a.github:after {
+body.Downloads .content-section li a.github:hover {
   background-image: url(../images/downloads/icon_github_hover.png);
 }
 
