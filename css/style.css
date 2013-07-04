@@ -72,7 +72,8 @@ html { font-size: 62.5%; }
 }
 
 #main-feature .header-links a:after {
-  content: url(../images/downloads/icon_download_hover.png);
+  content: "";
+  background: url(../images/downloads/icon_download_hover.png);
   opacity: 0;
 }
 
@@ -85,7 +86,8 @@ html { font-size: 62.5%; }
 }
 
 #main-feature .header-links a.github:after {
-  content: url(../images/downloads/icon_github_hover.png);
+  content: "";
+  background: url(../images/downloads/icon_github_hover.png);
   opacity: 0;
 }
 
@@ -215,9 +217,10 @@ body.Home .content-section > ul li#building-blocks a:hover figure {
 }
 
 body.Home:after { /* Preload images */
-  content: url(../images/building_blocks_icon_hover.png),
-           url(../images/downloads_icon_hover.png),
-           url(../images/transitions_icon_hover.png);
+  content: "";
+  background: url(../images/building_blocks_icon_hover.png),
+              url(../images/downloads_icon_hover.png),
+              url(../images/transitions_icon_hover.png);
   opacity: 0;
 }
 
@@ -1243,8 +1246,9 @@ body.Downloads .content-section li a {
 }
 
 body.Downloads:after { /* Preload images */
-  content: url(../images/downloads/icon_download_hover.png),
-           url(./images/downloads/icon_github_hover.png);
+  content: "";
+  background: url(../images/downloads/icon_download_hover.png),
+              url(./images/downloads/icon_github_hover.png);
   opacity: 0;
 }
 
