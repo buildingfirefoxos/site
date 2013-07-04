@@ -36,6 +36,7 @@ html { font-size: 62.5%; }
   -webkit-transition: color 1s ease, text-shadow 1s ease;
 }
 
+#main-feature h1 a:focus,
 #main-feature h1 a:hover {
   color: #484848;
   text-decoration: none;
@@ -48,6 +49,7 @@ html { font-size: 62.5%; }
   text-shadow: none;
 }
 
+#main-feature h2 a:focus,
 #main-feature h2 a:hover {
   text-decoration: underline;
 }
@@ -67,6 +69,7 @@ html { font-size: 62.5%; }
   -webkit-transition: background 1s ease;
 }
 
+#main-feature .header-links a:focus,
 #main-feature .header-links a:hover {
   background-image: url(../images/downloads/icon_download_hover.png);
 }
@@ -81,6 +84,7 @@ html { font-size: 62.5%; }
   background-image: url(../images/downloads/icon_github.png);
 }
 
+#main-feature .header-links a.github:focus,
 #main-feature .header-links a.github:hover {
   background-image: url(../images/downloads/icon_github_hover.png);
 }
@@ -186,6 +190,7 @@ body.Home .content-section > ul li a {
   text-align: center;
 }
 
+body.Home .content-section > ul li a:focus,
 body.Home .content-section > ul li a:hover {
   background: #fff;
   text-decoration: none;
@@ -212,6 +217,7 @@ body.Home .content-section > ul li#building-blocks figure {
   background: url(../images/building_blocks_icon.png) center 29px no-repeat;
 }
 
+body.Home .content-section > ul li#building-blocks a:focus figure,
 body.Home .content-section > ul li#building-blocks a:hover figure {
   background-image: url(../images/building_blocks_icon_hover.png);
 }
@@ -232,6 +238,7 @@ body.Home .content-section > ul li#downloads figure {
   background: url(../images/downloads_icon.png) 121px 75px no-repeat;
 }
 
+body.Home .content-section > ul li#downloads a:focus figure,
 body.Home .content-section > ul li#downloads a:hover figure {
   background-image: url(../images/downloads_icon_hover.png);
 }
@@ -240,6 +247,7 @@ body.Home .content-section > ul li#transitions figure {
   background: url(../images/transitions_icon.png) center 54px no-repeat;
 }
 
+body.Home .content-section > ul li#transitions a:focus figure,
 body.Home .content-section > ul li#transitions a:hover figure {
   background-image: url(../images/transitions_icon_hover.png);
 }
@@ -253,6 +261,7 @@ body.Home .content-section > ul li h3 {
   -webkit-transition: color 1s ease;
 }
 
+body.Home .content-section > ul li a:focus h3,
 body.Home .content-section > ul li a:hover h3 {
   color: #67a7d0;
 }
@@ -266,6 +275,7 @@ body.Home .content-section > ul li p {
   -webkit-transition: color 1s ease;
 }
 
+body.Home .content-section > ul li a:focus p,
 body.Home .content-section > ul li a:hover p {
   color: #67a7d0;
 }
@@ -325,6 +335,7 @@ body.Home .content-section h4 + ul li a {
   font-weight: bold;
 }
 
+body.Home .content-section h4 + ul li a:focus,
 body.Home .content-section h4 + ul li a:hover {
   color: #67a7d0;
   text-decoration: underline;
@@ -491,6 +502,7 @@ aside nav.menu-bar ul li a.current:before {
   bottom: -2px;
 }
 
+aside nav.menu-bar ul li a:focus,
 aside nav.menu-bar ul li a:hover {
   background: #d8e0e9;
   text-decoration: none;
@@ -576,6 +588,7 @@ aside nav.menu-bar h4 {
   z-index: 201;
 }
 
+.dropdown-toggle:focus,
 .dropdown-toggle:hover {
   text-decoration: none;
 }
@@ -639,6 +652,7 @@ aside nav.menu-bar h4 {
   background: #ebecec;
 }
 
+.dropdown-menu a:focus,
 .dropdown-menu a:hover {
   background: #67a7d0;
   color: #fff;
@@ -650,7 +664,7 @@ aside nav.menu-bar h4 {
 }
 
 .dropdown-menu a:focus {
-  outline: none;
+  outline: none; /* ideally remove? */
 }
 
 .dropdown-content {
@@ -1252,6 +1266,7 @@ body.Downloads:after { /* Preload images */
   opacity: 0;
 }
 
+body.Downloads .content-section li a:focus,
 body.Downloads .content-section li a:hover {
   color: #484848;
   background-color: #ced6df;
@@ -1262,6 +1277,7 @@ body.Downloads .content-section li a.github {
   background-image: url(../images/downloads/icon_github.png);
 }
 
+body.Downloads .content-section li a.github:focus,
 body.Downloads .content-section li a.github:hover {
   background-image: url(../images/downloads/icon_github_hover.png);
 }
@@ -1279,6 +1295,7 @@ body.Downloads .content-section li blockquote a {
   border: none;
 }
 
+body.Downloads .content-section li blockquote a:focus,
 body.Downloads .content-section li blockquote a:hover {
   background: none;
 }
