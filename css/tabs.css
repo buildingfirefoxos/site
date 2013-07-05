@@ -139,6 +139,7 @@ ul.ui-tabs-nav {
   border-bottom: 1px solid #fff;
 }
 
+.ui-tabs .ui-tabs-nav li a:focus,
 .ui-tabs .ui-tabs-nav li a:hover {
   color: #5a5a5a ;
 }
@@ -170,6 +171,7 @@ ul.ui-tabs-nav {
   line-height: 21px;
 }
 .ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-active a,
+.ui-tabs .ui-tabs .ui-tabs-nav li a:focus,
 .ui-tabs .ui-tabs .ui-tabs-nav li a:hover {
   text-decoration: underline;
 }
