@@ -1150,16 +1150,16 @@
 
 #fuctionality-app {  
   height: 100%;
-  background: url(http://buildingfirefoxos.com/wp-content/uploads/2013/04/browser-footer.png) 0 bottom no-repeat,
-              url(http://buildingfirefoxos.com/wp-content/uploads/2013/04/browser-header.png) no-repeat,
-              url(http://buildingfirefoxos.com/wp-content/uploads/2013/04/browser-body.png) 0 30px no-repeat;
+  background: url(../images/transitions/browser-footer.png) 0 bottom no-repeat,
+              url(../images/transitions/browser-header.png) no-repeat,
+              url(../images/transitions/browser-body.png) 0 30px no-repeat;
   /*transition: height 0.2s ease-in;
   -webkit-transition: height 0.2s ease-in;*/
 }
 
 #fuctionality {
   height: 100%;
-  background: url(http://buildingfirefoxos.com/wp-content/uploads/2013/04/keyboard.png) no-repeat;
+  background: url(../images/transitions/keyboard.png) no-repeat;
   transform: translateY(100%);
   -webkit-transform: translateY(100%);
   transition: transform 0.2s ease-in;
