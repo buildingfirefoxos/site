@@ -1320,9 +1320,10 @@ section.icons ul {
 }
 section.icons li.action-icon,
 section.icons li.media-icon,
+section.icons li.settings-icon,
 section.icons li.comms-icon {
   line-height: 30px;
-  font-size: 13px;
+  font-size: 12px;
   margin-bottom: 10px;
   position: relative;
   float: left;
@@ -1331,6 +1332,7 @@ section.icons li.comms-icon {
 }
 section.icons li.action-icon:after,
 section.icons li.media-icon:after,
+section.icons li.settings-icon:after,
 section.icons li.comms-icon:after {
   background: rgba(0,0,0, 0.8);
   content: "";
@@ -1343,11 +1345,14 @@ section.icons li.comms-icon:after {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
 }
-section.icons li.comms-icon.dark:after {
-  background: rgba(0,0,0, 0.5);
+section.icons li.comms-icon.dark:after,
+section.icons li.settings-icon:after {
+  background: #fff;
+  border: 1px solid #ddd;
 }
 section.icons li.action-icon:before,
 section.icons li.media-icon:before,
+section.icons li.settings-icon:before,
 section.icons li.comms-icon:before {
   z-index: 1;
   left: 0;
@@ -1355,8 +1360,9 @@ section.icons li.comms-icon:before {
 }
 section.icons li.action-icon span,
 section.icons li.media-icon span,
+section.icons li.settings-icon span,
 section.icons li.comms-icon span {
-  padding: 7px 0 0 40px;
+  padding: 7px 10px 0 40px;
   line-height: 13px;
   float: left;
 }
@@ -1393,6 +1399,18 @@ section.icons [role="toolbar"] button {
 
 [role="toolbar"] button:active {
   background-color: #008aaa;
+}
+
+section.icons.settings [data-type="list"] {
+  background-color: #eff0eb;
+}
+
+section.icons.settings [data-type="list"] aside.icon {
+  background-color: transparent;
+}
+
+section.icons.settings [data-type="list"] li {
+  border-bottom-color: rgb(230, 230, 227);
 }
 
 /* -------------------------------- MEDIA QUERIES ----------------------------------- */
