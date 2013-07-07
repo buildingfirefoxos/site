@@ -56,6 +56,7 @@ a[role="button"] {
   box-sizing: -moz-border-box;
 }
 
+a[role="button"]:focus,
 a[role="button"]:hover {
 	text-decoration: none;
 }
@@ -65,9 +66,13 @@ button {
   cursor: pointer;
 }
 
-button:hover, 
+button:focus,
+button:hover,
+a[role="button"]:focus, 
 a[role="button"]:hover, 
+button.recommend:focus, 
 button.recommend:hover, 
+a.recommend[role="button"]:focus,
 a.recommend[role="button"]:hover {
   border-color: #008aaa;
   background: #008aaa;
@@ -75,8 +80,11 @@ a.recommend[role="button"]:hover {
   color: #333;
 }
 
+button.danger:focus, 
 button.danger:hover, 
+a[role="button"].danger:focus, 
 a[role="button"].danger:hover, 
+.button.danger:focus,
 .button.danger:hover {
   background-image: url(buttons/images/ui/danger-press.png);
   background-color: #890707;
@@ -241,6 +249,7 @@ form[role="dialog"][data-type="confirm"] > section {
 	color: #fff;	
 }
 
+.example section[data-type="sidebar"] > nav > ul > li > a:focus,
 .example section[data-type="sidebar"] > nav > ul > li > a:hover {
   color: #fff;
 }

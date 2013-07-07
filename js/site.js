@@ -106,6 +106,14 @@ $(function() {
     gravity: 'ne',
     fade: true
   });
+  // Also hook tooltips plugin into focus to make them appear for keyboard users
+  // Should really be more permanently fixed at source, as the plugin
+  // makes the mistaken assumption that it's EITHER mouseenter/mouseleave OR focus/blur
+  $('.header-links a').tipsy({ 
+    gravity: 'ne',
+    fade: true,
+    trigger: 'focus'
+  });
 
 
 

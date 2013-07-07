@@ -1632,3 +1632,11 @@ section.icons.settings [data-type="list"] li {
   }
 
 }
+
+/* Patch for missing plain link :focus styles in Sandstone
+   To be removed once official sandstone_guide.css is updated
+   to include these. */
+a:focus{color:#0073aa;text-decoration:underline}
+.sky a:focus {color:#4090c4}
+.space a:focus{color:#55a1d7}
+#colophon a:focus{color:#0073aa}
