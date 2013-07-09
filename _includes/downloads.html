@@ -1,19 +1,12 @@
 {% case section %}
   {% when 'building-blocks' or 'icons' %}
-    <!--a href="https://github.com/buildingfirefoxos/Building-Blocks/archive/gh-pages.zip" class="header-downloads zip">
-      <p>Download <br/><span>326Kb</span></p>
-    </a-->
-
     <aside class="header-links">
-      <a class="download" title="Download All Building Blocks (.zip)" href="https://github.com/buildingfirefoxos/Building-Blocks/archive/gh-pages.zip">Download All Building Blocks</a>
-      <a class="github" title="Building Blocks on github"href="https://github.com/buildingfirefoxos/Building-Blocks">Github repository</a>
+      <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'building blocks']);" class="download" title="Download All Building Blocks (.zip)" href="https://github.com/buildingfirefoxos/Building-Blocks/archive/gh-pages.zip">Download All Building Blocks</a>
+      <a onClick="_gaq.push(['_trackEvent', 'link', 'github', 'building blocks']);" class="github" title="Building Blocks on github"href="https://github.com/buildingfirefoxos/Building-Blocks">Github repository</a>
     </aside>
 
   {% when 'transitions' %}
-    <!--a href="https://raw.github.com/buildingfirefoxos/Building-Blocks/gh-pages/transitions.css" class="header-downloads css">
-      <p>Download <br/><span>12Kb</span></p>
-    </a-->
     <aside class="header-links">
-      <a class="download" title="Download All Transitions (.css)" href="/css/BB/transitions.css">Download All Transitions</a>
+      <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'transitions']);" id="transitions-dl" class="download" title="Download All Transitions (.css)" href="/css/BB/transitions.css">Download All Transitions</a>
     </aside>
 {% endcase %}

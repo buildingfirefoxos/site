@@ -12,7 +12,8 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     Download all Firefox OS UI components in one single file and create quick mockups of your applications by just  making drag and drop. The layered PSD (Photoshop) contains editable effects, fonts and shapes so you can easily customize your app.
 
-    [Design stencil kit (Photoshop file .zip)](https://mozilla.box.com/s/5ucf52a98q1rd20eu5lm)
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'downloads - stencil kit']);" id="transitions-dl" href="https://mozilla.box.com/s/5ucf52a98q1rd20eu5lm">Design stencil kit (Photoshop file .zip)</a>
+
 
 *   ![alt Building Blocks](../images/downloads/blocks.png) 
 
@@ -20,9 +21,9 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     In this pack you will find all CSS, assets, icons and fonts used in Firefox OS as well as HTML examples on how to use them. These Building Blocks are CSS and HTML only. We are working in some Javascript to interact with them.
 
-    [Building Blocks (.zip)](https://github.com/buildingfirefoxos/Building-Blocks/archive/gh-pages.zip)
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'downloads - building blocks']);" href="https://github.com/buildingfirefoxos/Building-Blocks/archive/gh-pages.zip">Building Blocks (.zip)</a> 
 
-    <a class="github" href="https://github.com/buildingfirefoxos/Building-Blocks">Github repository</a> 
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'github', 'downloads - building blocks']);" class="github" href="https://github.com/buildingfirefoxos/Building-Blocks">Github repository</a> 
 
 *  ![alt Icon set](../images/downloads/icons.png) 
 
@@ -30,9 +31,9 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     You’ll find different icon sets, from primary action icons to communications, settings and media icons. They’re available as layered PSD files in vector format, so they’re ideal to be used in different devices no matter the screen size without loosing quality.
 
-    [Action Icons (Photoshop file .zip)](https://mozilla.box.com/s/jp5lrplbuont96ypm27q)
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'downloads - action icons blocks']);" href="https://mozilla.box.com/s/jp5lrplbuont96ypm27q">Action Icons (Photoshop file .zip)</a> 
 
-    [Settings Icons (Photoshop file .zip)](https://mozilla.box.com/s/flp11jpmu89c32lasm4u)
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'downloads - settings icons blocks']);" href="https://mozilla.box.com/s/flp11jpmu89c32lasm4u">Settings Icons (Photoshop file .zip)</a> 
 
 *  ![alt Icon set](../images/downloads/fonts.png) 
 
@@ -40,5 +41,6 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     The default font used in Firefox OS is "Feura Sans". You will find it in three different weights: Light, Regular and Medium. Note that "Bold" and "Medium" have exactly the same weight, that's because the font is still work in progress. Please, refer to the license file to check font's usage permissions.
 
-    <a class="github" href="https://github.com/mozilla-b2g/moztt/tree/master/FeuraSans-1.0">Feura Sans (.ttf)</a> 
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'github', 'downloads - feura']);" class="github" href="https://github.com/mozilla-b2g/moztt/tree/master/FeuraSans-1.0">Feura Sans (.ttf)</a>
+
 
