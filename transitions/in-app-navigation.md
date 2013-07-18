@@ -20,18 +20,10 @@ Going deeper and back within an application
       <div class="statusbar"></div>
       <div class="apps-container">
         <div id="deeper-app-1" class="app" data-position="current">
-          <header>
-            <h1>Contacts</h1>
-            <img src="../images/transitions/contacts_header.png" alt="contacts_header">
-          </header>
-          <img src="../images/transitions/contacts_body.png" alt="contacts_body" class="body">
+          <img src="../images/transitions/contacts.jpg" alt="contacts_body" class="body">
         </div>
         <div id="deeper-app-2" class="app" data-position="right">
-          <header>
-            <h1>Mark Alfentino</h1>
-            <img src="../images/transitions/contacts_details_header.png" alt="contacts_details_header">
-          </header>
-          <img src="../images/transitions/contacts_details.png" alt="contacts_details" class="body">
+          <img src="../images/transitions/contacts_details.jpg" alt="contacts_details" class="body">
         </div>
       </div>
     </section>

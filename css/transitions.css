@@ -463,7 +463,7 @@
   z-index: 10;
 }
 
-#deeper-app-2 header {
+/*#deeper-app-2 header {
   opacity: 0;
 }
 
@@ -482,16 +482,12 @@
   position: absolute;
   text-shadow: none;
   letter-spacing: 0;
-}
+}*/
 
-#example-deeper .play { left: 193px; top: 291px; }
+#example-deeper .play { left: 193px; top: 308px; }
 
 /* animations */
-.animate-1 #deeper-app-1 header h1 {
-  -webkit-animation: headerCurrentToLeft 0.4s forwards;
-  animation: headerCurrentToLeft 0.4s forwards;
-}
-.animate-1 #deeper-app-1 .body {
+.animate-1 #deeper-app-1 {
   -webkit-animation: currentToLeft 0.4s forwards;
   animation: currentToLeft 0.4s forwards;
 }
@@ -499,25 +495,13 @@
   -webkit-animation: rightToCurrent 0.4s forwards;
   animation: rightToCurrent 0.4s forwards;
 }
-.animate-1 #deeper-app-2  header {
-  -webkit-animation: fadeIn 0.4s forwards;
-  animation: fadeIn 0.4s forwards;
-}
-.animate-2 #deeper-app-1 header h1 {
-  -webkit-animation: headerLeftToCurrent 0.4s forwards;
-  animation: headerLeftToCurrent 0.4s forwards;
-}
-.animate-2 #deeper-app-1 .body {
+.animate-2 #deeper-app-1 {
   -webkit-animation: leftToCurrent 0.4s forwards;
   animation: leftToCurrent 0.4s forwards;
 }
 .animate-2 #deeper-app-2 {
   -webkit-animation: currentToRight 0.4s forwards;
   animation: currentToRight 0.4s forwards;
-}
-.animate-2 #deeper-app-2 header {
-  -webkit-animation: fadeOut 0.4s forwards;
-  animation: fadeOut 0.4s forwards;
 }
 
 

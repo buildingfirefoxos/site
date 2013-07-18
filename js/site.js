@@ -244,7 +244,7 @@ $(function() {
 
   //Go deeper
   $('#example-deeper .play').click(function(){
-    transtion_2_steps($(this),'13px','69px',1000,'193px','291px',2000);
+    transtion_2_steps($(this),'13px','69px',1000,'193px','308px',2000);
   });
 
   /*$('#example-back .play').click(function(){
