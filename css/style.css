@@ -61,7 +61,8 @@ html { font-size: 62.5%; }
 #main-feature .header-links:after {
   content: "";
   background: url(../images/downloads/icon_download_hover.png),
-              url(./images/downloads/icon_github_hover.png);
+              url(./images/downloads/icon_github_hover.png),
+              url(./images/downloads/icon_market_hover.png);
   opacity: 0;
 }
 
@@ -88,6 +89,15 @@ html { font-size: 62.5%; }
 #main-feature .header-links a.github:focus,
 #main-feature .header-links a.github:hover {
   background-image: url(../images/downloads/icon_github_hover.png);
+}
+
+#main-feature .header-links a.market {
+  background-image: url(../images/downloads/icon_market.png);
+}
+
+#main-feature .header-links a.market:focus,
+#main-feature .header-links a.market:hover {
+  background-image: url(../images/downloads/icon_market_hover.png);
 }
 
 .content-section {
@@ -1275,6 +1285,15 @@ body.Downloads .content-section li a.github {
 body.Downloads .content-section li a.github:focus,
 body.Downloads .content-section li a.github:hover {
   background-image: url(../images/downloads/icon_github_hover.png);
+}
+
+body.Downloads .content-section li a.market {
+  background-image: url(../images/downloads/icon_market.png);
+}
+
+body.Downloads .content-section li a.market:focus,
+body.Downloads .content-section li a.market:hover {
+  background-image: url(../images/downloads/icon_market_hover.png);
 }
 
 body.Downloads .content-section li blockquote {

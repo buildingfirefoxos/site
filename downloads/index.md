@@ -25,6 +25,8 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     <a onClick="_gaq.push(['_trackEvent', 'link', 'github', 'downloads - building blocks']);" class="github" href="https://github.com/buildingfirefoxos/Building-Blocks">Github repository</a> 
 
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'market', 'downloads - building blocks']);" class="market" href="https://marketplace.firefox.com/app/building-blocks">Install the app</a> 
+
 *  ![alt Icon set](../images/downloads/icons.png) 
 
     ## Icon set
