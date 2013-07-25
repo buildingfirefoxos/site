@@ -16,19 +16,19 @@ Switches activate/deactivate a given item. They are also used to select a elemen
   <section class="example">
     <img src="../images/BB/switches_1.jpg" alt="Switches (Image replacing code)"/>
     <article class="frame">
-      <label>
-        <input type="checkbox" checked="">
+      <label class="pack-checkbox">
+        <input type="checkbox" checked>
         <span></span>
       </label>
-      <label>
+      <label class="pack-checkbox">
         <input type="checkbox">
         <span></span>
       </label>
-      <label class="danger">
-        <input type="checkbox" checked="">
+      <label class="pack-checkbox danger">
+        <input type="checkbox" checked>
         <span></span>
       </label>
-      <label class="danger">
+      <label class="pack-checkbox danger">
         <input type="checkbox">
         <span></span>
       </label>
@@ -40,19 +40,19 @@ Switches activate/deactivate a given item. They are also used to select a elemen
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}
-<label>
-  <input type="checkbox" checked="">
+<label class="pack-checkbox">
+  <input type="checkbox" checked>
   <span></span>
 </label>
-<label>
+<label class="pack-checkbox">
   <input type="checkbox">
   <span></span>
 </label>
-<label class="danger">
-  <input type="checkbox" checked="">
+<label class="pack-checkbox danger">
+  <input type="checkbox" checked>
   <span></span>
 </label>
-<label class="danger">
+<label class="pack-checkbox danger">
   <input type="checkbox">
   <span></span>
 </label>{% endhighlight %}
@@ -67,19 +67,19 @@ Switches activate/deactivate a given item. They are also used to select a elemen
   <section class="example">
     <img src="../images/BB/switches_2.jpg" alt="Switches (Image replacing code)"/>
     <article class="frame">
-      <label>
-        <input type="radio" name="example" checked="">
+      <label class="pack-radio">
+        <input type="radio" name="example" checked>
         <span></span>
       </label>
-      <label>
+      <label class="pack-radio">
         <input type="radio" name="example">
         <span></span>
       </label>
-      <label class="danger">
-        <input type="radio" name="example2" checked="">
+      <label class="pack-radio danger">
+        <input type="radio" name="example2" checked>
         <span></span>
       </label>
-      <label class="danger">
+      <label class="pack-radio danger">
         <input type="radio" name="example2">
         <span></span>
       </label>
@@ -91,19 +91,19 @@ Switches activate/deactivate a given item. They are also used to select a elemen
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}
-<label>
-  <input type="radio" name="example" checked="">
+<label class="pack-radio">
+  <input type="radio" name="example" checked>
   <span></span>
 </label>
-<label>
+<label class="pack-radio">
   <input type="radio" name="example">
   <span></span>
 </label>
-<label class="danger">
-  <input type="radio" name="example2" checked="">
+<label class="pack-radio danger">
+  <input type="radio" name="example2" checked>
   <span></span>
 </label>
-<label class="danger">
+<label class="pack-radio danger">
   <input type="radio" name="example2">
   <span></span>
 </label>{% endhighlight %}
@@ -118,12 +118,12 @@ Switches activate/deactivate a given item. They are also used to select a elemen
   <section class="example">
     <img src="../images/BB/switches_3.jpg" alt="Switches (Image replacing code)"/>
     <article class="switch frame">
-      <label>
-        <input type="checkbox" data-type="switch" checked="">
+      <label class="pack-switch">
+        <input type="checkbox" checked>
         <span></span>
       </label>
-      <label>
-        <input type="checkbox" data-type="switch">
+      <label class="pack-switch">
+        <input type="checkbox">
         <span></span>
       </label>
     </article>
@@ -134,12 +134,12 @@ Switches activate/deactivate a given item. They are also used to select a elemen
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}
-<label>
-  <input type="checkbox" data-type="switch" checked="">
+<label class="pack-switch">
+  <input type="checkbox" checked>
   <span></span>
 </label>
-<label>
-  <input type="checkbox" data-type="switch">
+<label class="pack-switch">
+  <input type="checkbox">
   <span></span>
 </label>{% endhighlight %}
 </div>
