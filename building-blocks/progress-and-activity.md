@@ -42,7 +42,7 @@ Used for providing user with visual feedback that a process is active.
     <section class="example">
       <img src="../images/BB/progress_2.jpg" alt="Progress (Image replacing code)"/>
       <article class="frame">
-        <progress class="pack-activity" value="80" max="100"></progress>
+        <progress max="100" value="0" class="pack-activity"></progress>
       </article>
     </section>
 
@@ -51,7 +51,7 @@ Used for providing user with visual feedback that a process is active.
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}
-<progress class="pack-activity" value="80" max="100"></progress>{% endhighlight %}
+<progress max="100" value="0" class="pack-activity"></progress>{% endhighlight %}
   </li>
   
   <li id="progress-progress">
