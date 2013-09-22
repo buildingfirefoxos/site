@@ -85,7 +85,7 @@ main-menu:
 
           {% else %}
             <aside class="left-side">
-              {% assign pages_list = site.pages | sort: "name" %}
+              {% assign pages_list = site.pages %}
               {% include pages_list.html %}
             </aside>
           {% endif %}
