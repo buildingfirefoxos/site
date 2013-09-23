@@ -35,8 +35,14 @@ An action menu presents a list of actions, related to the app's content, from wh
   <header>Title</header>
   <menu>
     <button>Action 1</button>
-    <button>Action 2</button>
+    <button disabled>Action 2 (disabled)</button>
     <button>Action 3</button>
+    <button>Action 4</button>
+    <button disabled>Action 5 (disabled)</button>
+    <button>Action 6</button>
+    <button>Action 7</button>
+    <button disabled>Action 8 (disabled)</button>
+    <button>Action 9</button>
     <button>Cancel</button>
   </menu>
 </form>{% endhighlight %}
