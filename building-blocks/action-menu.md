@@ -23,15 +23,7 @@ An action menu presents a list of actions, related to the app's content, from wh
   <section class="example">
     <img src="../images/BB/action_menu.jpg" alt="Action menu (Image replacing code)"/>
     <article class="full frame">
-      <form role="dialog" data-type="action">
-        <header>Title</header>
-        <menu>
-          <button>Action 1</button>
-          <button>Action 2</button>
-          <button>Action 3</button>
-          <button>Cancel</button>
-        </menu>
-      </form>
+      <iframe src="../css/BB/style/action_menu" height="460px"></iframe>
     </article>
   </section>
 
