@@ -8,42 +8,41 @@
 
 /* Fonts */
 @font-face {
-  font-family: 'FeuraSans';
-  src: url('fonts/FeuraSans-1.0/FeuraSans-1.0/FeuraSans-Regular.eot');
-  src: url('fonts/FeuraSans-1.0/FeuraSans-Regular.eot?#iefix') format('embedded-opentype'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Regular.woff') format('woff'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Regular.ttf') format('truetype'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Regular.svg#mozttregular') format('svg');
+  font-family: 'FiraSans';
+  src: url('BB/fonts/FiraSans/FiraSans-Regular.eot');
+  src: url('BB/fonts/FiraSans/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('BB/fonts/FiraSans/FiraSans-Regular.woff') format('woff'),
+       url('BB/fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'FeuraSans';
-  src: url('fonts/FeuraSans-1.0/FeuraSans-Light.eot');
-  src: url('fonts/FeuraSans-1.0/FeuraSans-Light.eot?#iefix') format('embedded-opentype'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Light.woff') format('woff'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Light.ttf') format('truetype'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Light.svg#mozttregular') format('svg');
+  font-family: 'FiraSans';
+  src: url('BB/fonts/FiraSans/FiraSans-Light.eot');
+  src: url('BB/fonts/FiraSans/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('BB/fonts/FiraSans/FiraSans-Light.woff') format('woff'),
+       url('BB/fonts/FiraSans/FiraSans-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'FeuraSans';
-  src: url('fonts/FeuraSans-1.0/FeuraSans-Medium.eot');
-  src: url('fonts/FeuraSans-1.0/FeuraSans-Medium.eot?#iefix') format('embedded-opentype'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Medium.woff') format('woff'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Medium.ttf') format('truetype'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Medium.svg#mozttregular') format('svg');
+  font-family: 'FiraSans';
+  src: url('BB/fonts/FiraSans/FiraSans-Medium.eot');
+  src: url('BB/fonts/FiraSans/FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+       url('BB/fonts/FiraSans/FiraSans-Medium.woff') format('woff'),
+       url('BB/fonts/FiraSans/FiraSans-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'FeuraSans';
-  src: url('fonts/FeuraSans-1.0/FeuraSans-Bold.eot');
-  src: url('fonts/FeuraSans-1.0/FeuraSans-Bold.eot?#iefix') format('embedded-opentype'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Bold.woff') format('woff'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Bold.ttf') format('truetype'),
-       url('fonts/FeuraSans-1.0/FeuraSans-Bold.svg#mozttregular') format('svg');
+  font-family: 'FiraSans';
+  src: url('BB/fonts/FiraSans/FiraSans-Bold.eot');
+  src: url('BB/fonts/FiraSans/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('BB/fonts/FiraSans/FiraSans-Bold.woff') format('woff'),
+       url('BB/fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -104,17 +103,8 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 .example * {
-  font-family: "FeuraSans" !important;
+  font-family: "FiraSans" !important;
 }
-
-/* Avoid going to the top of the page because of href="#" */
-/*.example a {
-  pointer-events: none;
-}
-
-.example .drawer a {
-  pointer-events: auto;
-}*/
 
 .example h1,
 .example h2,
@@ -213,38 +203,6 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 /* Drawer */
-.example .drawer {
-  padding-left: 1rem;
-}
-
-.example section[data-type="sidebar"] > header .icon.icon-add {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4RTlFMTExOTIwMjA2ODExODIyQUJFQTc4MUU4NEEyOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpENjM1MzgyMUJGNzAxMUUxQkNDOEUwRkExQ0U5N0Q0QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpENjM1MzgyMEJGNzAxMUUxQkNDOEUwRkExQ0U5N0Q0QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Mzk0RjYxOUMzMTIwNjgxMTgyMkFBRjgxQ0IyNTAxM0UiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OEU5RTExMTkyMDIwNjgxMTgyMkFCRUE3ODFFODRBMjkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz45ZU6fAAAAiklEQVR42mL8//8/w0AAJoYBAqMW0w2wkKmPH4hVoOw7QPyRVAMYyUzVD4FYDsq+DMR6o3E8avGoxbiykxAQ78KjTxeI2aDs70B8DY9aZ2z5HJfFIIMvUclzGkB8c9AXmU+B+CyVgvrFaJE5avGoxQNSZBICzEBsAGVfAOK/9LJ4NI5HLSYIAAIMAKfZJ7+0GO5HAAAAAElFTkSuQmCC);
-}
-
-.example #drawer div[role="main"] {
-  background: #fff;
-  height: 43rem;
-  overflow: hidden;
-}
-
-.example #drawer div[role="main"] p {
-  margin: 2rem 2.5rem;
-}
-
-.example section#drawer[role="region"] {
-  width: 100%;
-  position: relative;
-  z-index: 100;
-  padding-left: 1rem;
-}
-
-.example section[role="region"] > header:first-child {
- /* margin-left: -0.5rem;*/
-}
-.example section[role="region"]:target > header:first-child {
-  margin-left: 0;
-}
-
 .example section[data-type="sidebar"] > header h1 {
 	color: #fff;	
 }

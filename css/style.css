@@ -61,8 +61,8 @@ html { font-size: 62.5%; }
 #main-feature .header-links:after {
   content: "";
   background: url(../images/downloads/icon_download_hover.png),
-              url(./images/downloads/icon_github_hover.png),
-              url(./images/downloads/icon_market_hover.png);
+              url(../images/downloads/icon_github_hover.png),
+              url(../images/downloads/icon_market_hover.png);
   opacity: 0;
 }
 
@@ -1183,7 +1183,7 @@ body.Downloads .content-section li a {
 body.Downloads:after { /* Preload images */
   content: "";
   background: url(../images/downloads/icon_download_hover.png),
-              url(./images/downloads/icon_github_hover.png);
+              url(../images/downloads/icon_github_hover.png);
   opacity: 0;
 }
 
