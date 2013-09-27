@@ -203,6 +203,15 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 /* Drawer */
+.example #drawer {
+  height: 100%;
+}
+
+.example #drawer div[role="main"] {
+  background: #fff;
+  height: 100%;
+}
+
 .example section[data-type="sidebar"] > header h1 {
 	color: #fff;	
 }
