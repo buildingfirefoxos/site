@@ -346,97 +346,6 @@ body.Home .content-section h4 + ul li a:hover {
   text-decoration: underline;
 }
 
-/* Header Downloads */
-/*.header-downloads {
-  background: #fff url(../images/download.png) no-repeat 196px 20px;
-  -moz-box-shadow: 2px 3px 2px rgba(0,0,0,.1);
-  -webkit-box-shadow: 2px 3px 2px rgba(0,0,0,.1);
-  box-shadow: 2px 3px 2px rgba(0,0,0,.1);
-  float: right;
-  width: 340px;
-  height: 145px;
-  position: relative;
-  margin-top: 5px;
-}
-
-.header-downloads:hover {
-  text-decoration: none;
-}
-
-.header-downloads:before {
-  position: absolute;
-  content: "";
-  background: transparent no-repeat;
-  height: 43px;
-  width: 76px;
-  right: 20px;
-  top: 65px;
-  transition: background 1s ease;
-  -webkit-transition: background 1s ease;
-}
-
-.header-downloads.zip:before {
-  background-image: url(../images/download_zip.png);
-}
-
-.header-downloads.zip:after,
-.header-downloads.zip:hover:before {
-  background-image: url(../images/download_zip_hover.png);
-}
-
-.header-downloads.css:before {
-  background-image: url(../images/download_css.png);
-}
-
-.header-downloads.css:after,
-.header-downloads.css:hover:before {
-  background-image: url(../images/download_css_hover.png);
-}
-
-.header-downloads.psd:before {
-  background-image: url(../images/download_psd.png);
-}
-
-.header-downloads.psd:after,
-.header-downloads.psd:hover:before {
-  background-image: url(../images/download_psd_hover.png);
-}
-
-.header-downloads p {
-  font-size: 34px;
-  color: #a4a4a5;
-  width: 210px;
-  line-height: 33px;
-  letter-spacing: 0;
-  text-align: center;
-  text-shadow: none;
-  margin: 40px 0 0 0;
-  transition: color 1s ease;
-  -webkit-transition: color 1s ease;
-}
-
-.header-downloads:hover p {
-  color: #67a7d0;
-}
-
-.header-downloads p span {
-  color: #fff;
-  background: #a4a4a5;
-  font-size:  18px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  padding: 0 10px;
-  font-weight: bold;
-  transition: background 1s ease;
-  -webkit-transition: background 1s ease;
-}
-
-.header-downloads:hover p span {
-  background: #67a7d0;
-}
-*/
-
 /* Aside Menu-bar */
 aside.left-side {
   float: left;
@@ -722,6 +631,13 @@ section.example .frame {
 
 section.example .full.frame {
   height: 480px;
+}
+
+section.note {
+  padding: 20px 20px 0;
+  border: 1px solid #e1e1e8;
+  background-color: #f7f7f9;
+  margin-bottom: 20px;
 }
 
 /* Tabs Navigation */
