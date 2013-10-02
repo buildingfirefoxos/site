@@ -138,7 +138,7 @@ Lists are used to display a set of consecutive items, such as a list of contacts
       <section data-type="list">
         <ul data-type="edit">
           <li>
-            <label class="danger">
+            <label class="pack-checkbox danger">
               <input type="checkbox">
               <span></span>
             </label>
@@ -151,7 +151,7 @@ Lists are used to display a set of consecutive items, such as a list of contacts
             </a>
           </li>
           <li>
-            <label class="danger">
+            <label class="pack-checkbox danger">
               <input type="checkbox">
               <span></span>
             </label>
@@ -177,7 +177,7 @@ Lists are used to display a set of consecutive items, such as a list of contacts
 <section data-type="list">
   <ul data-type="edit">
     <li>
-      <label class="danger">
+      <label class="pack-checkbox danger">
         <input type="checkbox">
         <span></span>
       </label>
@@ -190,7 +190,7 @@ Lists are used to display a set of consecutive items, such as a list of contacts
       </a>
     </li>
     <li>
-      <label class="danger">
+      <label class="pack-checkbox danger">
         <input type="checkbox">
         <span></span>
       </label>
