@@ -1,15 +1,3 @@
----
-main-menu:
-- text: Home
-  url: index.html
-- text: Building Blocks
-  url: building-blocks
-- text: Transitions
-  url: transitions
-- text: Downloads
-  url: downloads
----
-
 {% assign section = {{page.section}} %}
 
 <!DOCTYPE html>
@@ -49,9 +37,9 @@ main-menu:
           <nav id="nav-main" role="navigation">
             <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
             <ul id="nav-main-menu">
-              {% for link in page.main-menu %}
+              {% for link in site.menu %}
                 <li>
-                  <a {% if (page.section == link.url %}class="current"{% endif %} href="/{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+                  <a {% if (page.section == link.url %}class="current"{% endif %} href="/{{link.url}}">{{link.text}}</a>
                 </li>
               {% endfor %}
             </ul>
@@ -85,8 +73,7 @@ main-menu:
 
           {% else %}
             <aside class="left-side">
-              {% assign pages_list = site.pages %}
-              {% include pages_list.html %}
+              {% include side_menu.html %}
             </aside>
           {% endif %}
 

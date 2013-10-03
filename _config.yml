@@ -5,3 +5,71 @@ pygments: true
 redirects: yes
 markdown: redcarpet
 comments: true
+menu:
+- text: Home
+  url: index.html
+- text: Building Blocks
+  url: building-blocks
+- text: Transitions
+  url: transitions
+- text: Downloads
+  url: downloads
+building-blocks:
+- text: action menu
+  url: /building-blocks/action-menu.html
+- text: buttons
+  url: /building-blocks/buttons.html
+- text: confirm
+  url: /building-blocks/confirm.html
+- text: drawer
+  url: /building-blocks/drawer.html
+- text: edit mode
+  url: /building-blocks/edit-mode.html
+- text: filters
+  url: /building-blocks/filters.html
+- text: headers
+  url: /building-blocks/headers.html
+- text: input areas
+  url: /building-blocks/input-areas.html
+- text: lists
+  url: /building-blocks/lists.html
+- text: progress and activity
+  url: /building-blocks/progress-and-activity.html
+- text: scrolling
+  url: /building-blocks/scrolling.html
+- text: seek bars
+  url: /building-blocks/seek-bars.html
+- text: status
+  url: /building-blocks/status.html
+- text: switches
+  url: /building-blocks/switches.html
+- text: tabs
+  url: /building-blocks/tabs.html
+- text: toolbars
+  url: /building-blocks/toolbars.html
+- text: value selector
+  url: /building-blocks/value-selector.html
+transitions:
+- text: App invokes app
+  url: /transitions/app-invokes-app.html
+- text: Calls
+  url: /transitions/calls.html
+- text: Functionalities
+  url: /transitions/functionalities.html
+- text: In app navigation
+  url: /transitions/in-app-navigation.html
+- text: Opening and closing apps
+  url: /transitions/opening-and-closing-apps.html
+- text: Prompts
+  url: /transitions/prompts.html
+- text: Task switching
+  url: /transitions/task-switching.html
+icons:
+- text: Primary actions
+  url: /building-blocks/primary-actions.html
+- text: Media
+  url: /building-blocks/media.html
+- text: Communications
+  url: /building-blocks/communications.html
+- text: Settings
+  url: /building-blocks/settings.html
