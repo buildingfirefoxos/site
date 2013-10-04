@@ -13,18 +13,12 @@ Relays information to the user in a transitory fashion, typically to confirm a u
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/status.png" alt="Status (Image replacing code)"/>
-    <article class="status frame">
-      <section role="status">
-        <p>The Alarm is set for <strong>7 hours</strong> and <strong>14 minutes</strong> from now</p>
-      </section>
-    </article>
+    <article class="status frame">{% include building-blocks/status.html %}</article>
   </section>
 
   <h4>Css link</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/style/status.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}<section role="status">
-  <p>The Alarm is set for <strong>7 hours</strong> and <strong>14 minutes</strong> from now</p>
-</section>{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/status.html %}{% endhighlight %}
 </div>

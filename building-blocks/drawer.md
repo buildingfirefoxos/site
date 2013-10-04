@@ -21,75 +21,12 @@ Drawers provide access to top-level navigation options that may be too numerous 
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/drawer.jpg" alt="Drawer (Image replacing code)"/>
-    <article class="full frame drawer">
-      <section data-type="sidebar">
-        <header>
-          <menu type="toolbar">
-            <a href="#content"><span class="icon icon-add">add</span></a>
-          </menu>
-          <h1>Title <em>(9)</em></h1>
-        </header>
-        <nav>
-          <ul>
-            <li><a href="#content">label</a></li>
-            <li><a href="#content">label</a></li>
-            <li><a href="#content">label</a></li>
-            <li><a href="#content">label</a></li>
-          </ul>
-          <h2>Subtitle</h2>
-          <ul>
-            <li><a href="#content">label</a></li>
-            <li><a href="#content">label</a></li>
-            <li><a href="#content">label larger label than the </a></li>
-            <li><a href="#content">label</a></li>
-          </ul>
-        </nav>
-      </section>
-      <section id="drawer" role="region">
-        <header>
-          <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
-          <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
-          <h1>Inbox</h1>
-        </header>
-        <div role="main"></div>
-      </section>
-    </article>
+    <article class="full frame drawer">{% include building-blocks/drawer.html %}</article>
   </section>
 
   <h4>Css link</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/drawer.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}
-<section data-type="sidebar">
-  <header>
-    <menu type="toolbar">
-      <a href="#content"><span class="icon icon-add">add</span></a>
-    </menu>
-    <h1>Title <em>(9)</em></h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#content">label</a></li>
-      <li><a href="#content">label</a></li>
-      <li><a href="#content">label</a></li>
-      <li><a href="#content">label</a></li>
-    </ul>
-    <h2>Subtitle</h2>
-    <ul>
-      <li><a href="#content">label</a></li>
-      <li><a href="#content">label</a></li>
-      <li><a href="#content">label larger label than the </a></li>
-      <li><a href="#content">label</a></li>
-    </ul>
-  </nav>
-</section>
-<section id="drawer" role="region">
-  <header>
-    <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
-    <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
-    <h1>Inbox</h1>
-  </header>
-  <div role="main"></div>
-</section>{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/drawer.html %}{% endhighlight %}
 </div>

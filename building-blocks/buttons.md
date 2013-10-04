@@ -21,20 +21,14 @@ Default buttons are used when there are only a few actions and a list isn't need
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/buttons_1.jpg" alt="Buttons (Image replacing code)"/>
-    <article class="frame">
-      <button>Default</button>
-      <a class="recommend" role="button" href="#">Primary</a>
-      <button class="danger">Danger</button>
-    </article>
+    <article class="frame">{% include building-blocks/buttons_1.html %}</article>
   </section>
 
   <h4>Css link</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/style/buttons.css" rel="stylesheet" type="text/css">{% endhighlight %}
   
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}<button>Default</button>
-  <a class="recommend" role="button" href="#">Recommend</a>
-  <button class="danger">Danger</button>{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/buttons_1.html %}{% endhighlight %}
 </div>
 
 <hr>
@@ -46,34 +40,14 @@ Disabled buttons do not respond to users' taps.
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/buttons_2.png" alt="Buttons (Image replacing code)"/>
-    <article class="frame">
-      <div>
-        <button disabled="disabled">Default</button>
-        <a class="recommend" role="button" aria-disabled="true" href="#">Recommend</a>
-        <button class="danger" disabled="disabled">Danger</button>
-      </div>
-      <div class="dark"><!-- disabled buttons over dark background -->
-        <button disabled="disabled">Default</button>
-        <button class="recommend" disabled="disabled">Recommend</button>
-        <button class="danger" disabled="disabled">Danger</button>
-      </div>
-    </article>
+    <article class="frame">{% include building-blocks/buttons_2.html %}</article>
   </section>
 
   <h4>Css link</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/style/buttons.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}<div>
-  <button disabled="disabled">Default</button>
-  <a class="recommend" role="button" aria-disabled="true" href="#">Recommend</a>
-  <button class="danger" disabled="disabled">Danger</button>
-</div>
-<div class="dark"><!-- disabled buttons over dark background -->
-  <button disabled="disabled">Default</button>
-  <button class="recommend" disabled="disabled">Recommend</button>
-  <button class="danger" disabled="disabled">Danger</button>
-</div>{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/buttons_2.html %}{% endhighlight %}
 </div>
 
 <hr>
@@ -85,35 +59,13 @@ List buttons are used when displaying a list of actions, or to trigger the displ
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/buttons_3.png" alt="Buttons (Image replacing code)"/>
-    <article class="frame">
-      <ul>
-        <li>
-          <button>Default</button>
-        </li>
-        <li>
-          <button disabled="disabled">Disabled</button>
-        </li>
-        <li><button>Action 1</button></li>
-        <li><button class="icon icon-view">View Name</button></li>
-        <li><button class="icon icon-dialog">Tuesday September 18, 2012</button></li>
-      </ul>
-    </article>
+    <article class="frame">{% include building-blocks/buttons_3.html %}</article>
   </section>
 
   <h4>Css link</h4>
     {% highlight html linenos=table %}<link href="(your styles folder)/style/buttons.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}<ul>
-  <li>
-    <button>Default</button>
-  </li>
-  <li>
-    <button disabled="disabled">Disabled</button>
-  </li>
-  <li><button>Action 1</button></li>
-  <li><button class="icon icon-view">View Name</button></li>
-  <li><button class="icon icon-dialog">Tuesday September 18, 2012</button></li>
-</ul>{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/buttons_3.html %}{% endhighlight %}
 </div>
 

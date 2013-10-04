@@ -13,18 +13,7 @@ Toolbars contain actions, indicators, and navigation associated with the current
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/toolbars.jpg" alt="Toolbars (Image replacing code)"/>
-    <article class="frame">
-      <div role="toolbar">
-        <ul>
-          <li><button class="action-icon delete">delete</button></li>
-        </ul>
-        <ul>
-          <li><button class="action-icon email-flag">Flag</button></li>
-          <li><button class="action-icon email-markread">Mark read</button></li>
-          <li><button class="action-icon move">Move</button></li>
-        </ul>
-      </div>
-    </article>
+    <article class="frame">{% include building-blocks/toolbars.html %}</article>
   </section>
 
   <h4>Css link</h4>
@@ -32,15 +21,5 @@ Toolbars contain actions, indicators, and navigation associated with the current
 <link href="(your styles folder)/icons/styles/action_icons.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}
-<div role="toolbar">
-  <ul>
-    <li><button class="action-icon delete">delete</button></li>
-  </ul>
-  <ul>
-    <li><button class="action-icon email-flag">Flag</button></li>
-    <li><button class="action-icon email-markread">Mark read</button></li>
-    <li><button class="action-icon move">Move</button></li>
-  </ul>
-</div>{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/toolbars.html %}{% endhighlight %}
 </div>

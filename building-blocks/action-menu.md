@@ -36,19 +36,5 @@ An action menu presents a list of actions, related to the app's content, from wh
   {% highlight html linenos=table %}<link href="(your styles folder)/style/action_menu.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}<form role="dialog" data-type="action">
-  <header>Title</header>
-  <menu>
-    <button>Action 1</button>
-    <button disabled>Action 2 (disabled)</button>
-    <button>Action 3</button>
-    <button>Action 4</button>
-    <button disabled>Action 5 (disabled)</button>
-    <button>Action 6</button>
-    <button>Action 7</button>
-    <button disabled>Action 8 (disabled)</button>
-    <button>Action 9</button>
-    <button>Cancel</button>
-  </menu>
-</form>{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/action_menu.html %}{% endhighlight %}
 </div>

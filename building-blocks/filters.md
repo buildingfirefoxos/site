@@ -22,42 +22,12 @@ Filters can be used for two purposes: data filtering, in which the user can view
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/filters.png" alt="Filters (Image replacing code)"/>
-    <article class="frame">
-      <ul role="tablist" data-type="filter" data-items="2">
-        <li id="filter1-1" role="tab"><a href="#filter1-1">Action 01</a></li>
-        <li id="filter1-2" role="tab"><a href="#filter1-2">Action 02</a></li>
-      </ul>
-      <ul role="tablist" data-type="filter" data-items="3">
-        <li id="filter2-1" role="tab"><a href="#filter2-1">Action 01</a></li>
-        <li id="filter2-2" role="tab"><a href="#filter2-2">Action 02</a></li>
-        <li id="filter2-3" role="tab"><a href="#filter2-3">Action 02</a></li>
-      </ul>
-      <ul class="bottom" role="tablist" data-type="filter" data-items="4">
-        <li id="filter4-1" role="tab"><a href="#filter4-1">Action 01</a></li>
-        <li id="filter4-2" role="tab"><a href="#filter4-2">Action 02</a></li>
-        <li id="filter4-3" role="tab"><a href="#filter4-3">Action 03</a></li>
-        <li id="filter4-4" role="tab"><a href="#filter4-4">Action 04</a></li>
-      </ul>
-    </article>
+    <article class="frame">{% include building-blocks/filters.html %}</article>
   </section>
 
   <h4>Css link (Both Tabs and Filters are in tabs.css)</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/tabs.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}<ul role="tablist" data-type="filter" data-items="2">
-  <li id="filter1-1" role="tab"><a href="#filter1-1">Action 01</a></li>
-  <li id="filter1-2" role="tab"><a href="#filter1-2">Action 02</a></li>
-</ul>
-<ul role="tablist" data-type="filter" data-items="3">
-  <li id="filter2-1" role="tab"><a href="#filter2-1">Action 01</a></li>
-  <li id="filter2-2" role="tab"><a href="#filter2-2">Action 02</a></li>
-  <li id="filter2-3" role="tab"><a href="#filter2-3">Action 02</a></li>
-</ul>
-<ul class="bottom" role="tablist" data-type="filter" data-items="4">
-  <li id="filter4-1" role="tab"><a href="#filter4-1">Action 01</a></li>
-  <li id="filter4-2" role="tab"><a href="#filter4-2">Action 02</a></li>
-  <li id="filter4-3" role="tab"><a href="#filter4-3">Action 03</a></li>
-  <li id="filter4-4" role="tab"><a href="#filter4-4">Action 04</a></li>
-</ul>{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/filters.html %}{% endhighlight %}
 </div>
