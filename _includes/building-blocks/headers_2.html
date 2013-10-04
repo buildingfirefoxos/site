@@ -1,3 +1,82 @@
+{% if page.theme == "whatev" %}
+<div class="theme-A">
+  <section role="region">
+    <header>
+      <a href="#"><span class="icon icon-menu">back</span></a>
+      <menu type="toolbar">
+        <button><span>done</span></button>
+      </menu>
+      <h1>Theme A - Title <em>2</em></h1>
+    </header>
+  </section>
+
+  <section role="region">
+    <header>
+      <a href="#"><span class="icon icon-back">back</span></a>
+      <menu type="toolbar">
+        <button><span class="icon icon-settings">settings</span></button>
+        <button><span class="icon icon-add">add</span></button>
+      </menu>
+      <h1>Theme A - Title</h1>
+    </header>
+    <header>
+      <h2>Subheader text</h2>
+    </header>
+  </section>
+</div>
+
+<div class="theme-B">
+  <section role="region">
+    <header>
+      <a href="#"><span class="icon icon-menu">back</span></a>
+      <menu type="toolbar">
+        <button><span>done</span></button>
+      </menu>
+      <h1>Theme B - Title <em>2</em></h1>
+    </header>
+  </section>
+
+  <section role="region">
+    <header>
+      <a href="#"><span class="icon icon-back">back</span></a>
+      <menu type="toolbar">
+        <button><span class="icon icon-settings">settings</span></button>
+        <button><span class="icon icon-add">add</span></button>
+      </menu>
+      <h1>Theme B - Title</h1>
+    </header>
+    <header>
+      <h2>Subheader text</h2>
+    </header>
+  </section>
+</div>
+
+<div class="theme-C">
+  <section role="region">
+    <header>
+      <a href="#"><span class="icon icon-menu">back</span></a>
+      <menu type="toolbar">
+        <button><span>done</span></button>
+      </menu>
+      <h1>Theme B - Title <em>2</em></h1>
+    </header>
+  </section>
+
+  <section role="region">
+    <header>
+      <a href="#"><span class="icon icon-back">back</span></a>
+      <menu type="toolbar">
+        <button><span class="icon icon-settings">settings</span></button>
+        <button><span class="icon icon-add">add</span></button>
+      </menu>
+      <h1>Theme B - Title</h1>
+    </header>
+    <header>
+      <h2>Subheader text</h2>
+    </header>
+  </section>
+</div>
+{% else %}
 <section class="skin-dark" role="region">
   <header>
     <a href="#"><span class="icon icon-back">back</span></a>
@@ -16,3 +95,4 @@
     <h2>Subheader text</h2>
   </header>
 </section>
+{% endif %}

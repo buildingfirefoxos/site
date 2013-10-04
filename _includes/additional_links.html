@@ -3,70 +3,75 @@
     <!-- Building Blocks -->
     {% case page.title %}
       {% when 'Action Menu' %}
-        <link rel="stylesheet" href="../css/BB/style/action_menu.css">
+        <link rel="stylesheet" href="/css/BB/style/action_menu.css">
       {% when 'Buttons' %}
-        <link rel="stylesheet" href="../css/BB/style/buttons.css">
+        <link rel="stylesheet" href="/css/BB/style/buttons.css">
       {% when 'Confirm' %}
-        <link rel="stylesheet" href="../css/BB/style/confirm.css">
+        <link rel="stylesheet" href="/css/BB/style/confirm.css">
       {% when 'Drawer' %}
-        <link rel="stylesheet" href="../css/BB/style/headers.css">
-        <link rel="stylesheet" href="../css/BB/style_unstable/drawer.css">
+        <link rel="stylesheet" href="/css/BB/style/headers.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/drawer.css">
       {% when 'Edit mode' %}
-        <link rel="stylesheet" href="../css/BB/style/edit_mode.css">
+        <link rel="stylesheet" href="/css/BB/style/edit_mode.css">
       {% when 'Filters' %}
-        <link rel="stylesheet" href="../css/BB/style_unstable/tabs.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/tabs.css">
       {% when 'Headers' %}
-        <link rel="stylesheet" href="../css/BB/style/headers.css">
+          <link rel="stylesheet" href="/css/BB/style/headers.css">
+        {% if (page.theme == "whatev" %}
+          <link rel="stylesheet" href="/css/BB/themes/whatev/headers.css">
+          <link rel="stylesheet" href="/css/BB/themes/whatev/icons.css">
+        {% else %}
+        {% endif %}
       {% when 'Input areas' %}
-        <link rel="stylesheet" href="../css/BB/style/input_areas.css">
+        <link rel="stylesheet" href="/css/BB/style/input_areas.css">
       {% when 'Lists' %}
-        <link rel="stylesheet" href="../css/BB/style/switches.css">
-        <link rel="stylesheet" href="../css/BB/style_unstable/lists.css">
+        <link rel="stylesheet" href="/css/BB/style/switches.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/lists.css">
       {% when 'Progress and activity' %}
-        <link rel="stylesheet" href="../css/BB/style/headers.css">
-        <link rel="stylesheet" href="../css/BB/style/confirm.css">
-        <link rel="stylesheet" href="../css/BB/style_unstable/progress_activity.css">
+        <link rel="stylesheet" href="/css/BB/style/headers.css">
+        <link rel="stylesheet" href="/css/BB/style/confirm.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/progress_activity.css">
       {% when 'Scrolling' %}
-        <link rel="stylesheet" href="../css/BB/style_unstable/scrolling.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/scrolling.css">
       {% when 'Seek bars' %}
-        <link rel="stylesheet" href="../css/BB/style_unstable/seekbars.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/seekbars.css">
       {% when 'Status' %}
-        <link rel="stylesheet" href="../css/BB/style/status.css">
+        <link rel="stylesheet" href="/css/BB/style/status.css">
       {% when 'Switches' %}
-        <link rel="stylesheet" href="../css/BB/style/switches.css">
+        <link rel="stylesheet" href="/css/BB/style/switches.css">
       {% when 'Tabs' %}
-        <link rel="stylesheet" href="../css/BB/style_unstable/tabs.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/tabs.css">
       {% when 'Toolbars' %}
-        <link rel="stylesheet" href="../css/BB/style_unstable/toolbars.css">
-        <link rel="stylesheet" href="../css/BB/icons/styles/action_icons.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/toolbars.css">
+        <link rel="stylesheet" href="/css/BB/icons/styles/action_icons.css">
       {% when 'Value selectors' %}
         <link rel="stylesheet" href="../css/value_selectors/value_selector.css">
         <link rel="stylesheet" href="../css/value_selectors/pickers.css">
     {% endcase %} 	
     <!-- improve Building Blocks visualization in buildingfirefoxos.com -->
-    <link rel="stylesheet" href="../css/building_blocks.css">
+    <link rel="stylesheet" href="/css/building_blocks.css">
 
   {% when 'transitions' %}
-    <link rel="stylesheet" href="../css/BB/transitions.css">
+    <link rel="stylesheet" href="/css/BB/transitions.css">
     <link rel="stylesheet" href="../css/transitions.css">
 
   {% when 'icons' %}
     {% case page.title %}
       <!-- Building Blocks -->
-      <link rel="stylesheet" href="../css/BB/style_unstable/toolbars.css">
+      <link rel="stylesheet" href="/css/BB/style_unstable/toolbars.css">
       {% when 'Primary actions' %}
-        <link rel="stylesheet" href="../css/BB/icons/styles/action_icons.css">
+        <link rel="stylesheet" href="/css/BB/icons/styles/action_icons.css">
       {% when 'Media' %}
-        <link rel="stylesheet" href="../css/BB/icons/styles/media_icons.css">
+        <link rel="stylesheet" href="/css/BB/icons/styles/media_icons.css">
       {% when 'Communications' %}
-        <link rel="stylesheet" href="../css/BB/icons/styles/comms_icons.css">
+        <link rel="stylesheet" href="/css/BB/icons/styles/comms_icons.css">
       {% when 'Settings' %}
-        <link rel="stylesheet" href="../css/BB/icons/styles/settings_icons.css">
-        <link rel="stylesheet" href="../css/BB/style_unstable/lists.css">
+        <link rel="stylesheet" href="/css/BB/icons/styles/settings_icons.css">
+        <link rel="stylesheet" href="/css/BB/style_unstable/lists.css">
       {% endcase %}
       <!-- improve Building Blocks visualization in buildingfirefoxos.com -->
       <link rel="stylesheet" href="../css/building_blocks.css">
 
   <!-- Cross browser support for Building Blocks -->
-  <!--link rel="stylesheet" href="../css/BB/bb_cross_browser.css"-->
+  <!--link rel="stylesheet" href="/css/BB/bb_cross_browser.css"-->
 {% endcase %} 
