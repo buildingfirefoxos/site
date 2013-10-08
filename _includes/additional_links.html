@@ -16,6 +16,11 @@
       {% when 'Drawer' %}
         <link rel="stylesheet" href="/css/BB/style/headers.css">
         <link rel="stylesheet" href="/css/BB/style_unstable/drawer.css">
+        {% if (page.theme == "whatev" %}
+          <link rel="stylesheet" href="/css/BB/themes/whatev/headers.css">
+          <link rel="stylesheet" href="/css/BB/themes/whatev/drawer.css">
+          <link rel="stylesheet" href="/css/BB/themes/whatev/icons.css">
+        {% endif %}
       {% when 'Edit mode' %}
         <link rel="stylesheet" href="/css/BB/style/edit_mode.css">
       {% when 'Filters' %}

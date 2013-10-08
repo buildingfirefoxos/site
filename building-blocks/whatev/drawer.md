@@ -1,6 +1,7 @@
 ---
 layout: bffos
 title: Drawer
+theme: whatev
 section: building-blocks
 h2: <strong>Building Blocks:</strong> markup & examples
 ---
@@ -25,8 +26,8 @@ Drawers provide access to top-level navigation options that may be too numerous 
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/style/headers.css" rel="stylesheet" type="text/css">
-<link href="(your styles folder)/style_unstable/drawer.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/themes/whatev/headers.css" rel="stylesheet" type="text/css">
+<link href="(your styles folder)/themes/whatev/drawer.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}{% include building-blocks/drawer.html %}{% endhighlight %}
