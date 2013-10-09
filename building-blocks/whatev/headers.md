@@ -28,7 +28,8 @@ Used for labeling the active view and providing top-level navigation and inputs 
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/themes/whatev/headers.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/themes/whatev/headers.css" rel="stylesheet" type="text/css">
+<link href="(your styles folder)/themes/whatev/buttons.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}{% include building-blocks/headers_1.html %}{% endhighlight %}
@@ -46,7 +47,8 @@ Used for labeling the active view and providing top-level navigation and inputs 
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/themes/whatev/headers.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/themes/whatev/headers.css" rel="stylesheet" type="text/css">
+<link href="(your styles folder)/themes/whatev/buttons.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}

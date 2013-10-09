@@ -266,3 +266,12 @@ form[role="search"] button.icon-attachment:before {
 .example [role="tablist"][data-type="filter"] {
   margin-bottom: 1.5rem;
 }
+
+.example textarea, 
+.example input[type="email"], 
+.example input[type="password"], 
+.example input[type="search"], 
+.example input[type="text"] {
+  border-radius: 0;
+  box-shadow: none;
+}
