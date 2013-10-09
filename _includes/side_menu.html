@@ -1,31 +1,43 @@
 {% if section == "icons" or section == "building-blocks" %}
-  {% assign section = "icons" %}
-  {% capture menu_icon %}
+  {% if page.theme == "whatev" %}
     <nav class="menu-bar">
-      <h4>Icons</h4>
       <ul>
-        {% for link in site.icons %}
+        {% for link in site.theme-whatev %}
           <li>
             <a {% if (page.url == link.url %}class="current"{% endif %} href="{{link.url}}" title="{{page.url}}">{{link.text}}</a>
           </li>
         {% endfor %}
       </ul>
     </nav>
-  {% endcapture %}
-  {% assign section = "building-blocks" %}
+  {% else %}
+    {% assign section = "icons" %}
+    {% capture menu_icon %}
+      <nav class="menu-bar">
+        <h4>Icons</h4>
+        <ul>
+          {% for link in site.icons %}
+            <li>
+              <a {% if (page.url == link.url %}class="current"{% endif %} href="{{link.url}}" title="{{page.url}}">{{link.text}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endcapture %}
+    {% assign section = "building-blocks" %}
 
-  <nav class="menu-bar">
-    <ul>
-      {% for link in site.building-blocks %}
-        <li>
-          <a {% if (page.url == link.url %}class="current"{% endif %} href="{{link.url}}" title="{{page.url}}">{{link.text}}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
+    <nav class="menu-bar">
+      <ul>
+        {% for link in site.building-blocks %}
+          <li>
+            <a {% if (page.url == link.url %}class="current"{% endif %} href="{{link.url}}" title="{{page.url}}">{{link.text}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
 
-  {% if section == "building-blocks" %}
-    {{menu_icon}}
+    {% if section == "building-blocks" %}
+      {{menu_icon}}
+    {% endif %}
   {% endif %}
 {% endif %}
 

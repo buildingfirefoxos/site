@@ -73,3 +73,22 @@ icons:
   url: /building-blocks/communications.html
 - text: Settings
   url: /building-blocks/settings.html
+theme-whatev:
+- text: action menu
+  url: /building-blocks/whatev/action-menu.html
+- text: buttons
+  url: /building-blocks/whatev/buttons.html
+- text: drawer
+  url: /building-blocks/whatev/drawer.html
+- text: filters
+  url: /building-blocks/whatev/filters.html
+- text: headers
+  url: /building-blocks/whatev/headers.html
+- text: input areas
+  url: /building-blocks/whatev/input-areas.html
+- text: switches
+  url: /building-blocks/whatev/switches.html
+- text: tabs
+  url: /building-blocks/whatev/tabs.html
+- text: toolbars
+  url: /building-blocks/whatev/toolbars.html

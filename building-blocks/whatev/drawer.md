@@ -27,6 +27,8 @@ Drawers provide access to top-level navigation options that may be too numerous 
 
   <h4>Css link</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/themes/whatev/headers.css" rel="stylesheet" type="text/css">
+<link href="(your styles folder)/themes/whatev/buttons.css" rel="stylesheet" type="text/css">
+<link href="(your styles folder)/themes/whatev/toolbars.css" rel="stylesheet" type="text/css">
 <link href="(your styles folder)/themes/whatev/drawer.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>

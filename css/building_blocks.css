@@ -50,7 +50,7 @@
 
 /* to fix box model */
 a[role="button"] {
-	padding: 0;
+	/*padding: 0;*/
   box-sizing: border-box;
   box-sizing: -moz-border-box;
 }
@@ -65,7 +65,7 @@ button {
   cursor: pointer;
 }
 
-button:focus,
+/*button:focus,
 button:hover,
 a[role="button"]:focus, 
 a[role="button"]:hover, 
@@ -89,7 +89,7 @@ a[role="button"].danger:hover,
   background-color: #890707;
   border-color: #820000;
   color: #fff;
-}
+}*/
 
 /* Overwrite position: fixed to allow positioning in example frame */
 form[role="dialog"][data-type="action"], 
@@ -198,8 +198,12 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 /* Toolbars */
+.example .toolbar.frame {
+  height: 4rem;
+}
+
 .example [role="toolbar"] {
-  position: relative;  
+  position: absolute;  
 }
 
 /* Drawer */
@@ -242,4 +246,23 @@ form[role="search"] button.icon-attachment:before {
 /* SHOULD BE CHECKED IN BB */
 [role="tablist"] > [role="tab"] > a.icon:after {
   background-size: auto;
+}
+
+
+/* Whatev */
+.example .large {
+  color: #fff;
+  letter-spacing: 0;
+  text-shadow: none;
+}
+
+.example button.theme-D, 
+.example a.theme-D[role="button"], 
+.example .theme-D button, 
+.example .theme-D a[role="button"] {
+  color: #666;
+}
+
+.example [role="tablist"][data-type="filter"] {
+  margin-bottom: 1.5rem;
 }

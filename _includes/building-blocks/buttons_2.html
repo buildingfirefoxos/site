@@ -1,3 +1,9 @@
+{% if page.theme == "whatev" %}
+<button class="theme-A" disabled>Theme A</button>
+<button class="theme-B" disabled>Theme B</button>
+<button class="theme-C" disabled>Theme C</button>
+<button class="theme-D" disabled>Theme D</button>
+{% else %}
 <div>
   <button disabled="disabled">Default</button>
   <a class="recommend" role="button" aria-disabled="true" href="#">Recommend</a>
@@ -8,3 +14,4 @@
   <button class="recommend" disabled="disabled">Recommend</button>
   <button class="danger" disabled="disabled">Danger</button>
 </div>
+{% endif %}

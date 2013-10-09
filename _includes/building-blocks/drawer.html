@@ -1,3 +1,38 @@
+{% if page.theme == "whatev" %}
+<section data-type="sidebar" class="has-toolbar">
+  <nav>
+    <ul>
+      <li><a href="#content">label</a></li>
+      <li class="active"><a href="#">label</a></li>
+      <li><a href="#content">label</a></li>
+      <li><a href="#content">label</a></li>
+    </ul>
+    <h2>Subtitle</h2>
+    <ul>
+      <li><a href="#content">label</a></li>
+      <li><a href="#content">label</a></li>
+      <li><a href="#content">label larger label than the others</a></li>
+      <li><a href="#content">label</a></li>
+    </ul>
+  </nav>
+
+  <div role="toolbar">
+    <ul>
+      <li><button>Log out</button></li>
+    </ul>
+    <ul><button class="icon icon-delete"></button></ul>
+  </div>
+</section>
+
+<section id="drawer" role="region">
+  <header>
+    <a href="#content" class="icon icon-menu">hide sidebar</a>
+    <a href="#drawer" class="icon icon-menu">show sidebar</a>
+    <h1>Inbox</h1>
+  </header>
+  <div role="main"></div>
+</section>
+{% else %}
 <section data-type="sidebar">
   <header>
     <menu type="toolbar">
@@ -29,3 +64,4 @@
   </header>
   <div role="main"></div>
 </section>
+{% endif %}

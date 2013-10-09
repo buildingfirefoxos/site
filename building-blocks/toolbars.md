@@ -13,7 +13,7 @@ Toolbars contain actions, indicators, and navigation associated with the current
   <h4>Example</h4>
   <section class="example">
     <img src="../images/BB/toolbars.jpg" alt="Toolbars (Image replacing code)"/>
-    <article class="frame">{% include building-blocks/toolbars.html %}</article>
+    <article class="toolbar frame">{% include building-blocks/toolbars.html %}</article>
   </section>
 
   <h4>Css link</h4>
