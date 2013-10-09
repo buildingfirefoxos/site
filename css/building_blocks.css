@@ -264,7 +264,7 @@ form[role="search"] button.icon-attachment:before {
 }
 
 .example [role="tablist"][data-type="filter"] {
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .example textarea, 
@@ -274,4 +274,21 @@ form[role="search"] button.icon-attachment:before {
 .example input[type="text"] {
   border-radius: 0;
   box-shadow: none;
+}
+
+.whatev .example .toolbar.frame {
+  height: auto;
+}
+
+.whatev .example [role="toolbar"] {
+  position: relative;
+  margin: 1rem 0 2rem 0;
+}
+
+.example [role="toolbar"] li {
+  margin-left: 1rem;
+}
+
+.example [role="toolbar"] li:first-child {
+  margin-left: 0;
 }
