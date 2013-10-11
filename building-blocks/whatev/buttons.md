@@ -21,7 +21,7 @@ Default buttons are used when there are only a few actions and a list isn't need
 <div class="grouped-content">
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/buttons_1.jpg" alt="Buttons (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/buttons_1.jpg" alt="Buttons (Image replacing code)"/>
     <article class="frame">{% include building-blocks/buttons_1.html %}</article>
   </section>
 
@@ -40,7 +40,7 @@ Disabled buttons do not respond to users' taps.
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/buttons_2.png" alt="Buttons (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/buttons_2.jpg" alt="Buttons (Image replacing code)"/>
     <article class="frame">{% include building-blocks/buttons_2.html %}</article>
   </section>
 
@@ -58,7 +58,7 @@ Disabled buttons do not respond to users' taps.
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/buttons_3.png" alt="Buttons (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/buttons_3.jpg" alt="Buttons (Image replacing code)"/>
     <article class="frame">{% include building-blocks/buttons_3.html %}</article>
   </section>
 
@@ -74,7 +74,7 @@ Disabled buttons do not respond to users' taps.
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/buttons_4.png" alt="Buttons (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/buttons_4.jpg" alt="Buttons (Image replacing code)"/>
     <article class="frame">{% include building-blocks/buttons_4.html %}</article>
   </section>
 
