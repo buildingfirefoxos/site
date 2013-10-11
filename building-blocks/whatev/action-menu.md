@@ -22,7 +22,7 @@ An action menu presents a list of actions, related to the app's content, from wh
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/action_menu.jpg" alt="Action menu (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/action_menu.jpg" alt="Action menu (Image replacing code)"/>
     <article class="full frame">{% include building-blocks/action_menu.html %}</article>
   </section>
 
