@@ -22,7 +22,7 @@ Filters can be used for two purposes: data filtering, in which the user can view
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/filters.png" alt="Filters (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/filters.jpg" alt="Filters (Image replacing code)"/>
     <article class="filter frame">{% include building-blocks/filters.html %}</article>
   </section>
 

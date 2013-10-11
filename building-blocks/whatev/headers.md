@@ -23,7 +23,7 @@ Used for labeling the active view and providing top-level navigation and inputs 
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/headers_1.jpg" alt="Headers (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/headers_1.jpg" alt="Headers (Image replacing code)"/>
     <article class="headers frame">{% include building-blocks/headers_1.html%}</article>
   </section>
 
@@ -42,7 +42,7 @@ Used for labeling the active view and providing top-level navigation and inputs 
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/headers_2.jpg" alt="Headers (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/headers_2.jpg" alt="Headers (Image replacing code)"/>
     <article class="headers frame">{% include building-blocks/headers_2.html %}</article>
   </section>
 
