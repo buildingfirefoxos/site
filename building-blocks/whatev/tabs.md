@@ -13,7 +13,7 @@ Tabs allow users to navigate between multiple views within a single screen.
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/tabs.jpg" alt="Tabs (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/tabs.jpg" alt="Tabs (Image replacing code)"/>
     <article class="tab frame">{% include building-blocks/tabs.html %}</article>
   </section>
 

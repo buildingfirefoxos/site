@@ -15,7 +15,7 @@ Switches activate/deactivate a given item. They are also used to select a elemen
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/switches_1.jpg" alt="Switches (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/switches_1.jpg" alt="Switches (Image replacing code)"/>
     <article class="frame">{% include building-blocks/switches_1.html %}</article>
   </section>
 
@@ -34,7 +34,7 @@ Switches activate/deactivate a given item. They are also used to select a elemen
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/switches_2.jpg" alt="Switches (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/switches_2.jpg" alt="Switches (Image replacing code)"/>
     <article class="frame">{% include building-blocks/switches_2.html %}</article>
   </section>
 
@@ -52,7 +52,7 @@ Switches activate/deactivate a given item. They are also used to select a elemen
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/switches_3.jpg" alt="Switches (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/switches_3.jpg" alt="Switches (Image replacing code)"/>
     <article class="switch frame">{% include building-blocks/switches_3.html %}</article>
   </section>
 
