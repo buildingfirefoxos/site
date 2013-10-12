@@ -15,7 +15,7 @@ An input area is a data entry field. There are many variations on what an input 
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/input_1.png" alt="Input areas (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/input_1.jpg" alt="Input areas (Image replacing code)"/>
     <article class="frame">{% include building-blocks/input_areas_1.html %}</article>
   </section>
 
@@ -33,7 +33,7 @@ An input area is a data entry field. There are many variations on what an input 
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/input_3.png" alt="Input areas (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/input_2.jpg" alt="Input areas (Image replacing code)"/>
     <article class="input frame">{% include building-blocks/input_areas_3.html %}</article>
   </section>
 

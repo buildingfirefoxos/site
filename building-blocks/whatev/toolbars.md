@@ -13,7 +13,7 @@ Toolbars contain actions, indicators, and navigation associated with the current
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/toolbars.jpg" alt="Toolbars (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/toolbars_1.jpg" alt="Toolbars (Image replacing code)"/>
     <article class="toolbar frame">{% include building-blocks/toolbars_1.html %}</article>
   </section>
 
@@ -31,7 +31,7 @@ Toolbars contain actions, indicators, and navigation associated with the current
 <div>
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/toolbars.jpg" alt="Toolbars (Image replacing code)"/>
+    <img src="../../images/BB/themes/whatev/toolbars_2.jpg" alt="Toolbars (Image replacing code)"/>
     <article class="toolbar frame">{% include building-blocks/toolbars_2.html %}</article>
   </section>
 
