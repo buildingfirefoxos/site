@@ -35,7 +35,7 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'downloads - action icons blocks']);" href="https://mozilla.box.com/s/jp5lrplbuont96ypm27q">Action Icons (Photoshop file .zip)</a> 
 
-    <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'downloads - settings icons blocks']);" href="https://mozilla.box.com/s/flp11jpmu89c32lasm4u">Settings Icons (Photoshop file .zip)</a> 
+    <!--a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'downloads - settings icons blocks']);" href="https://mozilla.box.com/s/flp11jpmu89c32lasm4u">Settings Icons (Photoshop file .zip)</a--> 
 
 *  ![alt Icon set](../images/downloads/fonts.png) 
 
