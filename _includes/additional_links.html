@@ -97,7 +97,6 @@
   {% when 'icons' %}
     {% case page.title %}
       <!-- Building Blocks -->
-      <link rel="stylesheet" href="/css/BB/style_unstable/toolbars.css">
       {% when 'Primary actions' %}
         <link rel="stylesheet" href="/css/BB/icons/styles/action_icons.css">
       {% when 'Media' %}
@@ -107,7 +106,10 @@
       {% when 'Settings' %}
         <link rel="stylesheet" href="/css/BB/icons/styles/settings_icons.css">
         <link rel="stylesheet" href="/css/BB/style_unstable/lists.css">
+      {% when 'Icon font' %}
+        <link rel="stylesheet" href="/css/BB/style/icons.css">
       {% endcase %}
+      <link rel="stylesheet" href="/css/BB/style_unstable/toolbars.css">
       <!-- improve Building Blocks visualization in buildingfirefoxos.com -->
       <link rel="stylesheet" href="../css/building_blocks.css">
 

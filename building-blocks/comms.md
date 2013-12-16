@@ -12,13 +12,15 @@ In your html you will have to add the class `comms-icon` together with the name 
 <div>
   <h4>Example</h4>
   <section class="example icons">
-    <div role="toolbar">
-      <ul>
-        <li><button class="comms-icon dailer-dialpad">dailer dialpad</button></li>
-        <li><button class="comms-icon dailer-recentcalls">dailer recentcalls</button></li>
-        <li><button class="comms-icon dailer-contacts">dailer contacts</button></li>
-      </ul>
-    </div>
+    <article class="toolbar frame">
+      <div role="toolbar">
+        <ul>
+          <li><button class="comms-icon dailer-dialpad">dailer dialpad</button></li>
+          <li><button class="comms-icon dailer-recentcalls">dailer recentcalls</button></li>
+          <li><button class="comms-icon dailer-contacts">dailer contacts</button></li>
+        </ul>
+      </div>
+    </article>
   </section>
 
   <h4>Css link</h4>

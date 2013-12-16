@@ -50,14 +50,13 @@
 
 /* to fix box model */
 a[role="button"] {
-	/*padding: 0;*/
   box-sizing: border-box;
   box-sizing: -moz-border-box;
 }
 
 a[role="button"]:focus,
 a[role="button"]:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* No hover state in BB */
@@ -65,34 +64,8 @@ button {
   cursor: pointer;
 }
 
-/*button:focus,
-button:hover,
-a[role="button"]:focus, 
-a[role="button"]:hover, 
-button.recommend:focus, 
-button.recommend:hover, 
-a.recommend[role="button"]:focus,
-a.recommend[role="button"]:hover {
-  border-color: #008aaa;
-  background: #008aaa;
-  background-size: auto 100%;
-  color: #333;
-}
-
-button.danger:focus, 
-button.danger:hover, 
-a[role="button"].danger:focus, 
-a[role="button"].danger:hover, 
-.button.danger:focus,
-.button.danger:hover {
-  background-image: url(buttons/images/ui/danger-press.png);
-  background-color: #890707;
-  border-color: #820000;
-  color: #fff;
-}*/
-
 /* Overwrite position: fixed to allow positioning in example frame */
-form[role="dialog"][data-type="action"], 
+form[role="dialog"][data-type="action"],
 form[role="dialog"][data-type="object"] {
     position: absolute;
 }
@@ -124,27 +97,27 @@ form[role="dialog"][data-type="confirm"] > section {
 /* ADDITIONAL STYLING */
 /* Lists */
 .example [data-type="list"] {
-    background: #fff;
+  background: #fff;
 }
 .example [data-type="list"] li img[alt="placeholder"] {
-    background: url(../images/BB/photo.jpg) no-repeat scroll 0 0 / 100% 100%;
-    font-size: 0;
+  background: url(../images/BB/photo.jpg) no-repeat scroll 0 0 / 100% 100%;
+  font-size: 0;
 }
 
 .example [data-type="list"] aside.icon-callout {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDAzRTc0NDcxNTU2MTFFMjg1RkRBQkIxMEI1NkNEN0EiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDAzRTc0NDgxNTU2MTFFMjg1RkRBQkIxMEI1NkNEN0EiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowMDNFNzQ0NTE1NTYxMUUyODVGREFCQjEwQjU2Q0Q3QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowMDNFNzQ0NjE1NTYxMUUyODVGREFCQjEwQjU2Q0Q3QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PncAgYwAAAHfSURBVHjarJZNKERRFMffzCATJaIUSVGU1IhsUGODlYmNj7KQSZGipCgrKWUhZaKU2PiKjYmsLJSIEhvKSqnJYiILpSYv/kfn1e10n+m9mX/9mnvu3HfPu+fcc+/zBNtCBuQHi2ASJAx3ygKd4FDt9PLvMhgDm4Z70UsegFXpoBkMs90PFozUNMIv/KcM1WBNgxewpnm4BBzZTOxT2uPApJB7kIM3NArEYPqzG0RFfwDcOVhNKa3gHHRp3mYPtIBbpT8ubPlMQLEpAjFysKNxYK3iXfTFQIONgzzwwe0NMGolOcoxl5oDzy6SvAXC6i6ifb+kGXjlcOIETxzW1QHF60mTUCf64tCYOgeWd1NsNV+KNWH4yiuqrTbloQg0sl3ASb5OxYFX2DMi4fOgKp0OPkGI40nKBce8srQ4IN2DQcWuBKegOF0OSPtgQrHrwaWbcKlJlqLk/oBWtvPBEIdP1kgZr/TViQODzykq/w62M0E76OPznyIwAHbZOdXSozqBh2+0ZOrhy8ifZJzJoY0ky4EuJ0GbM0ueqCt8/TpyQLoBNTYXkdQU2KZ7OlkOdAfaCTgDTaDwn7G1INvrsn4uQB1/hcRtxqyDWacrUPXN2zXCxZnDu+wB9HIozV8BBgCRzF4kkpLxhwAAAABJRU5ErkJggg==");
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDAzRTc0NDcxNTU2MTFFMjg1RkRBQkIxMEI1NkNEN0EiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDAzRTc0NDgxNTU2MTFFMjg1RkRBQkIxMEI1NkNEN0EiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowMDNFNzQ0NTE1NTYxMUUyODVGREFCQjEwQjU2Q0Q3QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowMDNFNzQ0NjE1NTYxMUUyODVGREFCQjEwQjU2Q0Q3QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PncAgYwAAAHfSURBVHjarJZNKERRFMffzCATJaIUSVGU1IhsUGODlYmNj7KQSZGipCgrKWUhZaKU2PiKjYmsLJSIEhvKSqnJYiILpSYv/kfn1e10n+m9mX/9mnvu3HfPu+fcc+/zBNtCBuQHi2ASJAx3ygKd4FDt9PLvMhgDm4Z70UsegFXpoBkMs90PFozUNMIv/KcM1WBNgxewpnm4BBzZTOxT2uPApJB7kIM3NArEYPqzG0RFfwDcOVhNKa3gHHRp3mYPtIBbpT8ubPlMQLEpAjFysKNxYK3iXfTFQIONgzzwwe0NMGolOcoxl5oDzy6SvAXC6i6ifb+kGXjlcOIETxzW1QHF60mTUCf64tCYOgeWd1NsNV+KNWH4yiuqrTbloQg0sl3ASb5OxYFX2DMi4fOgKp0OPkGI40nKBce8srQ4IN2DQcWuBKegOF0OSPtgQrHrwaWbcKlJlqLk/oBWtvPBEIdP1kgZr/TViQODzykq/w62M0E76OPznyIwAHbZOdXSozqBh2+0ZOrhy8ifZJzJoY0ky4EuJ0GbM0ueqCt8/TpyQLoBNTYXkdQU2KZ7OlkOdAfaCTgDTaDwn7G1INvrsn4uQB1/hcRtxqyDWacrUPXN2zXCxZnDu+wB9HIozV8BBgCRzF4kkpLxhwAAAABJRU5ErkJggg==");
 }
 
 /* Progress and activity */
 .example #browser-header {
-	background: url(../images/BB/browser.png) no-repeat;
-	font-size: 0;
-	height: 52px;
+  background: url(../images/BB/browser.png) no-repeat;
+  font-size: 0;
+  height: 52px;
 }
 
 /* Scrolling */
 .example nav[data-type="scrollbar"] p {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Edit mode */
@@ -198,12 +171,13 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 /* Toolbars */
-.example .toolbar.frame {
+.example .toolbar.frame,
+.example .toolbar.cb-frame {
   height: 4rem;
 }
 
 .example [role="toolbar"] {
-  position: absolute;  
+  position: absolute;
 }
 
 /* Drawer */
@@ -217,7 +191,7 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 .example section[data-type="sidebar"] > header h1 {
-	color: #fff;	
+  color: #fff;
 }
 
 .example section[data-type="sidebar"] > nav > ul > li > a:focus,
@@ -257,7 +231,7 @@ form[role="search"] button.icon-attachment:before {
 }
 
 .example button.theme-D, 
-.example a.theme-D[role="button"], 
+.example a.theme-D[role="button"],
 .example .theme-D button, 
 .example .theme-D a[role="button"] {
   color: #666;
@@ -268,9 +242,9 @@ form[role="search"] button.icon-attachment:before {
 }
 
 .example textarea, 
-.example input[type="email"], 
-.example input[type="password"], 
-.example input[type="search"], 
+.example input[type="email"],
+.example input[type="password"],
+.example input[type="search"],
 .example input[type="text"] {
   border-radius: 0;
   box-shadow: none;

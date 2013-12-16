@@ -12,13 +12,15 @@ In your html you will have to add the class `action-icon` together with the name
 <div>
   <h4>Example</h4>
   <section class="example icons">
-    <div role="toolbar">
-      <ul>
-        <li><button class="action-icon delete">delete</button></li>
-        <li><button class="action-icon email-flag">Flag</button></li>
-        <li><button class="action-icon email-markread">Mark read</button></li>
-      </ul>
-    </div>
+    <article class="toolbar frame">
+      <div role="toolbar">
+        <ul>
+          <li><button class="action-icon delete">delete</button></li>
+          <li><button class="action-icon email-flag">Flag</button></li>
+          <li><button class="action-icon email-markread">Mark read</button></li>
+        </ul>
+      </div>
+    </article>
   </section>
 
   <h4>Css link</h4>

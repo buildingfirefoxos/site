@@ -12,13 +12,15 @@ In your html you will have to add the class `media-icon` together with the name 
 <div>
   <h4>Example</h4>
   <section class="example icons">
-    <div role="toolbar">
-      <ul>
-        <li><button class="media-icon camera">camera</button></li>
-        <li><button class="media-icon camera-flashauto">camera flashauto</button></li>
-        <li><button class="media-icon camera-gridview">camera gridview</button></li>
-      </ul>
-    </div>
+    <article class="toolbar frame">
+      <div role="toolbar">
+        <ul>
+          <li><button class="media-icon camera">camera</button></li>
+          <li><button class="media-icon camera-flashauto">camera flashauto</button></li>
+          <li><button class="media-icon camera-gridview">camera gridview</button></li>
+        </ul>
+      </div>
+    </article>
   </section>
 
   <h4>Css link</h4>

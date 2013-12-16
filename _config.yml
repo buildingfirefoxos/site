@@ -70,9 +70,11 @@ icons:
 - text: Media
   url: /building-blocks/media.html
 - text: Communications
-  url: /building-blocks/communications.html
+  url: /building-blocks/comms.html
 - text: Settings
   url: /building-blocks/settings.html
+- text: Icon font
+  url: /building-blocks/icon-font.html
 theme-whatev:
 - text: action menu
   url: /building-blocks/whatev/action-menu.html

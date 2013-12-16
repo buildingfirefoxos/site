@@ -617,7 +617,8 @@ section.example > img {
   display: block;
 }
 
-section.example .frame {
+section.example .frame,
+section.example .cb-frame { /* Sands for Cross browser frame */
   display: block;
   overflow: hidden;
   position: relative;
@@ -629,7 +630,8 @@ section.example .frame {
   display: none;
 }
 
-section.example .full.frame {
+section.example .full.frame,
+section.example .full.cb-frame {
   height: 480px;
 }
 
@@ -1235,6 +1237,7 @@ section.icons {
   margin-bottom: 20px;
   display: block;
   overflow: hidden;
+  position: relative;
 }
 section.icons h2 {
   font-size: 29px;
@@ -1251,7 +1254,8 @@ section.icons ul {
 section.icons li.action-icon,
 section.icons li.media-icon,
 section.icons li.settings-icon,
-section.icons li.comms-icon {
+section.icons li.comms-icon,
+section.icons li.icon {
   line-height: 30px;
   font-size: 12px;
   margin-bottom: 10px;
@@ -1263,7 +1267,8 @@ section.icons li.comms-icon {
 section.icons li.action-icon:after,
 section.icons li.media-icon:after,
 section.icons li.settings-icon:after,
-section.icons li.comms-icon:after {
+section.icons li.comms-icon:after,
+section.icons li.icon:after {
   background: rgba(0,0,0, 0.8);
   content: "";
   width: 30px;
@@ -1275,6 +1280,10 @@ section.icons li.comms-icon:after {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
 }
+section.icons li.icon:before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 section.icons li.comms-icon.dark:after,
 section.icons li.settings-icon:after {
   background: #fff;
@@ -1283,7 +1292,8 @@ section.icons li.settings-icon:after {
 section.icons li.action-icon:before,
 section.icons li.media-icon:before,
 section.icons li.settings-icon:before,
-section.icons li.comms-icon:before {
+section.icons li.comms-icon:before,
+section.icons li.icon:before {
   z-index: 1;
   left: 0;
   top: 0;
@@ -1291,40 +1301,16 @@ section.icons li.comms-icon:before {
 section.icons li.action-icon span,
 section.icons li.media-icon span,
 section.icons li.settings-icon span,
-section.icons li.comms-icon span {
+section.icons li.comms-icon span,
+section.icons li.icon span {
   padding: 7px 10px 0 40px;
   line-height: 13px;
   float: left;
 }
 
-section.icons [role="toolbar"] {
-  height: 40px;
-  width: 320px;
-  background: rgba(0,0,0, 0.85);
-  display: block;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-section.icons [role="toolbar"] ul {
-  float: left;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-section.icons [role="toolbar"] li {
-  float: left;
-}
-
-section.icons [role="toolbar"] button {
-  width: 55px;
-  height: 40px;
-  border: none;
-  font-size: 0;
-  background: transparent no-repeat 50% 50%;
-  padding: 0;
-  border-radius: 0;
+[role="toolbar"] .icon:before {
+  left: 1.25rem;
+  top: 0.5rem;
 }
 
 [role="toolbar"] button:active {
@@ -1556,7 +1542,8 @@ section.icons.settings [data-type="list"] li {
     padding: 20px 0;
   }
 
-  body.BB section.example .frame {
+  body.BB section.example .frame,
+  body.BB section.example .cb-frame {
     margin-left: -10px;
     overflow: hidden;
   }
