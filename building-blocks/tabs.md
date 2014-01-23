@@ -17,7 +17,7 @@ Tabs allow users to navigate between multiple views within a single screen.
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/tabs.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/tabs.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}{% include building-blocks/tabs.html %}{% endhighlight %}

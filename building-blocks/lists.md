@@ -25,7 +25,7 @@ Lists are used to display a set of consecutive items, such as a list of contacts
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/lists.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/lists.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}{% include building-blocks/lists_1.html %}{% endhighlight %}
@@ -43,7 +43,7 @@ Lists are used to display a set of consecutive items, such as a list of contacts
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/lists.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/lists.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}{% include building-blocks/lists_2.html %}{% endhighlight %}

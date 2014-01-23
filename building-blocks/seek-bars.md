@@ -17,7 +17,7 @@ Used for scrolling through content (i.e. a song or video).
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/seekbars.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/seekbars.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
 
   <h4>HTML code</h4>

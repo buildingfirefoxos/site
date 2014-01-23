@@ -17,7 +17,7 @@ Toolbars contain actions, indicators, and navigation associated with the current
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/toolbars.css" rel="stylesheet" type="text/css">
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/toolbars.css" rel="stylesheet" type="text/css">
 <link href="(your styles folder)/icons/styles/action_icons.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>

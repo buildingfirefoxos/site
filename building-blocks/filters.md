@@ -26,7 +26,7 @@ Filters can be used for two purposes: data filtering, in which the user can view
   </section>
 
   <h4>Css link (Both Tabs and Filters are in tabs.css)</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/tabs.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/tabs.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}{% include building-blocks/filters.html %}{% endhighlight %}

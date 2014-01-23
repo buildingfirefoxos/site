@@ -26,7 +26,7 @@ Drawers provide access to top-level navigation options that may be too numerous 
 
   <h4>Css link</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/style/headers.css" rel="stylesheet" type="text/css">
-<link href="(your styles folder)/style_unstable/drawer.css" rel="stylesheet" type="text/css">{% endhighlight %}
+<link href="(your styles folder)/style/drawer.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}{% include building-blocks/drawer.html %}{% endhighlight %}

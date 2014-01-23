@@ -29,7 +29,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_1_1.html %}{% endhighlight %}
@@ -43,7 +43,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_1_2.html %}{% endhighlight %}
@@ -57,7 +57,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_1_3.html %}{% endhighlight %}
@@ -71,7 +71,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_1_4.html %}{% endhighlight %}
@@ -97,7 +97,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_2_1.html %}{% endhighlight %}
@@ -111,7 +111,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_2_2.html %}{% endhighlight %}
@@ -125,7 +125,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_2_3.html %}{% endhighlight %}
@@ -150,7 +150,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_3_1.html %}{% endhighlight %}
@@ -164,7 +164,7 @@ Used for providing user with visual feedback that a process is active.
     </section>
 
     <h4>Css link</h4>
-    {% highlight html linenos=table %}<link href="(your styles folder)/style_unstable/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
+    {% highlight html linenos=table %}<link href="(your styles folder)/style/progress_activity.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
     <h4>HTML code</h4>
     {% highlight html linenos=table %}{% include building-blocks/progress_and_activity_3_2.html %}{% endhighlight %}
