@@ -29,7 +29,7 @@ An action menu presents a list of actions, related to the app's content, from wh
 
   <h4>Note</h4>
   <section class="note">
-    <p>Use <code>&lt;button type="buton"&gt;</code> in case you don't want your form to be submitted.</p>
+    <p>Use <code>&lt;button type="button"&gt;</code> in case you don't want your form to be submitted.</p>
   </section>
   
   <h4>Css link</h4>

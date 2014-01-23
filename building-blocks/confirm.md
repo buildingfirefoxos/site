@@ -31,7 +31,7 @@ A confirmation prompt is used to confirm an action or inform the user of an even
 
   <h4>Note</h4>
   <section class="note">
-    <p>Use <code>&lt;button type="buton"&gt;</code> in case you don't want your form to be submitted.</p>
+    <p>Use <code>&lt;button type="button"&gt;</code> in case you don't want your form to be submitted.</p>
   </section>
   
   <h4>Css link</h4>
