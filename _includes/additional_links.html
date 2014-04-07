@@ -27,13 +27,14 @@
           <link rel="stylesheet" href="/css/BB/style/drawer.css">
         {% endif %}
       {% when 'Edit mode' %}
+        <link rel="stylesheet" href="/css/BB/style/headers.css">
         <link rel="stylesheet" href="/css/BB/style/edit_mode.css">
       {% when 'Filters' %}
         {% if (page.theme == "whatev" %}
           <link rel="stylesheet" href="/css/BB/themes/whatev/tabs.css">
         {% else %}
           <link rel="stylesheet" href="/css/BB/style/tabs.css">
-        {% endif %}        
+        {% endif %}
       {% when 'Headers' %}
         {% if (page.theme == "whatev" %}
           <link rel="stylesheet" href="/css/BB/themes/whatev/headers.css">
@@ -83,7 +84,7 @@
       {% when 'Value selectors' %}
         <link rel="stylesheet" href="../css/BB/style/value_selector.css">
         <link rel="stylesheet" href="../css/BB/style/time_selector.css">
-    {% endcase %} 	
+    {% endcase %}
     <!-- improve Building Blocks visualization in buildingfirefoxos.com -->
     <link rel="stylesheet" href="/css/building_blocks.css">
     {% if (page.theme == "whatev" %}
@@ -115,4 +116,4 @@
 
   <!-- Cross browser support for Building Blocks -->
   <!--link rel="stylesheet" href="/css/BB/bb_cross_browser.css"-->
-{% endcase %} 
+{% endcase %}

@@ -120,13 +120,13 @@ html { font-size: 62.5%; }
   font-size: 16px;
   padding: 5px 15px;
   margin: 0;
-  text-shadow: none; 
+  text-shadow: none;
   font-weight: bold;
 }
 
 .content-section hr {
   margin: 10px 0 0 0;
-  border-bottom: 1px dotted #b5b5b5;  
+  border-bottom: 1px dotted #b5b5b5;
 }
 
 /* Home */
@@ -145,7 +145,7 @@ body.Home #main-feature h1 {
 }
 
 body.Home #main-feature h2 {
-  font-size: 48px; 
+  font-size: 48px;
   margin-right: 0;
   background: none;
 }
@@ -1135,7 +1135,7 @@ body.Downloads .content-section ul {
 body.Downloads .content-section li {
   padding: 20px 0 30px 0;
   margin: 0;
-  border-top: 1px dotted #b5b5b5;  
+  border-top: 1px dotted #b5b5b5;
   display: block;
   overflow: hidden;
 }
@@ -1335,7 +1335,7 @@ section.icons.settings [data-type="list"] li {
   #main-feature {
     margin: 0;
     width: 100%;
-  }  
+  }
 
   body.Home #main-feature h1 {
     font-size: 90px;
@@ -1346,11 +1346,11 @@ section.icons.settings [data-type="list"] li {
   }
 
   .content-section {
-    width: 720px; 
+    width: 720px;
   }
 
   aside.left-side + section.content-section {
-    width: 420px; 
+    width: 420px;
   }
 
   .content-section h3 {
@@ -1517,7 +1517,7 @@ section.icons.settings [data-type="list"] li {
   body.Downloads .content-section li > p > img {
     display: none;
   }
-  
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1540,6 +1540,12 @@ section.icons.settings [data-type="list"] li {
 
   section.example {
     padding: 20px 0;
+  }
+
+  section.example .frame,
+  section.example .cb-frame {
+    width: 298px;
+    overflow-x: auto;
   }
 
   body.BB section.example .frame,
