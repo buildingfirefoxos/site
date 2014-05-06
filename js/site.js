@@ -23,14 +23,14 @@ $(function() {
   $('.Downloads blockquote').each(function() {
     $(this).prev().append('<span class="read-more">More</span>');
   });
-  
+
   $('.read-more').click(function() {
-    if ($(this).data("clicked")) { 
-      $(this).parent().siblings('blockquote').slideUp(); 
+    if ($(this).data("clicked")) {
+      $(this).parent().siblings('blockquote').slideUp();
       $(this).text('More');
       $(this).data("clicked",false);
     } else {
-      $(this).parent().siblings('blockquote').slideDown(); 
+      $(this).parent().siblings('blockquote').slideDown();
       $(this).text('Less');
       $(this).data("clicked",true);
     }
@@ -43,6 +43,9 @@ $(function() {
     if (ffversion>=20) {
       $('body').removeClass('image-fallback');
     }
+  } else if (/Brackets[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+      $('body').removeClass('image-fallback');
+      $('body').addClass('brackets');
   }
 
   // Test for support for the 'rem' unit to show images fallback in BB section
@@ -52,7 +55,7 @@ $(function() {
     if (elem.style.fontSize.indexOf('rem') > -1) {
       console.log("rems supported");
     } else {
-      console.log("rems not supported"); 
+      console.log("rems not supported");
     }
   }
 
@@ -102,14 +105,14 @@ $(function() {
   });
 
   //Tooltips in header links
-  $('.header-links a').tipsy({ 
+  $('.header-links a').tipsy({
     gravity: 'ne',
     fade: true
   });
   // Also hook tooltips plugin into focus to make them appear for keyboard users
   // Should really be more permanently fixed at source, as the plugin
   // makes the mistaken assumption that it's EITHER mouseenter/mouseleave OR focus/blur
-  $('.header-links a').tipsy({ 
+  $('.header-links a').tipsy({
     gravity: 'ne',
     fade: true,
     trigger: 'focus'
@@ -151,14 +154,14 @@ $(function() {
     }
   }
 
-  // Task switching 
+  // Task switching
   $('#example-task .play').click(function(){
     var container = $(this).parent().find('.apps-container');
     var play = $(this);
     $(this).addClass('hide');
     if (container.hasClass('animate-1') == false) {
       setTimeout(function(){
-        container.addClass('animate-1');       
+        container.addClass('animate-1');
         setTimeout(function(){
           play.removeClass('hide').css({left: '158px', top: '300px'});
           tooltip(play,'Click to swipe left');
@@ -171,7 +174,7 @@ $(function() {
         setTimeout(function(){
           play.removeClass('hide');
         },1000);
-      },300); 
+      },300);
     } else {
       setTimeout(function(){
         container.addClass('animate-3');
@@ -179,7 +182,7 @@ $(function() {
           play.removeClass('hide').css({left: '158px', top: '548px'});
           container.removeClass('animate-1').removeClass('animate-2').removeClass('animate-3');
         },3000);
-      },300); 
+      },300);
     }
   });
 
@@ -190,7 +193,7 @@ $(function() {
     $(this).addClass('hide');
     if (container.hasClass('animate-1') == false) {
       setTimeout(function(){
-        container.addClass('animate-1');       
+        container.addClass('animate-1');
         setTimeout(function(){
           play.removeClass('hide').css({left: '158px', top: '300px'});
           tooltip(play,'Click to swipe left');
@@ -204,7 +207,7 @@ $(function() {
           play.removeClass('hide');
           tooltip(play,'Click to swipe up');
         },1000);
-      },300); 
+      },300);
     } else if (container.hasClass('animate-3') == false) {
       play.siblings('.tipsy').remove();
       setTimeout(function(){
@@ -212,7 +215,7 @@ $(function() {
         setTimeout(function(){
           play.removeClass('hide');
         },1000);
-      },300); 
+      },300);
     } else {
       setTimeout(function(){
         container.addClass('animate-4');
@@ -220,7 +223,7 @@ $(function() {
           play.removeClass('hide').css({left: '158px', top: '548px'});
           container.removeClass('animate-1').removeClass('animate-2').removeClass('animate-3').removeClass('animate-4');
         },2000);
-      },300); 
+      },300);
     }
   });
 

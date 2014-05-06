@@ -1329,6 +1329,13 @@ section.icons.settings [data-type="list"] li {
   border-bottom-color: rgb(230, 230, 227);
 }
 
+/* Brackets extension (lighter version) */
+.brackets #main-feature,
+.brackets #colophon,
+.brackets #disqus_thread {
+  display: none;
+}
+
 /* -------------------------------- MEDIA QUERIES ----------------------------------- */
 
 @media only screen and (max-width: 1000px) and (min-width: 760px) {
