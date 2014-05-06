@@ -44,7 +44,7 @@ $(function() {
       $('body').removeClass('image-fallback');
     }
   } else if (/Brackets[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
-      $('body').removeClass('image-fallback');
+//      $('body').removeClass('image-fallback');
       $('body').addClass('brackets');
   }
 
