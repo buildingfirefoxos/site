@@ -1,3 +1,6 @@
 [submodule "css/BB"]
 	path = css/BB
 	url = https://github.com/buildingfirefoxos/Building-Blocks.git
+[submodule "css/elements"]
+	path = css/elements
+	url = https://github.com/buildingfirefoxos/elements
