@@ -1,24 +1,3 @@
-{% if page.theme == "whatev" %}
-<!-- if your tabs are at the top, remove class="bottom" -->
-<ul role="tablist" data-items="4" class="bottom">
-  <li id="panel1" role="tab">
-    <a href="#panel1" class="icon icon-smiley">smiley</a>
-    <div role="tabpanel"></div>
-  </li>
-  <li id="panel2" role="tab">
-    <a href="#panel2" class="icon icon-picture">picture</a>
-    <div role="tabpanel"></div>
-  </li>
-  <li id="panel3" role="tab" aria-disabled="true">
-    <a class="icon icon-mask">mask</a>
-    <div role="tabpanel"></div>
-  </li>
-  <li id="panel4" role="tab">
-    <a href="#panel4">Tab name</a>
-    <div role="tabpanel"></div>
-  </li>
-</ul>
-{% else %}
 <!-- if your tabs are at the top, remove class="bottom" -->
 <ul role="tablist" class="bb-tablist">
   <li id="panel1" role="presentation">
@@ -38,4 +17,3 @@
     <div id="tabpanel4" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab4">Tab Panel 4</div>
   </li>
 </ul>
-{% endif %}

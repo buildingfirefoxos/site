@@ -1,15 +1,3 @@
-{% if page.theme == "whatev" %}
-<form role="dialog" data-type="action" onsubmit="return false;">
-  <header>
-    <button class="icon icon-close">close</button>
-  </header> <!-- this header is optional -->
-  <menu>
-    <button class="icon icon-message theme-A">Action 1</button>
-    <button class="icon icon-message-ask theme-B">Action 2</button>
-    <button class="icon icon-message-quote theme-C">Action 3</button>
-  </menu>
-</form>
-{% else %}
 <form role="dialog" data-type="action">
   <header>Title</header>
   <menu>
@@ -25,4 +13,3 @@
     <button>Cancel</button>
   </menu>
 </form>
-{% endif %}

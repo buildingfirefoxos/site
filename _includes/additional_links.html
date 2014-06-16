@@ -3,51 +3,23 @@
     <!-- Building Blocks -->
     {% case page.title %}
       {% when 'Action Menu' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/action_menu.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/action_menu.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/action_menu.css">
       {% when 'Buttons' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/buttons.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/buttons.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/buttons.css">
       {% when 'Confirm' %}
         <link rel="stylesheet" href="/css/BB/style/confirm.css">
       {% when 'Drawer' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/headers.css">
-          <link rel="stylesheet" href="/css/BB/themes/whatev/buttons.css">
-          <link rel="stylesheet" href="/css/BB/themes/whatev/toolbars.css">
-          <link rel="stylesheet" href="/css/BB/themes/whatev/drawer.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/headers.css">
-          <link rel="stylesheet" href="/css/BB/style/drawer.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/headers.css">
+        <link rel="stylesheet" href="/css/BB/style/drawer.css">
       {% when 'Edit mode' %}
         <link rel="stylesheet" href="/css/BB/style/headers.css">
         <link rel="stylesheet" href="/css/BB/style/edit_mode.css">
       {% when 'Filters' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/tabs.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/tabs.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/tabs.css">
       {% when 'Headers' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/headers.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/headers.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/headers.css">
       {% when 'Input areas' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/buttons.css">
-          <link rel="stylesheet" href="/css/BB/themes/whatev/input_areas.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/input_areas.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/input_areas.css">
       {% when 'Lists' %}
         <link rel="stylesheet" href="/css/BB/style/switches.css">
         <link rel="stylesheet" href="/css/BB/style/lists.css">
@@ -62,34 +34,18 @@
       {% when 'Status' %}
         <link rel="stylesheet" href="/css/BB/style/status.css">
       {% when 'Switches' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/switches.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/switches.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/switches.css">
       {% when 'Tabs' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/tabs.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/tabs.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/tabs.css">
       {% when 'Toolbars' %}
-        {% if (page.theme == "whatev" %}
-          <link rel="stylesheet" href="/css/BB/themes/whatev/buttons.css">
-          <link rel="stylesheet" href="/css/BB/themes/whatev/toolbars.css">
-        {% else %}
-          <link rel="stylesheet" href="/css/BB/style/toolbars.css">
-          <link rel="stylesheet" href="/css/BB/icons/styles/action_icons.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/BB/style/toolbars.css">
+        <link rel="stylesheet" href="/css/BB/icons/styles/action_icons.css">
       {% when 'Value selectors' %}
         <link rel="stylesheet" href="../css/BB/style/value_selector.css">
         <link rel="stylesheet" href="../css/BB/style/time_selector.css">
     {% endcase %}
     <!-- improve Building Blocks visualization in buildingfirefoxos.com -->
     <link rel="stylesheet" href="/css/building_blocks.css">
-    {% if (page.theme == "whatev" %}
-      <link rel="stylesheet" href="/css/BB/themes/whatev/icons.css">
-    {% endif %}
 
   {% when 'transitions' %}
     <link rel="stylesheet" href="/css/BB/transitions.css">

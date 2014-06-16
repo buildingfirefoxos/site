@@ -222,43 +222,6 @@ form[role="search"] button.icon-attachment:before {
   background-size: auto;
 }
 
-
-/* Whatev */
-.example .large {
-  color: #fff;
-  letter-spacing: 0;
-  text-shadow: none;
-}
-
-.example button.theme-D, 
-.example a.theme-D[role="button"],
-.example .theme-D button, 
-.example .theme-D a[role="button"] {
-  color: #666;
-}
-
-.example [role="tablist"][data-type="filter"] {
-  margin-top: 1.5rem;
-}
-
-.example textarea, 
-.example input[type="email"],
-.example input[type="password"],
-.example input[type="search"],
-.example input[type="text"] {
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.whatev .example .toolbar.frame {
-  height: auto;
-}
-
-.whatev .example [role="toolbar"] {
-  position: relative;
-  margin: 1rem 0 2rem 0;
-}
-
 .example [role="toolbar"] li {
   margin-left: 1rem;
 }
