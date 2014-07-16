@@ -43,4 +43,6 @@ h2: <strong>Downloads:</strong> Stencils, icons, fonts and more ...
 
     The default font used in Firefox OS is "Fira Sans". You will find it in four different weights: Light, Regular, Medium and Bold. Please, refer to the license file to check font's usage permissions.
 
-    <a onClick="_gaq.push(['_trackEvent', 'link', 'github', 'downloads - feura']);" class="github" href="https://github.com/mozilla/Fira">Fira Sans</a>
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'download', 'downloads - feura']);" href="https://github.com/mozilla/Fira/archive/master.zip">Fira Sans (.zip)</a>
+
+    <a onClick="_gaq.push(['_trackEvent', 'link', 'github', 'downloads - feura']);" class="github" href="https://github.com/mozilla/Fira">Github repository</a>
