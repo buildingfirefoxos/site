@@ -31,7 +31,7 @@ An action menu presents a list of actions, related to the app's content, from wh
   <section class="note">
     <p>Use <code>&lt;button type="button"&gt;</code> in case you don't want your form to be submitted.</p>
   </section>
-  
+
   <h4>Css link</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/style/action_menu.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
