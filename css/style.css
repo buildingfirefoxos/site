@@ -1251,11 +1251,7 @@ section.icons ul {
   margin: 0;
   padding: 0;
 }
-section.icons li.action-icon,
-section.icons li.media-icon,
-section.icons li.settings-icon,
-section.icons li.comms-icon,
-section.icons li.icon {
+section.icons [data-icon] {
   line-height: 30px;
   font-size: 12px;
   margin-bottom: 10px;
@@ -1264,13 +1260,10 @@ section.icons li.icon {
   width: 200px;
   height: 30px;
 }
-section.icons li.action-icon:after,
-section.icons li.media-icon:after,
-section.icons li.settings-icon:after,
-section.icons li.comms-icon:after,
-section.icons li.icon:after {
+section.icons [data-icon]:after {
   background: rgba(0,0,0, 0.8);
-  content: "";
+  color: #333;
+  content: attr(data-icon);
   width: 30px;
   height: 30px;
   position: absolute;
@@ -1279,54 +1272,34 @@ section.icons li.icon:after {
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
+  text-indent: 35px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-section.icons li.icon:before {
+[data-icon]:before {
+  /* font rendering optimization */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-section.icons li.comms-icon.dark:after,
-section.icons li.settings-icon:after {
-  background: #fff;
-  border: 1px solid #ddd;
-}
-section.icons li.action-icon:before,
-section.icons li.media-icon:before,
-section.icons li.settings-icon:before,
-section.icons li.comms-icon:before,
-section.icons li.icon:before {
+section.icons [data-icon]:before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   z-index: 1;
   left: 0;
   top: 0;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  width: 30px;
 }
-section.icons li.action-icon span,
-section.icons li.media-icon span,
-section.icons li.settings-icon span,
-section.icons li.comms-icon span,
-section.icons li.icon span {
+section.icons [data-icon] span {
   padding: 7px 10px 0 40px;
   line-height: 13px;
   float: left;
 }
-
-[role="toolbar"] .icon:before {
-  left: 1.25rem;
-  top: 0.5rem;
-}
-
-[role="toolbar"] button:active {
-  background-color: #008aaa;
-}
-
-section.icons.settings [data-type="list"] {
-  background-color: #eff0eb;
-}
-
-section.icons.settings [data-type="list"] aside.icon {
-  background-color: transparent;
-}
-
-section.icons.settings [data-type="list"] li {
-  border-bottom-color: rgb(230, 230, 227);
+[role="toolbar"] [data-icon]:before {
+  color: #fff;
 }
 
 /* Brackets extension (lighter version) */

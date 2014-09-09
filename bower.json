@@ -1,0 +1,19 @@
+{
+  "name": "Building Firefox OS dot com",
+  "version": "1.0.0",
+  "homepage": "http://buildingfirefoxos.com",
+  "authors": [
+    "Arnau March"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gaia-icons": "gaia-components/gaia-icons#master"
+  }
+}
