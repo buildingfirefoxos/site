@@ -121,6 +121,11 @@ form[role="dialog"][data-type="confirm"] > section {
   height: auto;
 }
 
+/* Icons */
+.example a[data-icon] {
+  text-decoration: none;
+}
+
 /* Tabs */
 .example .tab.frame {
   height: 5rem !important;
