@@ -15,7 +15,8 @@ Once you have linked to `gaia-icons/style-embedded.css` , use `data-icon` attrib
 <div>
   <h4>Example</h4>
   <section class="example">
-    <article class="toolbar cb-frame">
+    <img src="../images/BB/icon_font.jpg" alt="Icon font (Image replacing code)"/>
+    <article class="toolbar frame">
       <div role="toolbar">
         <button data-icon="messages">messages</button>
         <button data-icon="email">email</button>

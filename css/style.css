@@ -618,7 +618,7 @@ section.example > img {
 }
 
 section.example .frame,
-section.example .cb-frame { /* Sands for Cross browser frame */
+section.example .cb-frame { /* Stands for Cross browser frame */
   display: block;
   overflow: hidden;
   position: relative;
@@ -1546,6 +1546,7 @@ section.icons [data-icon] span {
   }
 
   body.BB section.example .frame,
+  body.Icon section.example .frame,
   body.BB section.example .cb-frame {
     margin-left: -10px;
     overflow: hidden;
