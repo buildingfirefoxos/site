@@ -1239,6 +1239,7 @@ section.icons {
   overflow: hidden;
   position: relative;
 }
+
 section.icons h2 {
   font-size: 29px;
   line-height: 29px;
@@ -1246,11 +1247,13 @@ section.icons h2 {
   font-weight: 400;
   margin: 0 0 10px 0;
 }
+
 section.icons ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 section.icons [data-icon] {
   line-height: 30px;
   font-size: 12px;
@@ -1260,6 +1263,7 @@ section.icons [data-icon] {
   width: 200px;
   height: 30px;
 }
+
 section.icons [data-icon]:after {
   background: rgba(0,0,0, 0.8);
   color: #333;
@@ -1277,11 +1281,13 @@ section.icons [data-icon]:after {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 [data-icon]:before {
   /* font rendering optimization */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 section.icons [data-icon]:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1293,12 +1299,23 @@ section.icons [data-icon]:before {
   text-align: center;
   width: 30px;
 }
+
 section.icons [data-icon] span {
   padding: 7px 10px 0 40px;
   line-height: 13px;
   float: left;
 }
+
+/* We should add this to the BB */
+[role="toolbar"] {
+  width: 100%;
+}
+
 [role="toolbar"] [data-icon]:before {
+  color: #858585;
+}
+
+[role="toolbar"] [data-icon]:active:before {
   color: #fff;
 }
 

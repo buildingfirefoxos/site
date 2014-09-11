@@ -17,12 +17,9 @@ Once you have linked to `gaia-icons/style-embedded.css` , use `data-icon` attrib
   <section class="example">
     <article class="toolbar cb-frame">
       <div role="toolbar">
-        <ul>
-          <li><button data-icon="messages">messages</button></li>
-          <li><button data-icon="email">email</button></li>
-          <li><button data-icon="call">call</button></li>
-        </ul>
-        <ul></ul>
+        <button data-icon="messages">messages</button>
+        <button data-icon="email">email</button>
+        <button data-icon="call">call</button>
       </div>
     </article>
   </section>
@@ -32,12 +29,9 @@ Once you have linked to `gaia-icons/style-embedded.css` , use `data-icon` attrib
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<div role="toolbar">
-  <ul>
-    <li><button data-icon="messages">messages</button></li>
-    <li><button data-icon="email">email</button></li>
-    <li><button data-icon="call">call</button></li>
-  </ul>
-  <ul></ul>
+  <button data-icon="messages">messages</button>
+  <button data-icon="email">email</button>
+  <button data-icon="call">call</button>
 </div>{% endhighlight %}
 
   <h4>Icons</h4>

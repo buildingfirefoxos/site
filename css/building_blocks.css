@@ -142,7 +142,7 @@ form[role="dialog"][data-type="confirm"] > section {
 /* Toolbars */
 .example .toolbar.frame,
 .example .toolbar.cb-frame {
-  height: 4rem;
+  height: 4.5rem;
 }
 
 .example [role="toolbar"] {
