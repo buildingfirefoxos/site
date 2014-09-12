@@ -146,7 +146,7 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 .example [role="toolbar"] {
-  position: absolute;
+  width: 100%;
 }
 
 /* Drawer */

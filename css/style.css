@@ -6,6 +6,12 @@
 
 html { font-size: 62.5%; }
 
+body {
+  display: block;
+  font-size: 16px;
+  overflow: auto;
+}
+
 .dboh {
   display: block;
   overflow: hidden;
@@ -113,6 +119,10 @@ html { font-size: 62.5%; }
 .content-section > h3:first-of-type {
   padding-top: 20px;
   border-top: none;
+}
+
+.content-section > h3 ~p {
+  padding-bottom: 10px;
 }
 
 .content-section h4 {
@@ -633,6 +643,14 @@ section.example .cb-frame { /* Stands for Cross browser frame */
 section.example .full.frame,
 section.example .full.cb-frame {
   height: 480px;
+}
+
+section.example .white.frame {
+  background: #fff;
+}
+
+section.example .flex.frame {
+  display: flex;
 }
 
 section.note {
@@ -1304,11 +1322,6 @@ section.icons [data-icon] span {
   padding: 7px 10px 0 40px;
   line-height: 13px;
   float: left;
-}
-
-/* We should add this to the BB */
-[role="toolbar"] {
-  width: 100%;
 }
 
 [role="toolbar"] [data-icon]:before {

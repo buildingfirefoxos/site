@@ -31,6 +31,8 @@ building-blocks:
   url: /building-blocks/headers.html
 - text: input areas
   url: /building-blocks/input-areas.html
+- text: layout
+  url: /building-blocks/layout.html
 - text: lists
   url: /building-blocks/lists.html
 - text: object menu
