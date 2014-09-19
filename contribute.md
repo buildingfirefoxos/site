@@ -17,7 +17,7 @@ Go to [github](https://github.com/) an fill the form (it will take you 30 second
 * And go to [buildingfirefoxos repository](https://github.com/buildingfirefoxos/site).
 
 ### 3. Edit content
-* Look for for the file you want to contribute to. (sections in the site e.g Building blocks are contained in a folder with the same name)
+* Look for the file you want to contribute to. (sections in the site e.g Building blocks are contained in a folder with the same name)
 * Click on **Edit** button and modify the file.
 * Click on **Propose file change** button.
 * Add a brief description for your changes and click on **Send pull request** button.
