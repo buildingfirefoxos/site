@@ -52,6 +52,17 @@ form[role="dialog"][data-type="confirm"] > section {
   margin-left: 0;
 }
 
+.example .buttons .skin-dark {
+  padding-top: 1rem;
+  background: #2d2d2d;
+}
+
+.example .buttons a:hover,
+.example .buttons a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* ADDITIONAL STYLING */
 /* Lists */
 .example [data-type="list"] {
