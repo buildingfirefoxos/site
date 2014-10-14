@@ -1,36 +1,14 @@
-<!-- form used at the top of the page with fixed/absolute position and content scrolls underneath -->
+<form role="search">
+  <p>
+    <input placeholder="Search..." type="text">
+    <button type="reset">Clear</button>
+  </p>
+</form>
+
 <form role="search">
   <button type="submit">Cancel</button>
   <p>
-    <input type="text" placeholder="Search..." required="">
+    <input placeholder="Search..." value="Some text here" type="text">
     <button type="reset">Clear</button>
-  </p>
-</form>
-<!-- form used under a header, this form scrolls together with the content underneath the header -->
-<section role="region">
-  <header>
-      <!-- here should be the content of the header -->
-  </header>
-  <form role="search" class="full">
-    <button type="submit">Send</button>
-    <p>
-      <input type="text" placeholder="Search..." required="">
-      <button type="reset">Clear</button>
-    </p>
-  </form>
-</section>
-<form role="search" class="bottom">
-  <button class="icon icon-attachment">Attachment</button>
-  <button type="submit" disabled="">Send</button>
-  <p>
-    <input type="text" placeholder="Search..." required="">
-    <button type="reset">Clear</button>
-  </p>
-</form>
-<form role="search" class="bottom">
-  <button class="icon icon-attachment">Attachment</button>
-  <button type="submit">Send</button>
-  <p>
-    <textarea placeholder="Search..." required="">Some text here</textarea>
   </p>
 </form>
