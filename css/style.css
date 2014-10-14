@@ -636,7 +636,8 @@ section.example .cb-frame { /* Stands for Cross browser frame */
   margin: 0 auto;
 }
 
-.image-fallback section.example .frame {
+.image-fallback section.example .frame,
+.image-fallback section.example .flex.frame {
   display: none;
 }
 
