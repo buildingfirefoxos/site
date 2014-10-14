@@ -8,6 +8,7 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
+    "!.jshintrc",
     "node_modules",
     "bower_components",
     "templates",
@@ -20,11 +21,11 @@
     "README.md",
     "package.json"
   ],
-  "_release": "738d15a038",
+  "_release": "8d0beebba3",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "738d15a0389ac5041c621bbc543318af2ec680df"
+    "commit": "8d0beebba3f35ab2f40aa4a241dd78db6b4fe0d3"
   },
   "_source": "git://github.com/gaia-components/gaia-icons.git",
   "_target": "master",
