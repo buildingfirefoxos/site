@@ -10,7 +10,7 @@ h2: <strong>Building Blocks:</strong> markup & examples
 Gaia Icon font can be downloaded [here](https://github.com/gaia-components/gaia-icons/archive/master.zip), or you could use [bower](http://bower.io) to install it.
 Please refer to the documentation in [gaia-icons](https://github.com/gaia-components/gaia-icons) to know more about the installation process.
 
-Once you have linked to `gaia-icons/style-embedded.css` , use `data-icon` attribute with one of the icon names you will find in the following list.
+Once you have linked to `gaia-icons/gaia-icons-embedded.css` , use `data-icon` attribute with one of the icon names you will find in the following list.
 
 <div>
   <h4>Example</h4>
@@ -26,7 +26,7 @@ Once you have linked to `gaia-icons/style-embedded.css` , use `data-icon` attrib
   </section>
 
   <h4>Css link</h4>
-  {% highlight html linenos=table %}<link href="(your styles folder)/gaia-icons/style-embedded.css" rel="stylesheet" type="text/css">{% endhighlight %}
+  {% highlight html linenos=table %}<link href="(your styles folder)/gaia-icons/gaia-icons-embedded.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
   {% highlight html linenos=table %}<div role="toolbar">
