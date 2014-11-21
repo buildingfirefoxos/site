@@ -64,6 +64,12 @@ form[role="dialog"][data-type="confirm"] > section {
 }
 
 /* ADDITIONAL STYLING */
+/* Object menu */
+.example form p input + button[type="reset"] {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* Lists */
 .example [data-type="list"] {
   background: #fff;

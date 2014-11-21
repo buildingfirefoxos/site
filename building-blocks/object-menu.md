@@ -18,16 +18,54 @@ An Object menu (contextual menu) presents a list of actions, related to the app'
 >   * Tapping the "Cancel" button.
 >   * Opposite to Action menu, Object menu can have several main actions.
 
-<div>
+<h3>Default</h3>
+<div> 
   <h4>Example</h4>
   <section class="example">
-    <img src="../images/BB/object_menu.jpg" alt="Object menu (Image replacing code)"/>
-    <article class="frame full">{% include building-blocks/object_menu.html %}</article>
+    <img src="../images/BB/object_menu_1.jpg" alt="Object menu (Image replacing code)"/>
+    <article class="frame full">{% include building-blocks/object_menu_1.html %}</article>
   </section>
 
   <h4>Css link</h4>
   {% highlight html linenos=table %}<link href="(your styles folder)/style/object_menu.css" rel="stylesheet" type="text/css">{% endhighlight %}
 
   <h4>HTML code</h4>
-  {% highlight html linenos=table %}{% include building-blocks/object_menu.html %}{% endhighlight %}
+  {% highlight html linenos=table %}{% include building-blocks/object_menu_1.html %}{% endhighlight %}
+</div>
+
+<hr>
+
+<h3>Switches</h3>
+<div>
+  <h4>Example</h4>
+  <section class="example">
+    <img src="../images/BB/object_menu_2.jpg" alt="Object menu (Image replacing code)"/>
+    <article class="frame full">{% include building-blocks/object_menu_2.html %}</article>
+  </section>
+
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/switches.css" rel="stylesheet" type="text/css">
+  <link href="(your styles folder)/style/object_menu.css" rel="stylesheet" type="text/css">{% endhighlight %}
+
+  <h4>HTML code</h4>
+  {% highlight html linenos=table %}{% include building-blocks/object_menu_2.html %}{% endhighlight %}
+
+</div>
+
+<hr>
+
+<h3>Inputs</h3>
+<div>
+  <h4>Example</h4>
+  <section class="example">
+    <img src="../images/BB/object_menu_3.jpg" alt="Object menu (Image replacing code)"/>
+    <article class="frame full">{% include building-blocks/object_menu_3.html %}</article>
+  </section>
+
+  <h4>Css link</h4>
+  {% highlight html linenos=table %}<link href="(your styles folder)/style/input_areas.css" rel="stylesheet" type="text/css">
+  <link href="(your styles folder)/style/object_menu.css" rel="stylesheet" type="text/css">{% endhighlight %}
+
+  <h4>HTML code</h4>
+  {% highlight html linenos=table %}{% include building-blocks/object_menu_3.html %}{% endhighlight %}
 </div>
