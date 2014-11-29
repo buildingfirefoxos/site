@@ -1,6 +1,6 @@
 ---
 layout: bffos
-title: Home
+title: Building Firefox OS
 section: index.html
 root: root
 h1: Building <strong>Firefox OS</strong>
