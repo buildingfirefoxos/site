@@ -31,6 +31,7 @@
 
     <div id="outer-wrapper">
       <div id="wrapper">
+      {% if page.title != "Home" %}
 
         <header id="masthead">
           <a href="http://www.mozilla.org/" id="tabzilla">Mozilla</a>
@@ -46,11 +47,11 @@
             </ul>
           </nav>
         </header>
-
+      {% endif %}
         <hgroup id="main-feature" class="huge">
           {% if page.title == "Home" %}
-            <h1>Building <strong>Firefox OS</strong></h1>
-            <h2>{{page.h2}}</h2>
+            <!--h1>Building <strong>Firefox OS</strong></h1>
+            <h2>{{page.h2}}</h2-->
           {% else %}
             <h1><a href="/">Building <strong>Firefox OS</strong></a></h1>
             <h2>
@@ -63,13 +64,12 @@
         <section class="dboh">
           {% if page.root == "root" %}
             {% if page.title == "Home" %}
-              <nav class="menu-bar">
+              <!--nav class="menu-bar">
                 <ul>
-                  <!--li class="github"><a href="/contribute.html">Contribute</a></li-->
                   <li><a href="https://twitter.com/TEF_FirefoxOS" class="twitter-follow-button" data-show-count="true" data-size="large" data-lang="en">Follow @TEF_FirefoxOS</a></li>
                   <li><a href="https://twitter.com/share" data-size="large" data-url="http://buildingfirefoxos.com" data-text="#buildingfirefoxos - Start creating your own app layouts with #FirefoxOS visual styles" class="twitter-share-button" data-lang="en">Tweet</a></li>
                 </ul>
-              </nav>
+              </nav-->
             {% endif %}
 
           {% else %}
@@ -91,6 +91,7 @@
 
       </div><!-- close #wrapper -->
 
+      {% if page.title != "Home" %}
       <footer id="colophon">
         <div class="row">
           <div class="col twitter">
@@ -147,6 +148,7 @@
           </div>
         </div>
       </footer>
+      {% endif %}
 
     </div><!-- close #outer-wrapper -->
 
