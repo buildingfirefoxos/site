@@ -31,8 +31,6 @@
 
     <div id="outer-wrapper">
       <div id="wrapper">
-      {% if page.title != "Home" %}
-
         <header id="masthead">
           <a href="http://www.mozilla.org/" id="tabzilla">Mozilla</a>
 
@@ -47,11 +45,10 @@
             </ul>
           </nav>
         </header>
-      {% endif %}
         <hgroup id="main-feature" class="huge">
           {% if page.title == "Home" %}
-            <!--h1>Building <strong>Firefox OS</strong></h1>
-            <h2>{{page.h2}}</h2-->
+            <h1>Building <strong>Firefox OS</strong></h1>
+            <h2>{{page.h2}}</h2>
           {% else %}
             <h1><a href="/">Building <strong>Firefox OS</strong></a></h1>
             <h2>
@@ -91,7 +88,6 @@
 
       </div><!-- close #wrapper -->
 
-      {% if page.title != "Home" %}
       <footer id="colophon">
         <div class="row">
           <div class="col twitter">
@@ -148,7 +144,6 @@
           </div>
         </div>
       </footer>
-      {% endif %}
 
     </div><!-- close #outer-wrapper -->
 

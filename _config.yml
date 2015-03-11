@@ -1,7 +1,7 @@
 name: Building Firefox OS
 safe: true
 lsi: false
-pygments: true
+highlighter: pygments
 redirects: yes
 markdown: redcarpet
 comments: true
