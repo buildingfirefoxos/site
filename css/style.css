@@ -1575,3 +1575,8 @@ a:focus{color:#0073aa;text-decoration:underline}
 .sky a:focus {color:#4090c4}
 .space a:focus{color:#55a1d7}
 #colophon a:focus{color:#0073aa}
+
+
+.add-container {
+  text-align: center;
+}
