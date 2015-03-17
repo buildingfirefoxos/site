@@ -34,8 +34,10 @@ Used for labeling the active view and providing top-level navigation and inputs 
 </div>
 
   <h4>Note:</h4>
-  In order to get a centered title, please link [this script](https://github.com/mozilla-b2g/gaia/blob/master/shared/js/font_size_utils.js) in your HTML document.
-  
+  <section class="note">
+  <p>In order to get a centered title, please link [this script](https://github.com/mozilla-b2g/gaia/blob/master/shared/js/font_size_utils.js) in your HTML document.</p>
+  </section>
+
 <hr>
 
 ### Skins
